@@ -93,13 +93,13 @@
   padding: 0.75rem 1rem;
 }
 
-.header nav {
-  max-width: 72rem; /* 6xl */
+/* .header nav {
+  max-width: 72rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .header .logo {
   display: flex;
@@ -113,8 +113,9 @@
 }
 
 .header .logo img {
-  width: 2rem;
-  height: 2rem;
+  height: 140px;
+  width: 150px;
+  object-fit: contain;
 }
 
 .header ul {
@@ -137,7 +138,7 @@
 }
 
 nav {
-  width: 70%;
+  width: 65%;
   padding: 1rem 3rem;
   display: flex;
   justify-content: space-between;

@@ -1,8 +1,39 @@
+import gymsData from '../data/gymsData.json';
+import '../styles/Gyms.css';
+
 export default function Gyms() {
   return (
-    <div className="p-6 max-w-6xl mx-auto">
-      <h2 className="text-3xl font-bold mb-4">Gimnasios</h2>
-      <p>Aquí mostraremos todos los gimnasios disponibles en el universo Pokemon.</p>
+    <div className="gyms-wrapper">
+      {gymsData.map(region => (
+        <div key={region.region}>
+          <h2 className="region-title">{region.region}</h2>
+
+          <div className="gyms-container">
+            {region.gyms.map(gym => (
+              <div className="gym-card" key={gym.city}>
+                {/* Imagen del gimnasio */}
+                <img
+                  src={gym.gymImage}
+                  alt={`Gimnasio de ${gym.city}`}
+                  className="gym-image"
+                />
+
+                {/* Contenido de la tarjeta */}
+                <div className="gym-content">
+                  <h3>{gym.city}</h3>
+                  <div className="gym-details">
+                    <p><strong>Líder:</strong> {gym.leader}</p>
+                    <p><strong>Tipo:</strong> {gym.type}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
+
+
+

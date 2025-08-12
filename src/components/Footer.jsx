@@ -11,9 +11,24 @@ export default function Footer() {
       </div>
 
       <p>PokeInfo © {new Date().getFullYear()} - Proyecto Fan-Made</p>
-      <p>
-        Pokémon es propiedad de Nintendo, Game Freak y Creatures Inc. Este sitio no tiene fines comerciales.
-      </p>
+
+      <p>Pokémon es propiedad de:</p>
+
+      <div className="footer-logos-row">
+        <img src="/icons/NintendoLogo.png" alt="Nintendo" className="invert" />
+        <img
+          src="/icons/GameFreakLogo.png"
+          alt="Game Freak"
+          className="invert"
+        />
+        <img
+          src="/icons/CreaturesInc.png"
+          alt="Creatures Inc"
+          className="invert creatures-logo"
+        />
+      </div>
+
+      <p>Este sitio no tiene fines comerciales.</p>
     </footer>
   );
 }

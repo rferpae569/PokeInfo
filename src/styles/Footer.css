@@ -4,14 +4,12 @@
   text-align: center;
   padding: 2.5rem 1rem;
   font-family: "Segoe UI", sans-serif;
-  max-width: none;
 }
 
 .footer-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 0.5rem; */
 }
 
 .footer-logo img {
@@ -20,7 +18,33 @@
   object-fit: contain;
 }
 
-.footer p + p {
-  margin-top: 0.25rem;
-  font-size: 0.75rem;
+.footer p {
+  margin: 0.25rem 0;
+  font-size: 1.125rem; /* un poco más grande */
+  line-height: 1.4; /* para que no se vea apelmazado */
 }
+
+.footer-logos-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem; /* margen uniforme entre logos */
+  margin: 0.5rem 0;
+}
+
+.footer-logos-row img {
+  height: 200px; /* mismo tamaño para todos */
+  width: auto;
+  object-fit: contain;
+}
+
+/* Aplica el invert solo a Nintendo y Creatures */
+.footer-logos-row img.invert {
+  filter: brightness(0) invert(1);
+}
+
+/* Ajuste especial para Creatures */
+.footer-logos-row img.creatures-logo {
+  height: 50px; /* más pequeño para compensar su proporción */
+}
+

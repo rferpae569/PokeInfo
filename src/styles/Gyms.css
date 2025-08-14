@@ -43,10 +43,12 @@
 }
 
 .gym-image {
-  width: 60%;
+  width: 100px;
   height: 100px;
-  object-fit: contain;
-  margin-bottom: 1rem;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border: 2px solid #e53e3e;
 }
 
 .gym-content h3 {

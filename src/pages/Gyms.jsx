@@ -23,7 +23,27 @@ export default function Gyms() {
                   <h3>{gym.city}</h3>
                   <div className="gym-details">
                     <p><strong>Líder:</strong> {gym.leader}</p>
-                    <p><strong>Tipo:</strong> {gym.type}</p>
+                    <p>
+  <strong>Tipo:</strong>{" "}
+  {
+    gym.type.includes(" / ")
+      ? gym.type.split(" / ").map(tipo => (
+          <img
+            key={tipo}
+            src={`/icons/tipos/${tipo.trim()}.png`}  // sin cambiar mayúsculas/minúsculas
+            alt={`Tipo ${tipo.trim()}`}
+            className="type-icon"
+          />
+        ))
+      : (
+          <img
+            src={`/icons/tipos/${gym.type.trim()}.png`}  // sin cambiar mayúsculas/minúsculas
+            alt={`Tipo ${gym.type.trim()}`}
+            className="type-icon"
+          />
+        )
+  }
+</p>
                   </div>
                 </div>
               </div>
@@ -34,6 +54,7 @@ export default function Gyms() {
     </div>
   );
 }
+
 
 
 

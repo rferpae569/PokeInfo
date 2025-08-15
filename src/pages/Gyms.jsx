@@ -1,15 +1,15 @@
-import gymsData from '../data/gymsData.json';
-import '../styles/Gyms.css';
+import gymsData from "../data/gymsData.json";
+import "../styles/Gyms.css";
 
 export default function Gyms() {
   return (
     <div className="gyms-wrapper">
-      {gymsData.map(region => (
+      {gymsData.map((region) => (
         <div key={region.region}>
           <h2 className="region-title">{region.region}</h2>
 
           <div className="gyms-container">
-            {region.gyms.map(gym => (
+            {region.gyms.map((gym) => (
               <div className="gym-card" key={gym.city}>
                 {/* Imagen del gimnasio */}
                 <img
@@ -21,29 +21,41 @@ export default function Gyms() {
                 {/* Contenido de la tarjeta */}
                 <div className="gym-content">
                   <h3>{gym.city}</h3>
+
                   <div className="gym-details">
-                    <p><strong>Líder:</strong> {gym.leader}</p>
                     <p>
-  <strong>Tipo:</strong>{" "}
-  {
-    gym.type.includes(" / ")
-      ? gym.type.split(" / ").map(tipo => (
-          <img
-            key={tipo}
-            src={`/icons/tipos/${tipo.trim()}.png`}  // sin cambiar mayúsculas/minúsculas
-            alt={`Tipo ${tipo.trim()}`}
-            className="type-icon"
-          />
-        ))
-      : (
-          <img
-            src={`/icons/tipos/${gym.type.trim()}.png`}  // sin cambiar mayúsculas/minúsculas
-            alt={`Tipo ${gym.type.trim()}`}
-            className="type-icon"
-          />
-        )
-  }
-</p>
+                      <strong>Líder:</strong> {gym.leader}
+                    </p>
+                    <p>
+                      <strong>Tipo:</strong>{" "}
+                      {gym.type.includes(" / ") ? (
+                        gym.type.split(" / ").map((tipo) => (
+                          <img
+                            key={tipo}
+                            src={`/icons/tipos/${tipo.trim()}.png`} // sin cambiar mayúsculas/minúsculas
+                            alt={`Tipo ${tipo.trim()}`}
+                            className="type-icon"
+                          />
+                        ))
+                      ) : (
+                        <img
+                          src={`/icons/tipos/${gym.type.trim()}.png`} // sin cambiar mayúsculas/minúsculas
+                          alt={`Tipo ${gym.type.trim()}`}
+                          className="type-icon"
+                        />
+                      )}
+                    </p>
+                    {/* Insignia */}
+{gym.badgeImage && (
+  <p className="gym-badge">
+    <strong>Insignia:</strong>{" "}
+    <img
+      src={gym.badgeImage}
+      alt={`Insignia de ${gym.city}`}
+      className="badge-image"
+    />
+  </p>
+)}
                   </div>
                 </div>
               </div>
@@ -54,7 +66,3 @@ export default function Gyms() {
     </div>
   );
 }
-
-
-
-

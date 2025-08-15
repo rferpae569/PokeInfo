@@ -2,103 +2,103 @@
   {
     "region": "Kanto",
     "gyms": [
-      { "city": "Ciudad Plateada", "leader": "Brock", "type": "Roca", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/d/d6/Spr_FRLG_Brock.png/120px-Spr_FRLG_Brock.png", "gymImage": "/gyms/Kanto/GymPlateada.webp" },
-      { "city": "Ciudad Celeste", "leader": "Misty", "type": "Agua", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/6/6f/Spr_FRLG_Misty.png/120px-Spr_FRLG_Misty.png", "gymImage": "/gyms/Kanto/GymCeleste.webp" },
-      { "city": "Ciudad Carmín", "leader": "Lt. Surge", "type": "Electrico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/1/15/Spr_FRLG_Lt._Surge.png/120px-Spr_FRLG_Lt._Surge.png", "gymImage": "/gyms/Kanto/GymCarmin.webp" },
-      { "city": "Ciudad Azulona", "leader": "Erika", "type": "Planta", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/7/79/Spr_FRLG_Erika.png/120px-Spr_FRLG_Erika.png", "gymImage": "/gyms/Kanto/GymAzulona.webp" },
-      { "city": "Ciudad Fucsia", "leader": "Koga", "type": "Veneno", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/e0/Spr_FRLG_Koga.png/120px-Spr_FRLG_Koga.png", "gymImage": "/gyms/Kanto/GymFucsia.webp" },
-      { "city": "Ciudad Azafrán", "leader": "Sabrina", "type": "Psiquico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/8/87/Spr_FRLG_Sabrina.png/120px-Spr_FRLG_Sabrina.png", "gymImage": "/gyms/Kanto/GymAzafran.webp" },
-      { "city": "Isla Canela", "leader": "Blaine", "type": "Fuego", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/7/73/Spr_FRLG_Blaine.png/120px-Spr_FRLG_Blaine.png", "gymImage": "/gyms/Kanto/GymCanela.webp" },
-      { "city": "Ciudad Verde", "leader": "Giovanni", "type": "Tierra", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/6/6f/Spr_FRLG_Giovanni.png/120px-Spr_FRLG_Giovanni.png", "gymImage": "/gyms/Kanto/GymVerde.webp" }
+      { "city": "Ciudad Plateada", "leader": "Brock", "type": "Roca", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/d/d6/Spr_FRLG_Brock.png/120px-Spr_FRLG_Brock.png", "gymImage": "/gyms/Kanto/GymPlateada.webp", "badgeImage": "/Insignias/MedallaRoca.webp" },
+      { "city": "Ciudad Celeste", "leader": "Misty", "type": "Agua", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/6/6f/Spr_FRLG_Misty.png/120px-Spr_FRLG_Misty.png", "gymImage": "/gyms/Kanto/GymCeleste.webp", "badgeImage": "/Insignias/MedallaCascada.webp" },
+      { "city": "Ciudad Carmín", "leader": "Lt. Surge", "type": "Electrico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/1/15/Spr_FRLG_Lt._Surge.png/120px-Spr_FRLG_Lt._Surge.png", "gymImage": "/gyms/Kanto/GymCarmin.webp", "badgeImage": "/Insignias/MedallaTrueno.webp" },
+      { "city": "Ciudad Azulona", "leader": "Erika", "type": "Planta", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/7/79/Spr_FRLG_Erika.png/120px-Spr_FRLG_Erika.png", "gymImage": "/gyms/Kanto/GymAzulona.webp", "badgeImage": "/Insignias/MedallaArcoiris.webp" },
+      { "city": "Ciudad Fucsia", "leader": "Koga/Sachiko", "type": "Veneno", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/e0/Spr_FRLG_Koga.png/120px-Spr_FRLG_Koga.png", "gymImage": "/gyms/Kanto/GymFucsia.webp", "badgeImage": "/Insignias/MedallaAlma.webp" },
+      { "city": "Ciudad Azafrán", "leader": "Sabrina", "type": "Psiquico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/8/87/Spr_FRLG_Sabrina.png/120px-Spr_FRLG_Sabrina.png", "gymImage": "/gyms/Kanto/GymAzafran.webp", "badgeImage": "/Insignias/MedallaPantano.webp" },
+      { "city": "Isla Canela", "leader": "Blaine", "type": "Fuego", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/7/73/Spr_FRLG_Blaine.png/120px-Spr_FRLG_Blaine.png", "gymImage": "/gyms/Kanto/GymCanela.webp", "badgeImage": "/Insignias/MedallaVolcan.webp" },
+      { "city": "Ciudad Verde", "leader": "Giovanni/Azul", "type": "Tierra", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/6/6f/Spr_FRLG_Giovanni.png/120px-Spr_FRLG_Giovanni.png", "gymImage": "/gyms/Kanto/GymVerde.webp", "badgeImage": "/Insignias/MedallaTierra.webp" }
     ]
   },
   {
     "region": "Johto",
     "gyms": [
-      { "city": "Ciudad Malva", "leader": "Falkner", "type": "Volador", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/3/37/Spr_HGSS_Falkner.png/120px-Spr_HGSS_Falkner.png", "gymImage": "/gyms/Johto/GymMalva.webp" },
-      { "city": "Ciudad Azalea", "leader": "Bugsy", "type": "Bicho", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/1/18/Spr_HGSS_Bugsy.png/120px-Spr_HGSS_Bugsy.png", "gymImage": "/gyms/Johto/GymAzalea.webp" },
-      { "city": "Ciudad Trigal", "leader": "Whitney", "type": "Normal", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/3/34/Spr_HGSS_Whitney.png/120px-Spr_HGSS_Whitney.png", "gymImage": "/gyms/Johto/GymTrigal.webp" },
-      { "city": "Ciudad Iris", "leader": "Morty", "type": "Fantasma", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/2/27/Spr_HGSS_Morty.png/120px-Spr_HGSS_Morty.png", "gymImage": "/gyms/Johto/GymIris.webp" },
-      { "city": "Ciudad Olivo", "leader": "Jasmine", "type": "Acero", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/a/a3/Spr_HGSS_Jasmine.png/120px-Spr_HGSS_Jasmine.png", "gymImage": "/gyms/Johto/GymOlivo.webp" },
-      { "city": "Ciudad Orquídea", "leader": "Chuck", "type": "Lucha", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/5/5e/Spr_HGSS_Chuck.png/120px-Spr_HGSS_Chuck.png", "gymImage": "/gyms/Johto/GymOrquidea.webp" },
-      { "city": "Ciudad Caoba", "leader": "Pryce", "type": "Hielo", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/c/cb/Spr_HGSS_Pryce.png/120px-Spr_HGSS_Pryce.png", "gymImage": "/gyms/Johto/GymCaoba.png" },
-      { "city": "Ciudad Endrino", "leader": "Clair", "type": "Dragon", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/e8/Spr_HGSS_Clair.png/120px-Spr_HGSS_Clair.png", "gymImage": "/gyms/Johto/GymEndrino.webp" }
+      { "city": "Ciudad Malva", "leader": "Pegaso", "type": "Volador", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/3/37/Spr_HGSS_Falkner.png/120px-Spr_HGSS_Falkner.png", "gymImage": "/gyms/Johto/GymMalva.webp", "badgeImage": "/Insignias/MedallaCefiro.webp" },
+      { "city": "Ciudad Azalea", "leader": "Antón", "type": "Bicho", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/1/18/Spr_HGSS_Bugsy.png/120px-Spr_HGSS_Bugsy.png", "gymImage": "/gyms/Johto/GymAzalea.webp", "badgeImage": "/Insignias/MedallaColmena.webp" },
+      { "city": "Ciudad Trigal", "leader": "Blanca", "type": "Normal", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/3/34/Spr_HGSS_Whitney.png/120px-Spr_HGSS_Whitney.png", "gymImage": "/gyms/Johto/GymTrigal.webp", "badgeImage": "/Insignias/MedallaPlanicie.webp" },
+      { "city": "Ciudad Iris", "leader": "Morty", "type": "Fantasma", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/2/27/Spr_HGSS_Morty.png/120px-Spr_HGSS_Morty.png", "gymImage": "/gyms/Johto/GymIris.webp", "badgeImage": "/Insignias/MedallaNiebla.webp" },
+      { "city": "Ciudad Olivo", "leader": "Yasmina", "type": "Acero", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/a/a3/Spr_HGSS_Jasmine.png/120px-Spr_HGSS_Jasmine.png", "gymImage": "/gyms/Johto/GymOlivo.webp", "badgeImage": "/Insignias/MedallaMineral.webp" },
+      { "city": "Ciudad Orquídea", "leader": "Anibal", "type": "Lucha", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/5/5e/Spr_HGSS_Chuck.png/120px-Spr_HGSS_Chuck.png", "gymImage": "/gyms/Johto/GymOrquidea.webp", "badgeImage": "/Insignias/MedallaTormenta.webp" },
+      { "city": "Ciudad Caoba", "leader": "Fredo", "type": "Hielo", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/c/cb/Spr_HGSS_Pryce.png/120px-Spr_HGSS_Pryce.png", "gymImage": "/gyms/Johto/GymCaoba.png", "badgeImage": "/Insignias/MedallaGlaciar.png" },
+      { "city": "Ciudad Endrino", "leader": "Debora", "type": "Dragon", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/e8/Spr_HGSS_Clair.png/120px-Spr_HGSS_Clair.png", "gymImage": "/gyms/Johto/GymEndrino.webp", "badgeImage": "/Insignias/MedallaDragon.webp" }
     ]
   },
   {
     "region": "Hoenn",
     "gyms": [
-      { "city": "Ciudad Férrica", "leader": "Roxanne", "type": "Roca", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/f/f1/Spr_RS_Roxanne.png/120px-Spr_RS_Roxanne.png", "gymImage": "/gyms/Hoenn/GymFerrica.webp" },
-      { "city": "Ciudad Malvalona", "leader": "Wattson", "type": "Electrico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/d/df/Spr_RS_Wattson.png/120px-Spr_RS_Wattson.png", "gymImage": "/gyms/Hoenn/GymMalvalona.webp" },
-      { "city": "Pueblo Lavacalda", "leader": "Flannery", "type": "Fuego", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/c/c6/Spr_RS_Flannery.png/120px-Spr_RS_Flannery.png", "gymImage": "/gyms/Hoenn/GymLavacalda.webp" },
-      { "city": "Ciudad Petalia", "leader": "Norman", "type": "Normal", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/5/5a/Spr_RS_Norman.png/120px-Spr_RS_Norman.png", "gymImage": "/gyms/Hoenn/GymPetalia.webp" },
-      { "city": "Ciudad Arborada", "leader": "Winona", "type": "Volador", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/5/5d/Spr_RS_Winona.png/120px-Spr_RS_Winona.png", "gymImage": "/gyms/Hoenn/GymArborada.webp" },
-      { "city": "Ciudad Algaria", "leader": "Tate y Liza", "type": "Psiquico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/eb/Spr_RS_Tate.png/120px-Spr_RS_Tate.png", "gymImage": "/gyms/Hoenn/GymAlgaria.jpg" }
+      { "city": "Ciudad Férrica", "leader": "Petra", "type": "Roca", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/f/f1/Spr_RS_Roxanne.png/120px-Spr_RS_Roxanne.png", "gymImage": "/gyms/Hoenn/GymFerrica.webp", "badgeImage": "/Insignias/MedallaPiedra.webp" },
+      { "city": "Ciudad Malvalona", "leader": "Erico", "type": "Electrico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/d/df/Spr_RS_Wattson.png/120px-Spr_RS_Wattson.png", "gymImage": "/gyms/Hoenn/GymMalvalona.webp", "badgeImage": "/Insignias/MedallaDinamo.webp" },
+      { "city": "Pueblo Lavacalda", "leader": "Candela", "type": "Fuego", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/c/c6/Spr_RS_Flannery.png/120px-Spr_RS_Flannery.png", "gymImage": "/gyms/Hoenn/GymLavacalda.webp", "badgeImage": "/Insignias/MedallaCalor.webp" },
+      { "city": "Ciudad Petalia", "leader": "Norman", "type": "Normal", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/5/5a/Spr_RS_Norman.png/120px-Spr_RS_Norman.png", "gymImage": "/gyms/Hoenn/GymPetalia.webp", "badgeImage": "/Insignias/MedallaDragon.webp" },
+      { "city": "Ciudad Arborada", "leader": "Winona", "type": "Volador", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/5/5d/Spr_RS_Winona.png/120px-Spr_RS_Winona.png", "gymImage": "/gyms/Hoenn/GymArborada.webp", "badgeImage": "/Insignias/MedallaDragon.webp" },
+      { "city": "Ciudad Algaria", "leader": "Tate y Liza", "type": "Psiquico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/eb/Spr_RS_Tate.png/120px-Spr_RS_Tate.png", "gymImage": "/gyms/Hoenn/GymAlgaria.jpg", "badgeImage": "/Insignias/MedallaDragon.webp" }
     ]
   },
   {
     "region": "Sinnoh",
     "gyms": [
-      { "city": "Ciudad Pirita", "leader": "Roark", "type": "Roca", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/8/8e/Spr_DP_Roark.png/120px-Spr_DP_Roark.png", "gymImage": "/gyms/Sinnoh/GymPirita.webp" },
-      { "city": "Ciudad Vetusta", "leader": "Gardenia", "type": "Planta", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/a/ae/Spr_DP_Gardenia.png/120px-Spr_DP_Gardenia.png", "gymImage": "/gyms/Sinnoh/GymVetusta.webp" },
-      { "city": "Ciudad Rocavelo", "leader": "Maylene", "type": "Lucha", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/8/8b/Spr_DP_Maylene.png/120px-Spr_DP_Maylene.png", "gymImage": "/gyms/Sinnoh/GymRocavelo.webp" },
-      { "city": "Ciudad Pradera", "leader": "Crasher Wake", "type": "Agua", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/6/64/Spr_DP_Crasher_Wake.png/120px-Spr_DP_Crasher_Wake.png", "gymImage": "/gyms/Sinnoh/GymPradera.webp" },
-      { "city": "Ciudad Corazón", "leader": "Fantina", "type": "Fantasma", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/c/cc/Spr_DP_Fantina.png/120px-Spr_DP_Fantina.png", "gymImage": "/gyms/Sinnoh/GymCorazon.webp" },
-      { "city": "Ciudad Canal", "leader": "Byron", "type": "Acero", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/4/41/Spr_DP_Byron.png/120px-Spr_DP_Byron.png", "gymImage": "/gyms/Sinnoh/GymCanal.webp" },
-      { "city": "Ciudad Puntaneva", "leader": "Candice", "type": "Hielo", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/0/0a/Spr_DP_Candice.png/120px-Spr_DP_Candice.png", "gymImage": "/gyms/Sinnoh/GymPuntaneva.webp" },
-      { "city": "Ciudad Marina", "leader": "Volkner", "type": "Electrico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/2/29/Spr_DP_Volkner.png/120px-Spr_DP_Volkner.png", "gymImage": "/gyms/Sinnoh/GymMarina.webp" }
+      { "city": "Ciudad Pirita", "leader": "Roark", "type": "Roca", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/8/8e/Spr_DP_Roark.png/120px-Spr_DP_Roark.png", "gymImage": "/gyms/Sinnoh/GymPirita.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Vetusta", "leader": "Gardenia", "type": "Planta", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/a/ae/Spr_DP_Gardenia.png/120px-Spr_DP_Gardenia.png", "gymImage": "/gyms/Sinnoh/GymVetusta.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Rocavelo", "leader": "Maylene", "type": "Lucha", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/8/8b/Spr_DP_Maylene.png/120px-Spr_DP_Maylene.png", "gymImage": "/gyms/Sinnoh/GymRocavelo.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Pradera", "leader": "Crasher Wake", "type": "Agua", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/6/64/Spr_DP_Crasher_Wake.png/120px-Spr_DP_Crasher_Wake.png", "gymImage": "/gyms/Sinnoh/GymPradera.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Corazón", "leader": "Fantina", "type": "Fantasma", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/c/cc/Spr_DP_Fantina.png/120px-Spr_DP_Fantina.png", "gymImage": "/gyms/Sinnoh/GymCorazon.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Canal", "leader": "Byron", "type": "Acero", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/4/41/Spr_DP_Byron.png/120px-Spr_DP_Byron.png", "gymImage": "/gyms/Sinnoh/GymCanal.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Puntaneva", "leader": "Candice", "type": "Hielo", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/0/0a/Spr_DP_Candice.png/120px-Spr_DP_Candice.png", "gymImage": "/gyms/Sinnoh/GymPuntaneva.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Marina", "leader": "Volkner", "type": "Electrico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/2/29/Spr_DP_Volkner.png/120px-Spr_DP_Volkner.png", "gymImage": "/gyms/Sinnoh/GymMarina.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" }
     ]
   },
    {
     "region": "Teselia",
     "gyms": [
-      { "city": "Ciudad Gres", "leader": "Cilan / Chili / Cress", "type": "Planta / Fuego / Agua", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/f/fd/Spr_BW_Cilan.png/120px-Spr_BW_Cilan.png", "gymImage": "/gyms/Teselia/GymGres.webp" },
-      { "city": "Ciudad Esmalte", "leader": "Lenora", "type": "Normal", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/5/5c/Spr_BW_Lenora.png/120px-Spr_BW_Lenora.png", "gymImage": "/gyms/Teselia/GymEsmalte.webp" },
-      { "city": "Ciudad Fayenza", "leader": "Burgh", "type": "Tierra", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/6/6c/Spr_BW_Burgh.png/120px-Spr_BW_Burgh.png", "gymImage": "/gyms/Teselia/GymFayenza.webp" },
-      { "city": "Ciudad Mayólica", "leader": "Elesa", "type": "Electrico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/1/14/Spr_BW_Elesa.png/120px-Spr_BW_Elesa.png", "gymImage": "/gyms/Teselia/GymMayolica.webp" },
-      { "city": "Ciudad Loza", "leader": "Clay", "type": "Volador", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/e8/Spr_BW_Clay.png/120px-Spr_BW_Clay.png", "gymImage": "/gyms/Teselia/GymLoza.webp" },
-      { "city": "Ciudad Caolín", "leader": "Skyla", "type": "Dragon", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/f/f4/Spr_BW_Skyla.png/120px-Spr_BW_Skyla.png", "gymImage": "/gyms/Teselia/GymCaolin.webp" },
-      { "city": "Ciudad Marga", "leader": "Brycen", "type": "Agua", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/d/d8/Spr_BW_Brycen.png/120px-Spr_BW_Brycen.png", "gymImage": "/gyms/Teselia/GymMarga.webp" },
-      { "city": "Ciudad Engobe", "leader": "Drayden / Iris", "type": "Normal", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/d/d0/Spr_BW_Drayden.png/120px-Spr_BW_Drayden.png", "gymImage": "/gyms/Teselia/GymEngobe.webp" }
+      { "city": "Ciudad Gres", "leader": "Cilan / Chili / Cress", "type": "Planta / Fuego / Agua", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/f/fd/Spr_BW_Cilan.png/120px-Spr_BW_Cilan.png", "gymImage": "/gyms/Teselia/GymGres.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Esmalte", "leader": "Lenora", "type": "Normal", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/5/5c/Spr_BW_Lenora.png/120px-Spr_BW_Lenora.png", "gymImage": "/gyms/Teselia/GymEsmalte.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Fayenza", "leader": "Burgh", "type": "Tierra", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/6/6c/Spr_BW_Burgh.png/120px-Spr_BW_Burgh.png", "gymImage": "/gyms/Teselia/GymFayenza.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Mayólica", "leader": "Elesa", "type": "Electrico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/1/14/Spr_BW_Elesa.png/120px-Spr_BW_Elesa.png", "gymImage": "/gyms/Teselia/GymMayolica.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Loza", "leader": "Clay", "type": "Volador", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/e8/Spr_BW_Clay.png/120px-Spr_BW_Clay.png", "gymImage": "/gyms/Teselia/GymLoza.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Caolín", "leader": "Skyla", "type": "Dragon", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/f/f4/Spr_BW_Skyla.png/120px-Spr_BW_Skyla.png", "gymImage": "/gyms/Teselia/GymCaolin.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Marga", "leader": "Brycen", "type": "Agua", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/d/d8/Spr_BW_Brycen.png/120px-Spr_BW_Brycen.png", "gymImage": "/gyms/Teselia/GymMarga.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Engobe", "leader": "Drayden / Iris", "type": "Normal", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/d/d0/Spr_BW_Drayden.png/120px-Spr_BW_Drayden.png", "gymImage": "/gyms/Teselia/GymEngobe.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" }
     ]
   },
   {
     "region": "Kalos",
     "gyms": [
-      { "city": "Ciudad Novarte", "leader": "Viola", "type": "Bicho", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/8/8f/Spr_XY_Viola.png/120px-Spr_XY_Viola.png", "gymImage": "/gyms/Kalos/GymNovarte.webp" },
-      { "city": "Ciudad Yantra", "leader": "Grant", "type": "Roca", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/7/7b/Spr_XY_Grant.png/120px-Spr_XY_Grant.png", "gymImage": "/gyms/Kalos/GymYantra.webp" },
-      { "city": "Ciudad Témpera", "leader": "Korrina", "type": "Lucha", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/c/cf/Spr_XY_Korrina.png/120px-Spr_XY_Korrina.png", "gymImage": "/gyms/Kalos/GymTempera.webp" },
-      { "city": "Ciudad Romantis", "leader": "Ramos", "type": "Planta", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/a/a1/Spr_XY_Ramos.png/120px-Spr_XY_Ramos.png", "gymImage": "/gyms/Kalos/GymRomantis.webp" },
-      { "city": "Ciudad Fluxus", "leader": "Clemont", "type": "Electrico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/4/45/Spr_XY_Clemont.png/120px-Spr_XY_Clemont.png", "gymImage": "/gyms/Kalos/GymFluxus.webp" },
-      { "city": "Ciudad Luminalia", "leader": "Valerie", "type": "Hada", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/e3/Spr_XY_Valerie.png/120px-Spr_XY_Valerie.png", "gymImage": "/gyms/Kalos/GymLuminalia.webp" },
-      { "city": "Ciudad Relieve", "leader": "Olympia", "type": "Psiquico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/3/35/Spr_XY_Olympia.png/120px-Spr_XY_Olympia.png", "gymImage": "/gyms/Kalos/GymRelieve.webp" },
-      { "city": "Ciudad Fractal", "leader": "Wulfric", "type": "Hielo", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/2/25/Spr_XY_Wulfric.png/120px-Spr_XY_Wulfric.png", "gymImage": "/gyms/Kalos/GymFractal.webp" }
+      { "city": "Ciudad Novarte", "leader": "Viola", "type": "Bicho", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/8/8f/Spr_XY_Viola.png/120px-Spr_XY_Viola.png", "gymImage": "/gyms/Kalos/GymNovarte.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Yantra", "leader": "Grant", "type": "Roca", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/7/7b/Spr_XY_Grant.png/120px-Spr_XY_Grant.png", "gymImage": "/gyms/Kalos/GymYantra.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Témpera", "leader": "Korrina", "type": "Lucha", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/c/cf/Spr_XY_Korrina.png/120px-Spr_XY_Korrina.png", "gymImage": "/gyms/Kalos/GymTempera.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Romantis", "leader": "Ramos", "type": "Planta", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/a/a1/Spr_XY_Ramos.png/120px-Spr_XY_Ramos.png", "gymImage": "/gyms/Kalos/GymRomantis.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Fluxus", "leader": "Clemont", "type": "Electrico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/4/45/Spr_XY_Clemont.png/120px-Spr_XY_Clemont.png", "gymImage": "/gyms/Kalos/GymFluxus.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Luminalia", "leader": "Valerie", "type": "Hada", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/e3/Spr_XY_Valerie.png/120px-Spr_XY_Valerie.png", "gymImage": "/gyms/Kalos/GymLuminalia.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Relieve", "leader": "Olympia", "type": "Psiquico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/3/35/Spr_XY_Olympia.png/120px-Spr_XY_Olympia.png", "gymImage": "/gyms/Kalos/GymRelieve.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Fractal", "leader": "Wulfric", "type": "Hielo", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/2/25/Spr_XY_Wulfric.png/120px-Spr_XY_Wulfric.png", "gymImage": "/gyms/Kalos/GymFractal.webp", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" }
     ]
   },
   {
     "region": "Galar",
     "gyms": [
-      { "city": "Pueblo Hoyuelo", "leader": "Milo", "type": "Planta", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/8/87/Spr_SH_Milo.png/120px-Spr_SH_Milo.png", "gymImage": "/gyms/Galar/GymHoyuelo.png" },
-      { "city": "Ciudad Pistón", "leader": "Nessa", "type": "Agua", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/a/a7/Spr_SH_Nessa.png/120px-Spr_SH_Nessa.png", "gymImage": "/gyms/Galar/GymPiston.png" },
-      { "city": "Ciudad Artejo", "leader": "Kabu", "type": "Fuego", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/f/ff/Spr_SH_Kabu.png/120px-Spr_SH_Kabu.png", "gymImage": "/gyms/Galar/GymArtejo.png" },
-      { "city": "Ciudad Ladera", "leader": "Bea", "type": "Lucha", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/0/0b/Spr_SH_Bea.png/120px-Spr_SH_Bea.png", "gymImage": "/gyms/Galar/GymLadera.png" },
-      { "city": "Ciudad Auriga", "leader": "Opal", "type": "Hada", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/4/42/Spr_SH_Opal.png/120px-Spr_SH_Opal.png", "gymImage": "/gyms/Galar/GymAuriga.png" },
-      { "city": "Pueblo Crampón", "leader": "Gordie", "type": "Roca", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/ee/Spr_SH_Gordie.png/120px-Spr_SH_Gordie.png", "gymImage": "/gyms/Galar/GymCrampon.png" },
-      { "city": "Ciudad Amura", "leader": "Piers", "type": "Siniestro", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/3/31/Spr_SH_Piers.png/120px-Spr_SH_Piers.png", "gymImage": "/gyms/Galar/GymAmura.png" },
-      { "city": "Ciudad Plie", "leader": "Raihan", "type": "Dragon", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/f/f9/Spr_SH_Raihan.png/120px-Spr_SH_Raihan.png", "gymImage": "/gyms/Galar/GymPlie.png" }
+      { "city": "Pueblo Hoyuelo", "leader": "Milo", "type": "Planta", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/8/87/Spr_SH_Milo.png/120px-Spr_SH_Milo.png", "gymImage": "/gyms/Galar/GymHoyuelo.png", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Pistón", "leader": "Nessa", "type": "Agua", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/a/a7/Spr_SH_Nessa.png/120px-Spr_SH_Nessa.png", "gymImage": "/gyms/Galar/GymPiston.png", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Artejo", "leader": "Kabu", "type": "Fuego", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/f/ff/Spr_SH_Kabu.png/120px-Spr_SH_Kabu.png", "gymImage": "/gyms/Galar/GymArtejo.png", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Ladera", "leader": "Bea", "type": "Lucha", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/0/0b/Spr_SH_Bea.png/120px-Spr_SH_Bea.png", "gymImage": "/gyms/Galar/GymLadera.png", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Auriga", "leader": "Opal", "type": "Hada", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/4/42/Spr_SH_Opal.png/120px-Spr_SH_Opal.png", "gymImage": "/gyms/Galar/GymAuriga.png", "badgeImage": "/badges/Kanto/InsigniaRoca.webp"},
+      { "city": "Pueblo Crampón", "leader": "Gordie", "type": "Roca", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/ee/Spr_SH_Gordie.png/120px-Spr_SH_Gordie.png", "gymImage": "/gyms/Galar/GymCrampon.png", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Amura", "leader": "Piers", "type": "Siniestro", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/3/31/Spr_SH_Piers.png/120px-Spr_SH_Piers.png", "gymImage": "/gyms/Galar/GymAmura.png", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Plie", "leader": "Raihan", "type": "Dragon", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/f/f9/Spr_SH_Raihan.png/120px-Spr_SH_Raihan.png", "gymImage": "/gyms/Galar/GymPlie.png", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" }
     ]
   },
   {
     "region": "Paldea",
     "gyms": [
-      { "city": "Ciudad Cántara", "leader": "Katy", "type": "Bicho", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/ef/Spr_SV_Katy.png/120px-Spr_SV_Katy.png", "gymImage": "/gyms/Paldea/GymCantara.jpg" },
-      { "city": "Pueblo Pirotin", "leader": "Brassius", "type": "Planta", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/6/67/Spr_SV_Brassius.png/120px-Spr_SV_Brassius.png", "gymImage": "/gyms/Paldea/GymPirotin.png" },
-      { "city": "Puebo Altamia", "leader": "Iono", "type": "Electrico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/a/a5/Spr_SV_Iono.png/120px-Spr_SV_Iono.png", "gymImage": "/gyms/Paldea/GymAltamia.png" },
-      { "city": "Ciudad Sierra Napada", "leader": "Kofu", "type": "Agua", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/f/f8/Spr_SV_Kofu.png/120px-Spr_SV_Kofu.png", "gymImage": "/gyms/Paldea/GymNapada.png" },
-      { "city": "Ciudad Leudal", "leader": "Larry", "type": "Normal", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/6/66/Spr_SV_Larry.png/120px-Spr_SV_Larry.png", "gymImage": "/gyms/Paldea/GymLeudal.png" },
-      { "city": "Pueblo Mestura", "leader": "Ryme", "type": "Fantasma", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/f/f5/Spr_SV_Ryme.png/120px-Spr_SV_Ryme.png", "gymImage": "/gyms/Paldea/GymMestura.png" },
-      { "city": "Pueblo Hozkailu", "leader": "Tulip", "type": "Psiquico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/c/c0/Spr_SV_Tulip.png/120px-Spr_SV_Tulip.png", "gymImage": "/gyms/Paldea/GymHozkailu.png" },
-      { "city": "Pueblo Alforno", "leader": "Grusha", "type": "Hielo", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/e4/Spr_SV_Grusha.png/120px-Spr_SV_Grusha.png", "gymImage": "/gyms/Paldea/GymAlforno.jpg" }
+      { "city": "Ciudad Cántara", "leader": "Katy", "type": "Bicho", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/ef/Spr_SV_Katy.png/120px-Spr_SV_Katy.png", "gymImage": "/gyms/Paldea/GymCantara.jpg", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Pueblo Pirotin", "leader": "Brassius", "type": "Planta", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/6/67/Spr_SV_Brassius.png/120px-Spr_SV_Brassius.png", "gymImage": "/gyms/Paldea/GymPirotin.png", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Puebo Altamia", "leader": "Iono", "type": "Electrico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/a/a5/Spr_SV_Iono.png/120px-Spr_SV_Iono.png", "gymImage": "/gyms/Paldea/GymAltamia.png", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Sierra Napada", "leader": "Kofu", "type": "Agua", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/f/f8/Spr_SV_Kofu.png/120px-Spr_SV_Kofu.png", "gymImage": "/gyms/Paldea/GymNapada.png", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Ciudad Leudal", "leader": "Larry", "type": "Normal", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/6/66/Spr_SV_Larry.png/120px-Spr_SV_Larry.png", "gymImage": "/gyms/Paldea/GymLeudal.png", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Pueblo Mestura", "leader": "Ryme", "type": "Fantasma", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/f/f5/Spr_SV_Ryme.png/120px-Spr_SV_Ryme.png", "gymImage": "/gyms/Paldea/GymMestura.png", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Pueblo Hozkailu", "leader": "Tulip", "type": "Psiquico", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/c/c0/Spr_SV_Tulip.png/120px-Spr_SV_Tulip.png", "gymImage": "/gyms/Paldea/GymHozkailu.png", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" },
+      { "city": "Pueblo Alforno", "leader": "Grusha", "type": "Hielo", "leaderImage": "https://archives.bulbagarden.net/media/upload/thumb/e/e4/Spr_SV_Grusha.png/120px-Spr_SV_Grusha.png", "gymImage": "/gyms/Paldea/GymAlforno.jpg", "badgeImage": "/badges/Kanto/InsigniaRoca.webp" }
     ]
   }
 ]

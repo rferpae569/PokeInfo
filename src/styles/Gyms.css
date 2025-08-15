@@ -70,3 +70,17 @@
   margin: 0.3rem 0;
   line-height: 1.4;
 }
+
+.gym-badge {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Espacio entre texto e imagen */
+  margin: 5px 0;
+}
+
+.badge-image {
+  width: 40px;
+  height: 40px;
+}
+
+

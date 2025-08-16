@@ -1,78 +1,129 @@
+import { useState, useRef, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import gymsData from "../data/gymsData.json";
 import "../styles/Gyms.css";
 
+function GymDetails({ isOpen, children }) {
+  const ref = useRef(null);
+  const [height, setHeight] = useState(0);
+
+  useEffect(() => {
+    if (ref.current) {
+      setHeight(ref.current.scrollHeight);
+    }
+  }, [children, isOpen]);
+
+  return (
+    <AnimatePresence>
+      {isOpen && (
+        <motion.div
+          initial={{ height: 0, opacity: 0 }}
+          animate={{ height, opacity: 1 }}
+          exit={{ height: 0, opacity: 0 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+          style={{ overflow: "hidden" }}
+        >
+          <div ref={ref}>{children}</div>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  );
+}
+
 export default function Gyms() {
+  const [openCard, setOpenCard] = useState(null);
+
+  const toggleCard = (city) => {
+    setOpenCard(openCard === city ? null : city);
+  };
+
   return (
     <div className="gyms-wrapper">
       {gymsData.map((region) => (
-        <div key={region.region}>
+        <motion.div
+          key={region.region}
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          viewport={{ once: true, amount: 0.2 }}
+        >
           <h2 className="region-title">{region.region}</h2>
 
           <div className="gyms-container">
             {region.gyms.map((gym) => (
-              <div className="gym-card" key={gym.city}>
-                {/* Imagen del gimnasio */}
+              <motion.div
+                key={gym.city}
+                className="gym-card"
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+                viewport={{ once: true, amount: 0.2 }}
+              >
+                {/* Imagen */}
                 <img
                   src={gym.gymImage}
                   alt={`Gimnasio de ${gym.city}`}
                   className="gym-image"
                 />
 
-                {/* Contenido de la tarjeta */}
-                <div className="gym-content">
-                  <h3>{gym.city}</h3>
+                <h3>{gym.city}</h3>
 
-                  <div className="gym-details">
-                    <p>
-                      <strong>Líder:</strong> {gym.leader}
-                    </p>
-                    <p>
-                      <strong>Tipo:</strong>{" "}
-                      {gym.type.includes(" / ") ? (
-                        gym.type.split(" / ").map((tipo) => (
+                <button
+                  className="toggle-btn"
+                  onClick={() => toggleCard(gym.city)}
+                >
+                  {openCard === gym.city ? "Cerrar" : "Ver detalles"}
+                </button>
+
+                <GymDetails isOpen={openCard === gym.city}>
+                  <p>
+                    <strong>Líder:</strong> {gym.leader}
+                  </p>
+                  <p>
+                    <strong>Tipo:</strong>{" "}
+                    {gym.type.includes(" / ") ? (
+                      gym.type.split(" / ").map((tipo) => (
+                        <img
+                          key={tipo}
+                          src={`/icons/tipos/${tipo.trim()}.png`}
+                          alt={`Tipo ${tipo.trim()}`}
+                          className="type-icon"
+                        />
+                      ))
+                    ) : (
+                      <img
+                        src={`/icons/tipos/${gym.type.trim()}.png`}
+                        alt={`Tipo ${gym.type.trim()}`}
+                        className="type-icon"
+                      />
+                    )}
+                  </p>
+                  {gym.badgeImage && (
+                    <p className="gym-badge">
+                      <strong>Medalla:</strong>{" "}
+                      {Array.isArray(gym.badgeImage) ? (
+                        gym.badgeImage.map((badge, index) => (
                           <img
-                            key={tipo}
-                            src={`/icons/tipos/${tipo.trim()}.png`}
-                            alt={`Tipo ${tipo.trim()}`}
-                            className="type-icon"
+                            key={index}
+                            src={badge}
+                            alt={`Insignia ${index + 1} de ${gym.city}`}
+                            className="badge-image"
                           />
                         ))
                       ) : (
                         <img
-                          src={`/icons/tipos/${gym.type.trim()}.png`}
-                          alt={`Tipo ${gym.type.trim()}`}
-                          className="type-icon"
+                          src={gym.badgeImage}
+                          alt={`Insignia de ${gym.city}`}
+                          className="badge-image"
                         />
                       )}
                     </p>
-                    {/* Insignias */}
-                    {gym.badgeImage && (
-                      <p className="gym-badge">
-                        <strong>Medalla:</strong>{" "}
-                        {Array.isArray(gym.badgeImage) ? (
-                          gym.badgeImage.map((badge, index) => (
-                            <img
-                              key={index}
-                              src={badge}
-                              alt={`Insignia ${index + 1} de ${gym.city}`}
-                              className="badge-image"
-                            />
-                          ))
-                        ) : (
-                          <img
-                            src={gym.badgeImage}
-                            alt={`Insignia de ${gym.city}`}
-                            className="badge-image"
-                          />
-                        )}
-                      </p>
-                    )}
-                  </div>
-                </div>
-              </div>
+                  )}
+                </GymDetails>
+              </motion.div>
             ))}
           </div>
-        </div>
+        </motion.div>
       ))}
     </div>
   );

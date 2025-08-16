@@ -74,7 +74,7 @@
 .gym-badge {
   display: flex;
   align-items: center;
-  gap: 5px; /* Espacio entre texto e imagen */
+  gap: 5px;
   margin: 5px 0;
 }
 
@@ -82,5 +82,3 @@
   width: 40px;
   height: 40px;
 }
-
-

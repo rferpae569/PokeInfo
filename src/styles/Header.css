@@ -1,105 +1,9 @@
-/* html {
-  scroll-behavior: smooth;
-} */
-
-/* header {
-  background-color: #050d26;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  width: 100%;
-  position: sticky;
-  top: 0;
-  z-index: 50;
-} */
-
-/* .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #050d26;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  z-index: 50;
-} */
-
-/* .logo-img {
-  height: 140px;
-  width: 150px;
-  object-fit: contain;
-} */
-
-/* .nav-link {
-  position: relative;
-  padding: 8px 6px;
-  color: white;
-  font-weight: 500;
-  font-size: 0.95rem;
-  transition: color 0.3s ease;
-  text-decoration: none;
-}
-
-.nav-link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 0%;
-  height: 2px;
-  background-color: #38bdf8;
-  transition: width 0.3s ease;
-}
-
-.nav-link:hover {
-  color: #38bdf8;
-}
-
-.nav-link:hover::after {
-  width: 100%;
-} */
-
-/* .active-link {
-  position: relative;
-  color: #38bdf8;
-}
-
-.active-link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 2px;
-  background-color: #38bdf8;
-} */
-
-/* nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-} */
-
-/* nav a:first-child:hover {
-  color: #38bdf8;
-} */
-
-
-
 .header {
-  background-color: #e53e3e; /* rojo Pokémon */
+  background-color: #e53e3e;
   color: white;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 0.75rem 1rem;
 }
-
-/* .header nav {
-  max-width: 72rem;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
 
 .header .logo {
   display: flex;
@@ -134,7 +38,7 @@
 }
 
 .header ul li a:hover {
-  color: #d69e2e; /* amarillo suave */
+  color: #d69e2e;
 }
 
 nav {

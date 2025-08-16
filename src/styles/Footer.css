@@ -20,31 +20,28 @@
 
 .footer p {
   margin: 0.25rem 0;
-  font-size: 1.125rem; /* un poco más grande */
-  line-height: 1.4; /* para que no se vea apelmazado */
+  font-size: 1.125rem;
+  line-height: 1.4;
 }
 
 .footer-logos-row {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem; /* margen uniforme entre logos */
+  gap: 1.5rem;
   margin: 0.5rem 0;
 }
 
 .footer-logos-row img {
-  height: 200px; /* mismo tamaño para todos */
+  height: 200px;
   width: auto;
   object-fit: contain;
 }
 
-/* Aplica el invert solo a Nintendo y Creatures */
 .footer-logos-row img.invert {
   filter: brightness(0) invert(1);
 }
 
-/* Ajuste especial para Creatures */
 .footer-logos-row img.creatures-logo {
-  height: 50px; /* más pequeño para compensar su proporción */
+  height: 50px;
 }
-

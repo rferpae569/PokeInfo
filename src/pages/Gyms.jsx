@@ -32,30 +32,41 @@ export default function Gyms() {
                         gym.type.split(" / ").map((tipo) => (
                           <img
                             key={tipo}
-                            src={`/icons/tipos/${tipo.trim()}.png`} // sin cambiar mayúsculas/minúsculas
+                            src={`/icons/tipos/${tipo.trim()}.png`}
                             alt={`Tipo ${tipo.trim()}`}
                             className="type-icon"
                           />
                         ))
                       ) : (
                         <img
-                          src={`/icons/tipos/${gym.type.trim()}.png`} // sin cambiar mayúsculas/minúsculas
+                          src={`/icons/tipos/${gym.type.trim()}.png`}
                           alt={`Tipo ${gym.type.trim()}`}
                           className="type-icon"
                         />
                       )}
                     </p>
-                    {/* Insignia */}
-{gym.badgeImage && (
-  <p className="gym-badge">
-    <strong>Insignia:</strong>{" "}
-    <img
-      src={gym.badgeImage}
-      alt={`Insignia de ${gym.city}`}
-      className="badge-image"
-    />
-  </p>
-)}
+                    {/* Insignias */}
+                    {gym.badgeImage && (
+                      <p className="gym-badge">
+                        <strong>Medalla:</strong>{" "}
+                        {Array.isArray(gym.badgeImage) ? (
+                          gym.badgeImage.map((badge, index) => (
+                            <img
+                              key={index}
+                              src={badge}
+                              alt={`Insignia ${index + 1} de ${gym.city}`}
+                              className="badge-image"
+                            />
+                          ))
+                        ) : (
+                          <img
+                            src={gym.badgeImage}
+                            alt={`Insignia de ${gym.city}`}
+                            className="badge-image"
+                          />
+                        )}
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>

@@ -68,13 +68,6 @@ export default function Gyms() {
 
                 <h3>{gym.city}</h3>
 
-                <button
-                  className="toggle-btn"
-                  onClick={() => toggleCard(gym.city)}
-                >
-                  {openCard === gym.city ? "Cerrar" : "Ver detalles"}
-                </button>
-
                 <GymDetails isOpen={openCard === gym.city}>
                   <p>
                     <strong>Líder:</strong> {gym.leader}
@@ -82,14 +75,16 @@ export default function Gyms() {
                   <p>
                     <strong>Tipo:</strong>{" "}
                     {gym.type.includes(" / ") ? (
-                      gym.type.split(" / ").map((tipo) => (
-                        <img
-                          key={tipo}
-                          src={`/icons/tipos/${tipo.trim()}.png`}
-                          alt={`Tipo ${tipo.trim()}`}
-                          className="type-icon"
-                        />
-                      ))
+                      gym.type
+                        .split(" / ")
+                        .map((tipo) => (
+                          <img
+                            key={tipo}
+                            src={`/icons/tipos/${tipo.trim()}.png`}
+                            alt={`Tipo ${tipo.trim()}`}
+                            className="type-icon"
+                          />
+                        ))
                     ) : (
                       <img
                         src={`/icons/tipos/${gym.type.trim()}.png`}
@@ -120,6 +115,12 @@ export default function Gyms() {
                     </p>
                   )}
                 </GymDetails>
+                <button
+                  className="toggle-btn"
+                  onClick={() => toggleCard(gym.city)}
+                >
+                  {openCard === gym.city ? "Cerrar" : "Ver detalles"}
+                </button>
               </motion.div>
             ))}
           </div>

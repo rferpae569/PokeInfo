@@ -1,5 +1,8 @@
-export async function getPokemons(limit = 10) {
-  const res = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}`);
-  const data = await res.json();
-  return data.results;
+// pokeapi.js
+
+// Obtiene un pokemon específico (por id o nombre)
+export async function getPokemon(pokemon) {
+  const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
+  if (!res.ok) return null;
+  return await res.json();
 }

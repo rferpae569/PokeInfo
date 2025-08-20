@@ -94,3 +94,249 @@ button:active {
   box-shadow: inset -4px 4px 0 #222;
   font-size: 0.9rem;
 }
+
+.intro {
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.intro img.profesor {
+  margin-top: 20px;
+  width: 200px;
+}
+
+.tipos {
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 450px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+  overflow: hidden;
+}
+
+.carousel-slide {
+  text-align: center;
+  max-width: 500px;
+  opacity: 1;
+}
+
+.carousel-slide img {
+  width: 250px;
+  object-fit: contain;
+}
+
+.carousel-slide h3 {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  color: #ffcb05;
+}
+
+.carousel-slide p {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #ddd;
+  line-height: 1.4;
+}
+
+.fade-in.right {
+  animation: fadeInRight 0.4s ease forwards;
+}
+
+.fade-out.right {
+  animation: fadeOutLeft 0.4s ease forwards;
+}
+
+.fade-in.left {
+  animation: fadeInLeft 0.4s ease forwards;
+}
+
+.fade-out.left {
+  animation: fadeOutRight 0.4s ease forwards;
+}
+
+@keyframes fadeInRight {
+  from { opacity: 0; transform: translateX(40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeOutLeft {
+  from { opacity: 1; transform: translateX(0); }
+  to { opacity: 0; transform: translateX(-40px); }
+}
+
+@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeOutRight {
+  from { opacity: 1; transform: translateX(0); }
+  to { opacity: 0; transform: translateX(40px); }
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.15);
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+  z-index: 10;
+}
+
+.carousel-btn:hover {
+  background: rgba(255,255,255,0.35);
+}
+
+.carousel-btn.left {
+  left: 10px;
+}
+
+.carousel-btn.right {
+  right: 10px;
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: rgba(255,255,255,0.4);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.dot.active {
+  background: #ffcb05;
+}
+
+.funcionamiento {
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+}
+
+.funcionamiento p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+h1, h2{
+color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid #e53e3e;
+  padding-bottom: 0.5rem;
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-image {
+  flex: 1;
+  text-align: center;
+}
+
+.intro-image img.profesor, img.funcpokedex {
+  width: 220px;
+}
+
+.leyenda {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+}
+
+.funcionamiento-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.funcionamiento-image {
+  flex: 1;
+  text-align: center;
+}
+
+.funcionamiento-image img.profesor {
+  width: 200px;
+}
+
+.funcionamiento-image .leyenda {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.funcionamiento-image {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-template-rows: auto auto;
+  gap: 10px 20px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.funcionamiento-image img {
+  width: 200px;
+  border-radius: 8px;
+  grid-row: 1;
+}
+
+.funcionamiento-image .leyenda {
+  grid-row: 2;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  max-width: 160px;
+}
+
+

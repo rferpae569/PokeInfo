@@ -108,7 +108,6 @@ button:active {
 
 .tipos {
   margin: 40px auto;
-  max-width: 800px;
   text-align: center;
 }
 
@@ -117,7 +116,7 @@ button:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 600px;
+  width: 1200px;
   height: 450px;
   margin: 30px auto;
   padding: 20px;
@@ -293,7 +292,6 @@ color: #ffffff;
 }
 
 .funcionamiento-content {
-  max-width: 900px;
   margin: 0 auto;
   text-align: left;
 }

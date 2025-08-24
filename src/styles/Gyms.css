@@ -98,3 +98,15 @@
   background-color: #c53030;
 }
 
+.leader-image-container {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.leader-image {
+  max-width: 120px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+

@@ -9,7 +9,24 @@ function GymDetails({ isOpen, children }) {
 
   useEffect(() => {
     if (ref.current) {
-      setHeight(ref.current.scrollHeight);
+      const updateHeight = () => {
+        setHeight(ref.current.scrollHeight);
+      };
+
+      // Actualiza altura inicial
+      updateHeight();
+
+      // Escucha carga de imágenes dentro del contenido
+      const images = ref.current.querySelectorAll("img");
+      images.forEach((img) => {
+        if (!img.complete) {
+          img.addEventListener("load", updateHeight);
+        }
+      });
+
+      return () => {
+        images.forEach((img) => img.removeEventListener("load", updateHeight));
+      };
     }
   }, [children, isOpen]);
 
@@ -72,6 +89,15 @@ export default function Gyms() {
                   <p>
                     <strong>Líder:</strong> {gym.leader}
                   </p>
+                  {gym.leaderImage && (
+                    <div className="leader-image-container">
+                      <img
+                        src={gym.leaderImage}
+                        alt={`Líder ${gym.leader} de ${gym.city}`}
+                        className="leader-image"
+                      />
+                    </div>
+                  )}
                   <p>
                     <strong>Tipo:</strong>{" "}
                     {gym.type.includes(" / ") ? (

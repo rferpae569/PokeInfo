@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { getPokemon } from "../services/pokeapi";
 import "../styles/pokedex.css";
 
-// Carrusel con imágenes e informacion
+// Carrusel con imágenes, informacion y sus animaciones
 function Carousel({ data, autoPlay = true, interval = 4000 }) {
   const [current, setCurrent] = useState(0);
   const [animation, setAnimation] = useState("fade-in");
@@ -86,6 +86,7 @@ function Pokedex() {
     e.preventDefault();
     if (!search) return;
 
+    //Condicional para crear un rango entre 1 y 649 (asi solo podra buscar los pokemon de dicho rango)
     if (!isNaN(search) && (search < 1 || search > 649)) {
       alert("Fuera de rango (1-649)");
       return;
@@ -95,11 +96,13 @@ function Pokedex() {
     setSearch("");
   };
 
+  //Para retroceder al anterior pokemon en la pokedex
   const prevPokemon = () => {
     const newId = currentId > 1 ? currentId - 1 : 649;
     fetchAndSetPokemon(newId);
   };
 
+  //Para avanzar hacia el siguiente pokemon en la pokedex
   const nextPokemon = () => {
     const newId = currentId < 649 ? currentId + 1 : 1;
     fetchAndSetPokemon(newId);
@@ -219,6 +222,7 @@ export default function PokedexPage() {
 
   return (
     <div>
+      {/*Animaciones y Datos sobre pokedex*/}
       <motion.section
         className="intro"
         initial={{ opacity: 0, y: 40 }}
@@ -310,7 +314,8 @@ export default function PokedexPage() {
           múltiples diseños de Pokédex, cada uno con características únicas y
           adaptados a la región correspondiente.
         </p>
-        <Carousel data={pokedexData} />
+        <Carousel data={pokedexData} />{" "}
+        {/*Carrousel con las distintas pokedex*/}
       </motion.section>
 
       {/* Pokedex funcional */}
@@ -328,7 +333,7 @@ export default function PokedexPage() {
           También puedes desplazarte entre Pokémon usando los botones de
           anterior y siguiente.
         </p>
-        <Pokedex />
+        <Pokedex /> {/*Con esta llamada mostramos la pokedex interactiva*/}
       </motion.section>
     </div>
   );

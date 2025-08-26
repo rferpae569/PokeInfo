@@ -36,8 +36,8 @@
       },
       {
         "city": "Ciudad Fucsia",
-        "leader": "Koga/Sachiko",
-        "leaderImage": "/gyms/Lideres/Brock.png",
+        "leader": ["Koga", "Sachiko"],
+        "leaderImage": ["/gyms/Lideres/Koga.png", "/gyms/Lideres/Sachiko.png"],
         "type": "Veneno",
         "gymImage": "/gyms/Kanto/GymFucsia.webp",
         "badgeImage": "/Insignias/MedallaAlma.webp"
@@ -60,8 +60,8 @@
       },
       {
         "city": "Ciudad Verde",
-        "leader": "Giovanni/Azul",
-        "leaderImage": "/gyms/Lideres/Brock.png",
+        "leader": ["Giovanni", "Azul"],
+        "leaderImage": ["/gyms/Lideres/Giovanni.png", "/gyms/Lideres/Azul.png"],
         "type": "Tierra",
         "gymImage": "/gyms/Kanto/GymVerde.webp",
         "badgeImage": "/Insignias/MedallaTierra.webp"
@@ -183,7 +183,7 @@
       {
         "city": "Ciudad Algaria",
         "leader": "Vito y Leti",
-        "leaderImage": "/gyms/Lideres/Brock.png",
+        "leaderImage": "/gyms/Lideres/VitoLeti.png",
         "type": "Psiquico",
         "gymImage": "/gyms/Hoenn/GymAlgaria.jpg",
         "badgeImage": "/Insignias/MedallaMente.webp"
@@ -264,8 +264,12 @@
     "gyms": [
       {
         "city": "Ciudad Gres",
-        "leader": "Millo / Zeo / Maíz",
-        "leaderImage": "/gyms/Lideres/Brock.png",
+        "leader": ["Millo", "Zeo", "Maíz"],
+        "leaderImage": [
+          "/gyms/Lideres/Millo.png",
+          "/gyms/Lideres/Zeo.png",
+          "/gyms/Lideres/Maiz.png"
+        ],
         "type": "Planta / Fuego / Agua",
         "gymImage": "/gyms/Teselia/GymGres.webp",
         "badgeImage": "/Insignias/MedallaTrio.webp"
@@ -304,8 +308,8 @@
       },
       {
         "city": "Ciudad Caolín",
-        "leader": "Lirio / Iris",
-        "leaderImage": "/gyms/Lideres/Brock.png",
+        "leader": ["Lirio", "Iris"],
+        "leaderImage": ["/gyms/Lideres/Lirio.png", "/gyms/Lideres/Iris.png"],
         "type": "Dragon",
         "gymImage": "/gyms/Teselia/GymCaolin.webp",
         "badgeImage": "/Insignias/MedallaLeyenda.webp"
@@ -373,8 +377,8 @@
       },
       {
         "city": "Ciudad Luminalia",
-        "leader": "Lem / Clembot / Lembot",
-        "leaderImage": "/gyms/Lideres/Brock.png",
+        "leader": ["Lem", "Cemblot"],
+        "leaderImage": ["/gyms/Lideres/Lem.png", "/gyms/Lideres/Cemblot.png"],
         "type": "Electrico",
         "gymImage": "/gyms/Kalos/GymLuminalia.webp",
         "badgeImage": "/Insignias/MedallaVoltaje.webp"
@@ -426,8 +430,11 @@
       },
       {
         "city": "Ciudad Ladera",
-        "leader": "Judith / Alistair",
-        "leaderImage": "/gyms/Lideres/Brock.png",
+        "leader": ["Judith", "Alistair"],
+        "leaderImage": [
+          "/gyms/Lideres/Judith.png",
+          "/gyms/Lideres/Alistair.png"
+        ],
         "type": "Lucha / Fantasma",
         "gymImage": "/gyms/Galar/GymLadera.png",
         "badgeImage": [
@@ -437,8 +444,8 @@
       },
       {
         "city": "Ciudad Auriga",
-        "leader": "Morris / Mel",
-        "leaderImage": "/gyms/Lideres/Brock.png",
+        "leader": ["Morris", "Mel"],
+        "leaderImage": ["/gyms/Lideres/Morris.png", "/gyms/Lideres/Mel.png"],
         "type": "Roca / Hielo",
         "gymImage": "/gyms/Galar/GymAuriga.png",
         "badgeImage": [
@@ -448,8 +455,8 @@
       },
       {
         "city": "Pueblo Crampón",
-        "leader": "Nerio / Roxy",
-        "leaderImage": "/gyms/Lideres/Brock.png",
+        "leader": ["Nerio", "Roxy"],
+        "leaderImage": ["/gyms/Lideres/Nerio.png", "/gyms/Lideres/Roxy.png"],
         "type": "Siniestro",
         "gymImage": "/gyms/Galar/GymCrampon.png",
         "badgeImage": "/Insignias/MedallaSiniestro.png"
@@ -464,8 +471,8 @@
       },
       {
         "city": "Ciudad Plie",
-        "leader": "Sally / Berto",
-        "leaderImage": "/gyms/Lideres/Brock.png",
+        "leader": ["Sally", "Berto"],
+        "leaderImage": ["/gyms/Lideres/Sally.png", "/gyms/Lideres/Berto.png"],
         "type": "Hada",
         "gymImage": "/gyms/Galar/GymPlie.png",
         "badgeImage": "/Insignias/MedallaHada.png"

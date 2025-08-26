@@ -30,6 +30,7 @@ function GymDetails({ isOpen, children }) {
     }
   }, [children, isOpen]);
 
+  //Animacion para la pagina
   return (
     <AnimatePresence>
       {isOpen && (
@@ -47,6 +48,7 @@ function GymDetails({ isOpen, children }) {
   );
 }
 
+//Muestra los datos almacenados de los distintos gimnasios
 export default function Gyms() {
   const [openCard, setOpenCard] = useState(null);
 
@@ -56,6 +58,7 @@ export default function Gyms() {
 
   return (
     <div className="gyms-wrapper">
+      {/*Region*/}
       {gymsData.map((region) => (
         <motion.div
           key={region.region}
@@ -83,13 +86,30 @@ export default function Gyms() {
                   className="gym-image"
                 />
 
+                {/* Ciudad */}
                 <h3>{gym.city}</h3>
 
+                {/* Lider e imagen */}
                 <GymDetails isOpen={openCard === gym.city}>
                   <p>
-                    <strong>Líder:</strong> {gym.leader}
+                    <strong>Líder:</strong>{" "}
+                    {Array.isArray(gym.leader)
+                      ? gym.leader.join(" / ")
+                      : gym.leader}
                   </p>
-                  {gym.leaderImage && (
+
+                  {Array.isArray(gym.leaderImage) ? (
+                    <div className="leader-image-container">
+                      {gym.leaderImage.map((img, index) => (
+                        <img
+                          key={index}
+                          src={img}
+                          alt={`Líder ${gym.leader[index]} de ${gym.city}`}
+                          className="leader-image"
+                        />
+                      ))}
+                    </div>
+                  ) : (
                     <div className="leader-image-container">
                       <img
                         src={gym.leaderImage}
@@ -98,6 +118,7 @@ export default function Gyms() {
                       />
                     </div>
                   )}
+                  {/* Tipo gimnasio e imagen */}
                   <p>
                     <strong>Tipo:</strong>{" "}
                     {gym.type.includes(" / ") ? (
@@ -119,6 +140,7 @@ export default function Gyms() {
                       />
                     )}
                   </p>
+                  {/* Medalla gimnasio */}
                   {gym.badgeImage && (
                     <p className="gym-badge">
                       <strong>Medalla:</strong>{" "}
@@ -141,6 +163,7 @@ export default function Gyms() {
                     </p>
                   )}
                 </GymDetails>
+                {/* Boton detalles tarjeta */}
                 <button
                   className="toggle-btn"
                   onClick={() => toggleCard(gym.city)}

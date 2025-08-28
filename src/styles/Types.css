@@ -1,0 +1,49 @@
+.types-container {
+  padding: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.types-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #f3f4f6;
+}
+
+.types-subtitle {
+  margin-bottom: 1.5rem;
+}
+
+.types-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6.5rem;
+}
+
+.type-card {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+  width: 140%;
+  max-width: 300px;
+}
+
+.type-card:hover {
+  transform: translateY(-4px);
+}
+
+.type-card img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.type-card span {
+  font-weight: bold;
+}

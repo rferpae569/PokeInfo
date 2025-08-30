@@ -199,27 +199,29 @@ export default function Types() {
         }}
       >
         {selectedType && TYPE_DETAILS[selectedType] && (
-          <motion.div
-            key={selectedType}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 20 }}
-            transition={{ duration: 0.4 }}
-            className="type-info-content"
-          >
-            <h3>{selectedType}</h3>
-            <img
-              src={TYPE_DETAILS[selectedType].image}
-              alt={selectedType}
-              className="type-info-img"
-            />
-            <p>{TYPE_DETAILS[selectedType].description}</p>
+          <div style={{ top: 0, left: 0, width: "300px" }}>
+            <motion.div
+              key={selectedType}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 20 }}
+              transition={{ duration: 0.4 }}
+              className="type-info-content"
+            >
+              <h3>{selectedType}</h3>
+              <img
+                src={TYPE_DETAILS[selectedType].image}
+                alt={selectedType}
+                className="type-info-img"
+              />
+              <p>{TYPE_DETAILS[selectedType].description}</p>
 
-            {/* Botón de cerrar */}
-            <button className="toggle-btn" onClick={closePanel}>
-              Cerrar
-            </button>
-          </motion.div>
+              {/* Botón de cerrar */}
+              <button className="toggle-btn" onClick={closePanel}>
+                Cerrar
+              </button>
+            </motion.div>
+          </div>
         )}
       </motion.div>
     </div>

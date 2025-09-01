@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import "../styles/Enfrentamiento.css";
 
 export default function Enfrentamiento({ TYPES, TYPE_DETAILS }) {
@@ -202,115 +202,53 @@ export default function Enfrentamiento({ TYPES, TYPE_DETAILS }) {
         ))}
       </div>
 
-      {/* Botón Luchar */}
-      {slot1 && slot2 && (
-        <motion.button
-          className="fight-btn"
-          whileHover={{ scale: 1.05 }}
-          onClick={luchar}
-        >
-          Luchar
-        </motion.button>
-      )}
+      <AnimatePresence>
+        {slot1 && slot2 && (
+          <motion.button
+            key="fight-btn"
+            className="fight-btn"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 10 }}
+            transition={{ duration: 0.3, ease: "easeOut" }}
+            whileHover={{ scale: 1.05 }}
+            onClick={luchar}
+          >
+            Luchar
+          </motion.button>
+        )}
+      </AnimatePresence>
 
-      {/* Resultado */}
-      {resultado && (
-        <motion.div
-          className="resultado-card"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          style={{ marginTop: "15px" }}
-        >
-          <p>{resultado}</p>
+      <AnimatePresence>
+        {/* Resultado */}
+        {resultado && (
+          <motion.div
+            className="resultado-card"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 20, height: 0, marginTop: 0 }}
+            transition={{ duration: 0.5 }}
+            style={{ marginTop: "15px", overflow: "hidden" }}
+          >
+            <p>{resultado}</p>
 
-          {/* Mostrar detalles */}
-          {ganadorInfo && (
-            <div className="info-ganador">
-              {ganadorInfo.ganador ? (
-                <>
-                  {/* Ganador */}
-                  <div className="tipo-card">
-                    {/* Logo del tipo ganador */}
-                    <img
-                      src={TYPE_DETAILS[ganadorInfo.ganador.name].image}
-                      alt={ganadorInfo.ganador.name}
-                      className="tipo-logo"
-                    />
-
-                    <h4>Ventajas:</h4>
-                    <div className="tipo-list">
-                      {ganadorInfo.ganador.ventajas.map((tipo) => (
-                        <img
-                          key={tipo}
-                          src={TYPE_MATCHUPS[tipo]?.icon}
-                          alt={tipo}
-                          className="tipo-mini"
-                        />
-                      ))}
-                    </div>
-
-                    <h4>Debilidades:</h4>
-                    <div className="tipo-list">
-                      {ganadorInfo.ganador.debilidades.map((tipo) => (
-                        <img
-                          key={tipo}
-                          src={TYPE_MATCHUPS[tipo]?.icon}
-                          alt={tipo}
-                          className="tipo-mini"
-                        />
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Perdedor */}
-                  <div className="tipo-card">
-                    {/* Logo del tipo perdedor */}
-                    <img
-                      src={TYPE_DETAILS[ganadorInfo.perdedor.name].image}
-                      alt={ganadorInfo.perdedor.name}
-                      className="tipo-logo"
-                    />
-
-                    <h4>Ventajas:</h4>
-                    <div className="tipo-list">
-                      {ganadorInfo.perdedor.ventajas.map((tipo) => (
-                        <img
-                          key={tipo}
-                          src={TYPE_MATCHUPS[tipo]?.icon}
-                          alt={tipo}
-                          className="tipo-mini"
-                        />
-                      ))}
-                    </div>
-
-                    <h4>Debilidades:</h4>
-                    <div className="tipo-list">
-                      {ganadorInfo.perdedor.debilidades.map((tipo) => (
-                        <img
-                          key={tipo}
-                          src={TYPE_MATCHUPS[tipo]?.icon}
-                          alt={tipo}
-                          className="tipo-mini"
-                        />
-                      ))}
-                    </div>
-                  </div>
-                </>
-              ) : (
-                <>
-                  {/* Empate */}
-                  {ganadorInfo.empate.map((tipoObj) => (
-                    <div key={tipoObj.name} className="tipo-card">
+            {/* Mostrar detalles */}
+            {ganadorInfo && (
+              <div className="info-ganador">
+                {ganadorInfo.ganador ? (
+                  <>
+                    {/* Ganador */}
+                    <div className="tipo-card">
+                      {/* Logo del tipo ganador */}
                       <img
-                        src={TYPE_DETAILS[tipoObj.name].image}
-                        alt={tipoObj.name}
+                        src={TYPE_DETAILS[ganadorInfo.ganador.name].image}
+                        alt={ganadorInfo.ganador.name}
                         className="tipo-logo"
                       />
 
                       <h4>Ventajas:</h4>
                       <div className="tipo-list">
-                        {tipoObj.ventajas.map((tipo) => (
+                        {ganadorInfo.ganador.ventajas.map((tipo) => (
                           <img
                             key={tipo}
                             src={TYPE_MATCHUPS[tipo]?.icon}
@@ -322,7 +260,7 @@ export default function Enfrentamiento({ TYPES, TYPE_DETAILS }) {
 
                       <h4>Debilidades:</h4>
                       <div className="tipo-list">
-                        {tipoObj.debilidades.map((tipo) => (
+                        {ganadorInfo.ganador.debilidades.map((tipo) => (
                           <img
                             key={tipo}
                             src={TYPE_MATCHUPS[tipo]?.icon}
@@ -332,21 +270,92 @@ export default function Enfrentamiento({ TYPES, TYPE_DETAILS }) {
                         ))}
                       </div>
                     </div>
-                  ))}
-                </>
-              )}
-            </div>
-          )}
 
-          <motion.button
-            className="reset-btn"
-            whileHover={{ scale: 1.05 }}
-            onClick={reiniciar}
-          >
-            Reiniciar
-          </motion.button>
-        </motion.div>
-      )}
+                    {/* Perdedor */}
+                    <div className="tipo-card">
+                      {/* Logo del tipo perdedor */}
+                      <img
+                        src={TYPE_DETAILS[ganadorInfo.perdedor.name].image}
+                        alt={ganadorInfo.perdedor.name}
+                        className="tipo-logo"
+                      />
+
+                      <h4>Ventajas:</h4>
+                      <div className="tipo-list">
+                        {ganadorInfo.perdedor.ventajas.map((tipo) => (
+                          <img
+                            key={tipo}
+                            src={TYPE_MATCHUPS[tipo]?.icon}
+                            alt={tipo}
+                            className="tipo-mini"
+                          />
+                        ))}
+                      </div>
+
+                      <h4>Debilidades:</h4>
+                      <div className="tipo-list">
+                        {ganadorInfo.perdedor.debilidades.map((tipo) => (
+                          <img
+                            key={tipo}
+                            src={TYPE_MATCHUPS[tipo]?.icon}
+                            alt={tipo}
+                            className="tipo-mini"
+                          />
+                        ))}
+                      </div>
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    {/* Empate */}
+                    {ganadorInfo.empate.map((tipoObj) => (
+                      <div key={tipoObj.name} className="tipo-card">
+                        <img
+                          src={TYPE_DETAILS[tipoObj.name].image}
+                          alt={tipoObj.name}
+                          className="tipo-logo"
+                        />
+
+                        <h4>Ventajas:</h4>
+                        <div className="tipo-list">
+                          {tipoObj.ventajas.map((tipo) => (
+                            <img
+                              key={tipo}
+                              src={TYPE_MATCHUPS[tipo]?.icon}
+                              alt={tipo}
+                              className="tipo-mini"
+                            />
+                          ))}
+                        </div>
+
+                        <h4>Debilidades:</h4>
+                        <div className="tipo-list">
+                          {tipoObj.debilidades.map((tipo) => (
+                            <img
+                              key={tipo}
+                              src={TYPE_MATCHUPS[tipo]?.icon}
+                              alt={tipo}
+                              className="tipo-mini"
+                            />
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </>
+                )}
+              </div>
+            )}
+
+            <motion.button
+              className="reset-btn"
+              whileHover={{ scale: 1.05 }}
+              onClick={reiniciar}
+            >
+              Reiniciar
+            </motion.button>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </motion.div>
   );
 }

@@ -21,6 +21,7 @@ import voladorImg from "/icons/logoTipos/Volador.svg";
 import Enfrentamiento from "../components/Enfrentamiento";
 import "../styles/Types.css";
 
+//Asociamos el nombre con las imagenes de los distintos pokemon
 const TYPES = [
   { name: "Acero", img: aceroImg },
   { name: "Agua", img: aguaImg },
@@ -42,6 +43,7 @@ const TYPES = [
   { name: "Volador", img: voladorImg },
 ];
 
+//Tipos de pokemon con su informacion correspondiente
 const TYPE_DETAILS = {
   Acero: {
     description:
@@ -156,77 +158,81 @@ export default function Types() {
 
   return (
     <div>
-    <div className="types-wrapper">
-      <motion.div
-        className="types-container"
-        animate={{
-          x: selectedType ? -150 : 0,
-          transition: { type: "spring", stiffness: 100, damping: 20 },
-        }}
-      >
-        <motion.h2 {...fadeUp} className="types-title">
-          Tipos de Pokémon
-        </motion.h2>
-        <motion.p {...fadeUp} className="types-subtitle">
-          Aquí mostraremos todos los tipos y sus fortalezas/debilidades.
-        </motion.p>
+      <div className="types-wrapper">
+        <motion.div
+          className="types-container"
+          animate={{
+            x: selectedType ? -150 : 0,
+            transition: { type: "spring", stiffness: 100, damping: 20 },
+          }}
+        >
+          <motion.h2 {...fadeUp} className="types-title">
+            Tipos de Pokémon
+          </motion.h2>
+          <motion.p {...fadeUp} className="types-subtitle">
+            Aquí mostraremos todos los tipos y sus fortalezas/debilidades.
+          </motion.p>
 
-        <div className="types-grid">
-          {TYPES.map(({ name, img }, i) => (
-            <motion.div
-              key={name}
-              {...cardAnim(i)}
-              whileHover={{
-                y: -4,
-                scale: 1.02,
-                transition: { duration: 0.15 },
-              }}
-              className={`type-card ${selectedType === name ? "selected" : ""}`}
-              onClick={() => setSelectedType(name)}
-            >
-              <img src={img} alt={name} />
-              <span>{name}</span>
-            </motion.div>
-          ))}
-        </div>
-      </motion.div>
-
-      <motion.div
-        className="type-info-panel"
-        initial={{ width: 0, opacity: 0 }}
-        animate={{
-          width: selectedType ? "300px" : 0,
-          opacity: selectedType ? 1 : 0,
-          transition: { type: "spring", stiffness: 100, damping: 20 },
-        }}
-      >
-        {selectedType && TYPE_DETAILS[selectedType] && (
-          <div style={{ top: 0, left: 0, width: "300px" }}>
-            <motion.div
-              key={selectedType}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: 20 }}
-              transition={{ duration: 0.4 }}
-              className="type-info-content"
-            >
-              <h3>{selectedType}</h3>
-              <img
-                src={TYPE_DETAILS[selectedType].image}
-                alt={selectedType}
-                className="type-info-img"
-              />
-              <p>{TYPE_DETAILS[selectedType].description}</p>
-
-              {/* Botón de cerrar */}
-              <button className="toggle-btn" onClick={closePanel}>
-                Cerrar
-              </button>
-            </motion.div>
+          {/* Mostramos en un apartado el logo y el nombre de los distintos tipos de pokemon*/}
+          <div className="types-grid">
+            {TYPES.map(({ name, img }, i) => (
+              <motion.div
+                key={name}
+                {...cardAnim(i)}
+                whileHover={{
+                  y: -4,
+                  scale: 1.02,
+                  transition: { duration: 0.15 },
+                }}
+                className={`type-card ${
+                  selectedType === name ? "selected" : ""
+                }`}
+                onClick={() => setSelectedType(name)}
+              >
+                <img src={img} alt={name} />
+                <span>{name}</span>
+              </motion.div>
+            ))}
           </div>
-        )}
-      </motion.div>
-    </div>
+        </motion.div>
+
+        {/* Informaicon correspondiente del tipo seleccionado */}
+        <motion.div
+          className="type-info-panel"
+          initial={{ width: 0, opacity: 0 }}
+          animate={{
+            width: selectedType ? "300px" : 0,
+            opacity: selectedType ? 1 : 0,
+            transition: { type: "spring", stiffness: 100, damping: 20 },
+          }}
+        >
+          {selectedType && TYPE_DETAILS[selectedType] && (
+            <div style={{ top: 0, left: 0, width: "300px" }}>
+              <motion.div
+                key={selectedType}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 20 }}
+                transition={{ duration: 0.4 }}
+                className="type-info-content"
+              >
+                <h3>{selectedType}</h3>
+                <img
+                  src={TYPE_DETAILS[selectedType].image}
+                  alt={selectedType}
+                  className="type-info-img"
+                />
+                <p>{TYPE_DETAILS[selectedType].description}</p>
+
+                {/* Botón de cerrar */}
+                <button className="toggle-btn" onClick={closePanel}>
+                  Cerrar
+                </button>
+              </motion.div>
+            </div>
+          )}
+        </motion.div>
+      </div>
       {/* Llamamos al componente enfrentamiento */}
       <Enfrentamiento TYPES={TYPES} TYPE_DETAILS={TYPE_DETAILS} />
     </div>

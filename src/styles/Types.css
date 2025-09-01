@@ -97,7 +97,6 @@
   transition: background 0.2s ease;
 }
 
-.close-panel-btn:hover{
+.close-panel-btn:hover {
   background-color: #c53030;
 }
-

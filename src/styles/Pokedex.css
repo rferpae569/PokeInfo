@@ -122,7 +122,7 @@ button:active {
   padding: 20px;
   background: #1a1a1a;
   border-radius: 20px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
   overflow: hidden;
 }
 
@@ -167,30 +167,54 @@ button:active {
 }
 
 @keyframes fadeInRight {
-  from { opacity: 0; transform: translateX(40px); }
-  to { opacity: 1; transform: translateX(0); }
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes fadeOutLeft {
-  from { opacity: 1; transform: translateX(0); }
-  to { opacity: 0; transform: translateX(-40px); }
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
 }
 
 @keyframes fadeInLeft {
-  from { opacity: 0; transform: translateX(-40px); }
-  to { opacity: 1; transform: translateX(0); }
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes fadeOutRight {
-  from { opacity: 1; transform: translateX(0); }
-  to { opacity: 0; transform: translateX(40px); }
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(40px);
+  }
 }
 
 .carousel-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255,255,255,0.15);
+  background: rgba(255, 255, 255, 0.15);
   border: none;
   border-radius: 50%;
   font-size: 1.5rem;
@@ -206,7 +230,7 @@ button:active {
 }
 
 .carousel-btn:hover {
-  background: rgba(255,255,255,0.35);
+  background: rgba(255, 255, 255, 0.35);
 }
 
 .carousel-btn.left {
@@ -229,7 +253,7 @@ button:active {
 .dot {
   width: 12px;
   height: 12px;
-  background: rgba(255,255,255,0.4);
+  background: rgba(255, 255, 255, 0.4);
   border-radius: 50%;
   cursor: pointer;
   transition: background 0.3s ease;
@@ -251,8 +275,9 @@ button:active {
   line-height: 1.6;
 }
 
-h1, h2{
-color: #ffffff;
+h1,
+h2 {
+  color: #ffffff;
   font-size: 2rem;
   margin-bottom: 1.5rem;
   text-align: center;
@@ -279,7 +304,8 @@ color: #ffffff;
   text-align: center;
 }
 
-.intro-image img.profesor, img.funcpokedex {
+.intro-image img.profesor,
+img.funcpokedex {
   width: 220px;
 }
 
@@ -314,7 +340,7 @@ color: #ffffff;
 
 .funcionamiento-image {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); 
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto auto;
   gap: 10px 20px;
   justify-items: center;
@@ -336,5 +362,3 @@ color: #ffffff;
   text-align: center;
   max-width: 160px;
 }
-
-

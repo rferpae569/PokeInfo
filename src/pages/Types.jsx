@@ -18,6 +18,7 @@ import siniestroImg from "/icons/logoTipos/Siniestro.svg";
 import tierraImg from "/icons/logoTipos/Tierra.svg";
 import venenoImg from "/icons/logoTipos/Veneno.svg";
 import voladorImg from "/icons/logoTipos/Volador.svg";
+import Enfrentamiento from "../components/Enfrentamiento";
 import "../styles/Types.css";
 
 const TYPES = [
@@ -154,6 +155,7 @@ export default function Types() {
   const closePanel = () => setSelectedType(null);
 
   return (
+    <div>
     <div className="types-wrapper">
       <motion.div
         className="types-container"
@@ -224,6 +226,9 @@ export default function Types() {
           </div>
         )}
       </motion.div>
+    </div>
+      {/* Llamamos al componente enfrentamiento */}
+      <Enfrentamiento TYPES={TYPES} TYPE_DETAILS={TYPE_DETAILS} />
     </div>
   );
 }

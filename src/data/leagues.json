@@ -13,9 +13,17 @@
       "/Insignias/Kanto/MedallaVolcan.webp",
       "/Insignias/Kanto/MedallaTierra.webp"
     ],
-    "logo": "/logos/kanto-league.png",
-    "eliteFour": ["Lorelei", "Bruno", "Agatha", "Lance"],
-    "champion": "Blue",
-    "featuredPokemon": ["charizard", "blastoise", "venusaur"]
+    "eliteFour": [
+      { "name": "Lorelei", "image": "/leagues/eliteFour/Lorelei.png" },
+      { "name": "Bruno", "image": "/leagues/eliteFour/Bruno.png" },
+      { "name": "Agatha", "image": "/leagues/eliteFour/Agatha.png" },
+      { "name": "Lance", "image": "/leagues/eliteFour/Lance.png" }
+    ],
+    "champion": {
+      "name": "Trace",
+      "image": "/leagues/champion/Trace.png"
+    },
+    "featuredPokemon": ["lapras", "onix", "machamp", "gyarados", "charizard"]
   }
 ]
+

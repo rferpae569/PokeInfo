@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getPokemon } from "../services/pokeapi";
 import leagues from "../data/leagues.json";
+import "../styles/Leagues.css";
 
 export default function Leagues() {
   const [pokemonSprites, setPokemonSprites] = useState({});
@@ -22,57 +23,62 @@ export default function Leagues() {
   }, []);
 
   return (
-    <div className="p-6 max-w-6xl mx-auto">
-      <h2 className="text-3xl font-bold mb-4">Ligas</h2>
-      <p className="mb-6">
+    <div className="leagues-container">
+      <h2 className="leagues-title">Ligas</h2>
+      <p className="leagues-description">
         Aquí mostraremos todas las ligas disponibles en el universo Pokémon.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="leagues-grid">
         {leagues.map((league) => (
-          <div
-            key={league.id}
-            className="bg-white shadow-lg rounded-2xl p-4 hover:scale-105 transition"
-          >
-            <img
-              src={league.logo}
-              alt={league.name}
-              className="w-20 mx-auto mb-2"
-            />
-            <h3 className="text-xl font-bold text-center">{league.name}</h3>
-            <p className="text-center text-gray-600">{league.region}</p>
+          <div key={league.id} className="league-card">
+            <h3 className="league-name">{league.name}</h3>
+            <p className="league-region">{league.region}</p>
 
-            <h4 className="mt-4 font-semibold">Insignias</h4>
-            <div className="grid grid-cols-4 gap-2 mt-2">
+            {/* Insignias */}
+            <h4 className="league-subtitle">Insignias para acceder</h4>
+            <div className="badges-grid">
               {league.badges.map((badge, i) => (
-                <img
-                  key={i}
-                  src={badge}
-                  alt={`badge-${i}`}
-                  className="w-8 h-8"
-                />
+                <img key={i} src={badge} alt={`badge-${i}`} className="badge" />
               ))}
             </div>
 
-            <h4 className="mt-4 font-semibold">Elite Four</h4>
-            <ul className="list-disc list-inside text-sm">
+            {/* Elite Four */}
+            <h4 className="league-subtitle">Elite Four</h4>
+            <div className="trainers-grid">
               {league.eliteFour.map((member, i) => (
-                <li key={i}>{member}</li>
+                <div key={i} className="trainer-card">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="trainer-img"
+                  />
+                  <p className="trainer-name">{member.name}</p>
+                </div>
               ))}
-            </ul>
+            </div>
 
-            <h4 className="mt-4 font-semibold">Campeón</h4>
-            <p>{league.champion}</p>
+            {/* Campeón */}
+            <h4 className="league-subtitle">Campeón</h4>
+            <div className="trainer-champion">
+              <img
+                src={league.champion.image}
+                alt={league.champion.name}
+                className="trainer-img champion"
+              />
+              <p className="trainer-name">{league.champion.name}</p>
+            </div>
 
-            <h4 className="mt-4 font-semibold">Pokémon destacados</h4>
-            <div className="flex gap-2 mt-2">
+            {/* Pokémon destacados */}
+            <h4 className="league-subtitle">Pokémon destacados</h4>
+            <div className="featured-pokemon">
               {league.featuredPokemon.map((p) =>
                 pokemonSprites[p] ? (
                   <img
                     key={p}
                     src={pokemonSprites[p]}
                     alt={p}
-                    className="w-12 h-12"
+                    className="pokemon-sprite"
                   />
                 ) : (
                   <span key={p}>Cargando...</span>
@@ -85,4 +91,5 @@ export default function Leagues() {
     </div>
   );
 }
+
 

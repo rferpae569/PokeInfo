@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Liga Pokémon de Kanto",
+    "region": "Kanto",
+    "badges": [
+      "/Insignias/Kanto/MedallaRoca.webp",
+      "/Insignias/Kanto/MedallaCascada.webp",
+      "/Insignias/Kanto/MedallaTrueno.webp",
+      "/Insignias/Kanto/MedallaArcoiris.webp",
+      "/Insignias/Kanto/MedallaAlma.webp",
+      "/Insignias/Kanto/MedallaPantano.webp",
+      "/Insignias/Kanto/MedallaVolcan.webp",
+      "/Insignias/Kanto/MedallaTierra.webp"
+    ],
+    "logo": "/logos/kanto-league.png",
+    "eliteFour": ["Lorelei", "Bruno", "Agatha", "Lance"],
+    "champion": "Blue",
+    "featuredPokemon": ["charizard", "blastoise", "venusaur"]
+  }
+]

@@ -24,6 +24,32 @@
       "image": "/leagues/champion/Trace.png"
     },
     "featuredPokemon": ["lapras", "onix", "machamp", "gyarados", "charizard"]
+  },
+  {
+    "id": 2,
+    "name": "Liga Pokémon de Johto",
+    "region": "Johto",
+    "badges": [
+      "/Insignias/Johto/MedallaCefiro.webp",
+      "/Insignias/Johto/MedallaColmena.webp",
+      "/Insignias/Johto/MedallaDragon.webp",
+      "/Insignias/Johto/MedallaGlaciar.png",
+      "/Insignias/Johto/MedallaMineral.webp",
+      "/Insignias/Johto/MedallaNiebla.webp",
+      "/Insignias/Johto/MedallaPlanicie.webp",
+      "/Insignias/Johto/MedallaTormenta.webp"
+    ],
+    "eliteFour": [
+      { "name": "Mento", "image": "/leagues/eliteFour/Mento.png" },
+      { "name": "Koga", "image": "/gyms/Lideres/Koga.png" },
+      { "name": "Bruno", "image": "/leagues/eliteFour/Bruno.png" },
+      { "name": "Karen", "image": "/leagues/eliteFour/Karen.png" }
+    ],
+    "champion": {
+      "name": "Lance",
+      "image": "/leagues/eliteFour/Lance.png"
+    },
+    "featuredPokemon": ["exeggutor", "onix", "machamp", "garchomp", "charizard"]
   }
 ]
 

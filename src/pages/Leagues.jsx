@@ -58,15 +58,19 @@ export default function Leagues() {
               ))}
             </div>
 
-            {/* Campeón */}
+            {/* Campeones */}
             <h4 className="league-subtitle">Campeón</h4>
-            <div className="trainer-champion">
-              <img
-                src={league.champion.image}
-                alt={league.champion.name}
-                className="trainer-img champion"
-              />
-              <p className="trainer-name">{league.champion.name}</p>
+            <div className="trainers-grid">
+              {(league.champions || [league.champion]).map((champion, i) => (
+                <div key={i} className="trainer-card">
+                  <img
+                    src={champion.image}
+                    alt={champion.name}
+                    className="trainer-img champion"
+                  />
+                  <p className="trainer-name">{champion.name}</p>
+                </div>
+              ))}
             </div>
 
             {/* Pokémon destacados */}

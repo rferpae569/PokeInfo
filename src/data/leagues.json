@@ -106,6 +106,92 @@
         "image": "/leagues/champion/Cintia.png"
       }],
     "featuredPokemon": ["snorlax", "infernape", "rapidash", "lucario"]
+  },
+  {
+    "id": 5,
+    "name": "Liga Pokémon de Teselia",
+    "region": "Teselia",
+    "badges": [
+      "/Insignias/Teselia/MedallaBase.webp",
+      "/Insignias/Teselia/MedallaJet.webp",
+      "/Insignias/Teselia/MedallaLeyenda.webp",
+      "/Insignias/Teselia/MedallaOla.webp",
+      "/Insignias/Teselia/MedallaTemblor.webp",
+      "/Insignias/Teselia/MedallaTrio.webp",
+      "/Insignias/Teselia/MedallaVoltio.webp"
+    ],
+    "eliteFour": [
+      { "name": "Aníz", "image": "/leagues/eliteFour/Anis.png" },
+      { "name": "Aza", "image": "/leagues/eliteFour/Aza.png" },
+      { "name": "Lotto", "image": "/leagues/eliteFour/Lotto.png" },
+      { "name": "Catleya", "image": "/leagues/eliteFour/Catleya.png" }
+    ],
+     "champions": [
+      {
+        "name": "Mirto",
+        "image": "/leagues/champion/Mirto.png"
+      },
+      {
+        "name": "Iris",
+        "image": "/leagues/champion/Iris.png"
+      }],
+    "featuredPokemon": ["golurk", "krookodile", "bouffalant", "haxorus"]
+  },
+  {
+    "id": 6,
+    "name": "Liga Pokémon de Kalos",
+    "region": "Kalos",
+    "badges": [
+      "/Insignias/Kalos/MedallaHada.webp",
+      "/Insignias/Kalos/MedallaHoja.png",
+      "/Insignias/Kalos/MedallaIceberg.webp",
+      "/Insignias/Kalos/MedallaInsecto.webp",
+      "/Insignias/Kalos/MedallaLid.webp",
+      "/Insignias/Kalos/MedallaMuro.webp",
+      "/Insignias/Kalos/MedallaPsique.webp",
+      "/Insignias/Kalos/MedallaVoltaje.webp"
+
+    ],
+    "eliteFour": [
+      { "name": "Tileo", "image": "/leagues/eliteFour/Tileo.png" },
+      { "name": "Drácena", "image": "/leagues/eliteFour/Dracena.png" },
+      { "name": "Malva", "image": "/leagues/eliteFour/Malva.png" },
+      { "name": "Narciso", "image": "/leagues/eliteFour/Narciso.png" }
+    ],
+      "champions": [
+      {
+        "name": "Dianta",
+        "image": "/leagues/champion/Dianta.png"
+      }],
+    "featuredPokemon": ["druddigon", "gyarados", "tyrantrum"]
+  },
+  {
+    "id": 7,
+    "name": "Liga Pokémon de Paldea",
+    "region": "Paldea",
+    "badges": [
+      "/Insignias/Paldea/MedallaAgua2.png",
+      "/Insignias/Paldea/MedallaBicho.png",
+      "/Insignias/Paldea/MedallaElectrico.png",
+      "/Insignias/Paldea/MedallaFantasma2.png",
+      "/Insignias/Paldea/MedallaHielo2.png",
+      "/Insignias/Paldea/MedallaNormal.png",
+      "/Insignias/Paldea/MedallaPlanta2.png",
+      "/Insignias/Paldea/MedallaPsiquico.png"
+
+    ],
+    "eliteFour": [
+      { "name": "Cayena", "image": "/leagues/eliteFour/Cayena.png" },
+      { "name": "Pola", "image": "/leagues/eliteFour/Pola.png" },
+      { "name": "Laureano", "image": "/leagues/eliteFour/Laureano.png" },
+      { "name": "Hesperio", "image": "/leagues/eliteFour/Hesperio.png" }
+    ],
+      "champions": [
+      {
+        "name": "Ságita",
+        "image": "/leagues/champion/Sagita.png"
+      }],
+    "featuredPokemon": ["staraptor", "haxorus", "baxcalibur", "kingambit"]
   }
 ]
 

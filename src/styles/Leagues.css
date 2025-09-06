@@ -19,7 +19,7 @@
 
 .leagues-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
@@ -51,6 +51,11 @@
   margin-top: 1rem;
   font-weight: 600;
   font-size: 1rem;
+}
+
+.league-academic {
+  font-style: italic;
+  margin: 0.5rem 0;
 }
 
 .badges-grid {

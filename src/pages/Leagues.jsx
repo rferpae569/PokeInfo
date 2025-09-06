@@ -35,13 +35,24 @@ export default function Leagues() {
             <h3 className="league-name">{league.name}</h3>
             <p className="league-region">{league.region}</p>
 
-            {/* Insignias */}
-            <h4 className="league-subtitle">Insignias para acceder</h4>
-            <div className="badges-grid">
-              {league.badges.map((badge, i) => (
-                <img key={i} src={badge} alt={`badge-${i}`} className="badge" />
-              ))}
-            </div>
+            {/* Acceso */}
+            <h4 className="league-subtitle">Acceso</h4>
+            {league.badges && league.badges.length > 0 ? (
+              <div className="badges-grid">
+                {league.badges.map((badge, i) => (
+                  <img
+                    key={i}
+                    src={badge}
+                    alt={`badge-${i}`}
+                    className="badge"
+                  />
+                ))}
+              </div>
+            ) : league.accessText ? (
+              <p className="league-access-text">{league.accessText}</p>
+            ) : (
+              <p className="league-access-text">Requisito desconocido</p>
+            )}
 
             {/* Elite Four */}
             <h4 className="league-subtitle">Elite Four</h4>

@@ -1,6 +1,23 @@
 [
   {
     "id": 1,
+    "name": "Liga Arándano",
+    "region": " Academia Arándano",
+    "eliteFour": [
+      { "name": "Denis", "image": "/leagues/eliteFour/Denis.png" },
+      { "name": "Nerina", "image": "/leagues/eliteFour/Nerina.png" },
+      { "name": "Aroa", "image": "/leagues/eliteFour/Aroa.png" },
+      { "name": "Levi", "image": "/leagues/eliteFour/Levi.png" }
+    ],
+    "champion": {
+      "name": "Cass",
+      "image": "/leagues/champion/Cass.png"
+    },
+    "featuredPokemon": ["exeggutor", "empoleon", "grimmsnarl"],
+    "accessText": "Liga académica: basta con inscribirse"
+  },
+  {
+    "id": 2,
     "name": "Liga Pokémon de Kanto",
     "region": "Kanto",
     "badges": [
@@ -26,7 +43,7 @@
     "featuredPokemon": ["lapras", "onix", "machamp", "gyarados", "charizard"]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Liga Pokémon de Johto",
     "region": "Johto",
     "badges": [
@@ -52,7 +69,7 @@
     "featuredPokemon": ["exeggutor", "onix", "machamp", "garchomp", "charizard"]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Liga Pokémon de Hoenn",
     "region": "Hoenn",
     "badges": [
@@ -69,7 +86,7 @@
       { "name": "Nívea", "image": "/leagues/eliteFour/Nivea.webp" },
       { "name": "Drácon", "image": "/leagues/eliteFour/Dracon.png" }
     ],
-     "champions": [
+    "champions": [
       {
         "name": "Máximo Peñas",
         "image": "/leagues/champion/MaximoPeñas.png"
@@ -77,11 +94,12 @@
       {
         "name": "Plubio",
         "image": "/leagues/champion/Plubio.png"
-      }],
+      }
+    ],
     "featuredPokemon": ["zoroark", "salamence", "haxorus", "metagross"]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Liga Pokémon de Sinnoh",
     "region": "Sinnoh",
     "badges": [
@@ -100,15 +118,16 @@
       { "name": "Fausto", "image": "/leagues/eliteFour/Fausto.png" },
       { "name": "Delos", "image": "/leagues/eliteFour/Delos.png" }
     ],
-     "champions": [
+    "champions": [
       {
         "name": "Cintia",
         "image": "/leagues/champion/Cintia.png"
-      }],
+      }
+    ],
     "featuredPokemon": ["snorlax", "infernape", "rapidash", "lucario"]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Liga Pokémon de Teselia",
     "region": "Teselia",
     "badges": [
@@ -126,7 +145,7 @@
       { "name": "Lotto", "image": "/leagues/eliteFour/Lotto.png" },
       { "name": "Catleya", "image": "/leagues/eliteFour/Catleya.png" }
     ],
-     "champions": [
+    "champions": [
       {
         "name": "Mirto",
         "image": "/leagues/champion/Mirto.png"
@@ -134,11 +153,12 @@
       {
         "name": "Iris",
         "image": "/leagues/champion/Iris.png"
-      }],
+      }
+    ],
     "featuredPokemon": ["golurk", "krookodile", "bouffalant", "haxorus"]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Liga Pokémon de Kalos",
     "region": "Kalos",
     "badges": [
@@ -150,7 +170,6 @@
       "/Insignias/Kalos/MedallaMuro.webp",
       "/Insignias/Kalos/MedallaPsique.webp",
       "/Insignias/Kalos/MedallaVoltaje.webp"
-
     ],
     "eliteFour": [
       { "name": "Tileo", "image": "/leagues/eliteFour/Tileo.png" },
@@ -158,15 +177,16 @@
       { "name": "Malva", "image": "/leagues/eliteFour/Malva.png" },
       { "name": "Narciso", "image": "/leagues/eliteFour/Narciso.png" }
     ],
-      "champions": [
+    "champions": [
       {
         "name": "Dianta",
         "image": "/leagues/champion/Dianta.png"
-      }],
+      }
+    ],
     "featuredPokemon": ["druddigon", "gyarados", "tyrantrum"]
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Liga Pokémon de Paldea",
     "region": "Paldea",
     "badges": [
@@ -178,7 +198,6 @@
       "/Insignias/Paldea/MedallaNormal.png",
       "/Insignias/Paldea/MedallaPlanta2.png",
       "/Insignias/Paldea/MedallaPsiquico.png"
-
     ],
     "eliteFour": [
       { "name": "Cayena", "image": "/leagues/eliteFour/Cayena.png" },
@@ -186,12 +205,36 @@
       { "name": "Laureano", "image": "/leagues/eliteFour/Laureano.png" },
       { "name": "Hesperio", "image": "/leagues/eliteFour/Hesperio.png" }
     ],
-      "champions": [
+    "champions": [
       {
         "name": "Ságita",
         "image": "/leagues/champion/Sagita.png"
-      }],
+      }
+    ],
     "featuredPokemon": ["staraptor", "haxorus", "baxcalibur", "kingambit"]
+  },
+  {
+    "id": 9,
+    "name": "Liga Pokémon de Alola",
+    "region": "Alola",
+    "eliteFour": [
+      { "name": "Lario", "image": "/leagues/eliteFour/Lario.png" },
+      { "name": "Kaudan", "image": "/leagues/eliteFour/Kaudan.png" },
+      { "name": "Mayla", "image": "/leagues/eliteFour/Mayla.png" },
+      { "name": "Zarala", "image": "/leagues/eliteFour/Zarala.png" },
+      { "name": "Kahili", "image": "/leagues/eliteFour/Kahili.png" }
+    ],
+    "champions": [
+      {
+        "name": "Kukui",
+        "image": "/leagues/champion/Kukui.png"
+      },
+      {
+        "name": "Tilo",
+        "image": "/leagues/champion/Tilo.png"
+      }
+    ],
+    "featuredPokemon": ["snorlax", "raichu", "tauros"],
+    "accessText": "Para acceder a esta liga, hay que completar las 8 pruebas del recorrido insular y haber derrotado a los 4 kahunas"
   }
 ]
-

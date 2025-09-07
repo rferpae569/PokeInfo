@@ -21,6 +21,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  align-items: start;
 }
 
 .league-card {
@@ -132,4 +133,19 @@
   width: 100px;
   height: 100px;
   object-fit: contain;
+}
+
+.league-button {
+  margin-top: 0.8rem;
+  padding: 0.4rem 1rem;
+  background-color: #e53e3e;
+  color: #fff;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.league-button:hover {
+  background-color: #c53030;
 }

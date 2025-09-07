@@ -1,0 +1,142 @@
+[
+  {
+    "gymCity": "Ciudad Plateada",
+    "leaders": [
+      {
+        "name": "タケシ (Takeshi)",
+        "image": "/gyms/Lideres/Brock.png",
+        "home": "Ciudad Plateada",
+        "sex": "Masculino",
+        "type": "Roca",
+        "region": "kanto",
+        "description": "El hombre más fuerte que la roca"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Celeste",
+    "leaders": [
+      {
+        "name": "カスミ (Kasumi)",
+        "image": "/gyms/Lideres/Misty.png",
+        "home": "Ciudad Celeste",
+        "sex": "Femenino",
+        "type": "Agua",
+        "region": "kanto",
+        "description": "La sirena distorsionada"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Carmín",
+    "leaders": [
+      {
+        "name": "マチス (Matisse)",
+        "image": "/gyms/Lideres/TenienteSurge.png",
+        "home": "Ciudad Carmín",
+        "sex": "Masculino",
+        "type": "Eléctrico",
+        "region": "kanto",
+        "description": "¡El rayo americano!"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Azulona",
+    "leaders": [
+      {
+        "name": "エリカ (Erika)",
+        "image": "/gyms/Lideres/Erika.png",
+        "home": "Ciudad Azulona",
+        "sex": "Femenino",
+        "type": "Planta",
+        "region": "kanto",
+        "description": "¡La princesa amante de la naturaleza!"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Fucsia",
+    "leaders": [
+      {
+        "name": "キョウ (Kyou)",
+        "image": "/gyms/Lideres/Koga.png",
+        "home": "Ciudad Fucsia",
+        "sex": "Masculino",
+        "type": "Veneno",
+        "region": "kanto",
+        "description": "El venenoso maestro ninja"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Fucsia",
+    "leaders": [
+      {
+        "name": "アンズ (Anzu)",
+        "image": "/gyms/Lideres/Sachiko.png",
+        "home": "Ciudad Fucsia",
+        "sex": "Femenino",
+        "type": "Veneno",
+        "region": "kanto",
+        "description": "¡La venenosa maestra ninja!"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Azafrán",
+    "leaders": [
+      {
+        "name": "ナツメ (Natsume)",
+        "image": "/gyms/Lideres/Sabrina.png",
+        "home": "Ciudad Azafrán",
+        "sex": "Femenino",
+        "type": "Psíquico",
+        "region": "kanto",
+        "description": "La reina de los Pokémon de tipo psíquico"
+      }
+    ]
+  },
+  {
+    "gymCity": "Isla Canela",
+    "leaders": [
+      {
+        "name": "カツラ (Katsura)",
+        "image": "/gyms/Lideres/Blaine.png",
+        "home": "Isla Canela y Isla Espuma", 
+        "sex": "Masculino",
+        "type": "Fuego",
+        "region": "kanto",
+        "description": "¡El maestro de los acertijos!"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Verde",
+    "leaders": [
+      {
+        "name": "サカキ (Sakaki)",
+        "image": "/gyms/Lideres/Giovanni.png",
+        "home": "Ciudad Verde", 
+        "sex": "Masculino",
+        "type": "Tierra",
+        "region": "kanto",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Verde",
+    "leaders": [
+      {
+        "name": "グリーン (Green) o シゲル (Shigeru)",
+        "image": "/gyms/Lideres/Azul.png",
+        "home": "Pueblo Paleta", 
+        "sex": "Masculino",
+        "type": "Tierra",
+        "region": "kanto",
+        "description": ""
+      }
+    ]
+  }
+]

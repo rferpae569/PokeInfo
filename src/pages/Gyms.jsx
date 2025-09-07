@@ -1,8 +1,10 @@
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import gymsData from "../data/gymsData.json";
+import leadersData from "../data/leadersData.json";
 import "../styles/Gyms.css";
 
+// Componente para los detalles de la tarjeta
 function GymDetails({ isOpen, children }) {
   const ref = useRef(null);
   const [height, setHeight] = useState(0);
@@ -30,7 +32,7 @@ function GymDetails({ isOpen, children }) {
     }
   }, [children, isOpen]);
 
-  //Animacion para la pagina
+  // Animación para la pagina
   return (
     <AnimatePresence>
       {isOpen && (
@@ -48,17 +50,29 @@ function GymDetails({ isOpen, children }) {
   );
 }
 
-//Muestra los datos almacenados de los distintos gimnasios
+// Muestra los datos almacenados de los distintos gimnasios
 export default function Gyms() {
   const [openCard, setOpenCard] = useState(null);
+  const [selectedLeader, setSelectedLeader] = useState(null); // Estado para el overlay de líder
 
   const toggleCard = (city) => {
     setOpenCard(openCard === city ? null : city);
   };
 
+  // Función para abrir overlay de líder
+  const handleLeaderClick = (gymCity, leaderIndex) => {
+    const gymLeaders = leadersData
+      .filter((g) => g.gymCity === gymCity)
+      .flatMap((g) => g.leaders);
+
+    if (gymLeaders.length > 0) {
+      setSelectedLeader({ gymCity, leader: gymLeaders[leaderIndex] });
+    }
+  };
+
   return (
     <div className="gyms-wrapper">
-      {/*Region*/}
+      {/* Region */}
       {gymsData.map((region) => (
         <motion.div
           key={region.region}
@@ -79,7 +93,7 @@ export default function Gyms() {
                 transition={{ duration: 0.6, ease: "easeOut" }}
                 viewport={{ once: true, amount: 0.2 }}
               >
-                {/* Imagen */}
+                {/* Imagen del gimnasio */}
                 <img
                   src={gym.gymImage}
                   alt={`Gimnasio de ${gym.city}`}
@@ -106,6 +120,9 @@ export default function Gyms() {
                           src={img}
                           alt={`Líder ${gym.leader[index]} de ${gym.city}`}
                           className="leader-image"
+                          onClick={
+                            () => handleLeaderClick(gym.city, index) // Abre overlay de líder
+                          }
                         />
                       ))}
                     </div>
@@ -115,9 +132,11 @@ export default function Gyms() {
                         src={gym.leaderImage}
                         alt={`Líder ${gym.leader} de ${gym.city}`}
                         className="leader-image"
+                        onClick={() => handleLeaderClick(gym.city, 0)} // Abre overlay de líder
                       />
                     </div>
                   )}
+
                   {/* Tipo gimnasio e imagen */}
                   <p>
                     <strong>Tipo:</strong>{" "}
@@ -140,6 +159,7 @@ export default function Gyms() {
                       />
                     )}
                   </p>
+
                   {/* Medalla gimnasio */}
                   {gym.badgeImage && (
                     <p className="gym-badge">
@@ -163,6 +183,7 @@ export default function Gyms() {
                     </p>
                   )}
                 </GymDetails>
+
                 {/* Boton detalles tarjeta */}
                 <button
                   className="toggle-btn"
@@ -175,6 +196,64 @@ export default function Gyms() {
           </div>
         </motion.div>
       ))}
+
+      {/* Overlay de líder */}
+      <AnimatePresence>
+        {selectedLeader && (
+          <motion.div
+            className="leader-details-overlay"
+            initial={{ x: "100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "100%" }}
+            transition={{ duration: 0.5, ease: "easeInOut" }}
+          >
+            {/* Boton para cerrar overlay */}
+            <button
+              className="close-leader-btn"
+              onClick={() => setSelectedLeader(null)}
+            >
+              X
+            </button>
+
+            {/* Contenido del líder */}
+            <div className="leader-details-content">
+              <img
+                src={selectedLeader.leader.image}
+                alt={selectedLeader.leader.name}
+                className="leader-details-image"
+              />
+              <h2>{selectedLeader.leader.name}</h2>
+
+              {/* Tabla con los datos del líder */}
+              <table className="leader-details-table">
+                <tbody>
+                  <tr>
+                    <td colSpan={2}>
+                      <em>{selectedLeader.leader.description}</em>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Sexo:</td>
+                    <td>{selectedLeader.leader.sex}</td>
+                  </tr>
+                  <tr>
+                    <td>Ciudad:</td>
+                    <td>{selectedLeader.leader.home}</td>
+                  </tr>
+                  <tr>
+                    <td>Región:</td>
+                    <td>{selectedLeader.leader.region}</td>
+                  </tr>
+                  <tr>
+                    <td>Tipo:</td>
+                    <td>{selectedLeader.leader.type}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

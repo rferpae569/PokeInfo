@@ -600,5 +600,117 @@
         "description": "Siempre en pos de la verdad"
       }
     ]
+  },
+  {
+    "gymCity": "Ciudad Novarte",
+    "leaders": [
+      {
+        "name": "ビオラ (Viola)",
+        "image": "/gyms/Lideres/Violeta.png",
+        "home": "Ciudad Novarte", 
+        "sex": "Femenino",
+        "type": "Bicho",
+        "region": "Kalos",
+        "description": "La fotógrafa experta a la cual no se le escapa ni una sonrisa con su cámara."
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Yantra",
+    "leaders": [
+      {
+        "name": "コルニ (Corni)",
+        "image": "/gyms/Lideres/Corelia.png",
+        "home": "Ciudad Yantra", 
+        "sex": "Femenino",
+        "type": "Lucha",
+        "region": "Kalos",
+        "description": "¡La Evoluchadora!"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Témpera",
+    "leaders": [
+      {
+        "name": "フクジ (Fukuji)",
+        "image": "/gyms/Lideres/Amaro.png",
+        "home": "Ciudad Témpera", 
+        "sex": "Masculino",
+        "type": "Planta",
+        "region": "Kalos",
+        "description": "Los viejos brotes siguen en flor"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Romantis",
+    "leaders": [
+      {
+        "name": "マーシュ (Mache)",
+        "image": "/gyms/Lideres/Valeria.png",
+        "home": "Ciudad Romantis", 
+        "sex": "Femenino",
+        "type": "Hada",
+        "region": "Kalos y Johto (anteriormente)",
+        "description": "Una entrenadora con más de un as en la manga."
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Fluxus",
+    "leaders": [
+      {
+        "name": "ゴジカ (Gojika)",
+        "image": "/gyms/Lideres/Astrid.png",
+        "home": "Ciudad Fluxus", 
+        "sex": "Femenino",
+        "type": "Psíquico",
+        "region": "Kalos",
+        "description": "La que halla su camino en la luz de las estrellas."
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Luminalia",
+    "leaders": [
+      {
+        "name": "シトロン (Citron)",
+        "image": "/gyms/Lideres/Lem.png",
+        "home": "Ciudad Luminalia", 
+        "sex": "Masculino",
+        "type": "Eléctrico",
+        "region": "Kalos",
+        "description": "El inventor que arroja luz sobre el mundo."
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Relieve",
+    "leaders": [
+      {
+        "name": "ザクロ (Zakuro)",
+        "image": "/gyms/Lideres/Lino.png",
+        "home": "Ciudad Relieve", 
+        "sex": "Masculino",
+        "type": "Roca",
+        "region": "Kalos",
+        "description": "El escalador indomable pero afable"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Fractal",
+    "leaders": [
+      {
+        "name": "ウルップ (Urup)",
+        "image": "/gyms/Lideres/Edel.png",
+        "home": "Ciudad Fractal", 
+        "sex": "Masculino",
+        "type": "Hielo",
+        "region": "Kalos",
+        "description": "Un exterior glacial que esconde un espíritu al rojo vivo."
+      }
+    ]
   }
 ]

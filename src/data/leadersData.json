@@ -8,7 +8,7 @@
         "home": "Ciudad Plateada",
         "sex": "Masculino",
         "type": "Roca",
-        "region": "kanto",
+        "region": "Kanto",
         "description": "El hombre más fuerte que la roca"
       }
     ]
@@ -22,7 +22,7 @@
         "home": "Ciudad Celeste",
         "sex": "Femenino",
         "type": "Agua",
-        "region": "kanto",
+        "region": "Kanto",
         "description": "La sirena distorsionada"
       }
     ]
@@ -36,7 +36,7 @@
         "home": "Ciudad Carmín",
         "sex": "Masculino",
         "type": "Eléctrico",
-        "region": "kanto",
+        "region": "Kanto",
         "description": "¡El rayo americano!"
       }
     ]
@@ -50,7 +50,7 @@
         "home": "Ciudad Azulona",
         "sex": "Femenino",
         "type": "Planta",
-        "region": "kanto",
+        "region": "Kanto",
         "description": "¡La princesa amante de la naturaleza!"
       }
     ]
@@ -64,7 +64,7 @@
         "home": "Ciudad Fucsia",
         "sex": "Masculino",
         "type": "Veneno",
-        "region": "kanto",
+        "region": "Kanto",
         "description": "El venenoso maestro ninja"
       }
     ]
@@ -78,7 +78,7 @@
         "home": "Ciudad Fucsia",
         "sex": "Femenino",
         "type": "Veneno",
-        "region": "kanto",
+        "region": "Kanto",
         "description": "¡La venenosa maestra ninja!"
       }
     ]
@@ -92,7 +92,7 @@
         "home": "Ciudad Azafrán",
         "sex": "Femenino",
         "type": "Psíquico",
-        "region": "kanto",
+        "region": "Kanto",
         "description": "La reina de los Pokémon de tipo psíquico"
       }
     ]
@@ -106,7 +106,7 @@
         "home": "Isla Canela y Isla Espuma", 
         "sex": "Masculino",
         "type": "Fuego",
-        "region": "kanto",
+        "region": "Kanto",
         "description": "¡El maestro de los acertijos!"
       }
     ]
@@ -120,7 +120,7 @@
         "home": "Ciudad Verde", 
         "sex": "Masculino",
         "type": "Tierra",
-        "region": "kanto",
+        "region": "Kanto",
         "description": ""
       }
     ]
@@ -134,8 +134,120 @@
         "home": "Pueblo Paleta", 
         "sex": "Masculino",
         "type": "Tierra",
-        "region": "kanto",
+        "region": "Kanto",
         "description": ""
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Malva",
+    "leaders": [
+      {
+        "name": "ハヤト (Hayato)",
+        "image": "/gyms/Lideres/Pegaso.png",
+        "home": "Ciudad Malva", 
+        "sex": "Masculino",
+        "type": "Volador",
+        "region": "Johto",
+        "description": "El gran experto en Pokémon voladores"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Azalea",
+    "leaders": [
+      {
+        "name": "ツクシ (Tsukushi)",
+        "image": "/gyms/Lideres/Anton.png",
+        "home": "Pueblo Azalea", 
+        "sex": "Masculino",
+        "type": "Bicho",
+        "region": "Johto",
+        "description": "Sabelotodo de los Pokémon bicho"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Trigal",
+    "leaders": [
+      {
+        "name": "アカネ (Akane)",
+        "image": "/gyms/Lideres/Blanca.png",
+        "home": "Ciudad Trigal", 
+        "sex": "Femenino",
+        "type": "Normal",
+        "region": "Johto",
+        "description": "¡La belleza explosiva!"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Iris",
+    "leaders": [
+      {
+        "name": "マツバ (Matsuba)",
+        "image": "/gyms/Lideres/Morti.png",
+        "home": "Ciudad Iris", 
+        "sex": "Masculino",
+        "type": "Fantasma",
+        "region": "Johto",
+        "description": "El místico adivino del futuro"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Olivo",
+    "leaders": [
+      {
+        "name": "ミカン (Mikan)",
+        "image": "/gyms/Lideres/Yasmina.png",
+        "home": "Ciudad Iris", 
+        "sex": "Femenino",
+        "type": "Acero",
+        "region": "Johto",
+        "description": "La chica de acero"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Orquídea",
+    "leaders": [
+      {
+        "name": "シジマ (Shijima)",
+        "image": "/gyms/Lideres/Anibal.png",
+        "home": "Ciudad Orquídea", 
+        "sex": "Masculino",
+        "type": "Lucha",
+        "region": "Johto",
+        "description": "Sus puños hablan por él"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Caoba",
+    "leaders": [
+      {
+        "name": "ヤナギ (Yanagi)",
+        "image": "/gyms/Lideres/Fredo.png",
+        "home": "Pueblo Caoba", 
+        "sex": "Masculino",
+        "type": "Hielo",
+        "region": "Johto",
+        "description": "“El maestro del crudo invierno"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Endrino",
+    "leaders": [
+      {
+        "name": "イブキ (Ibuki)",
+        "image": "/gyms/Lideres/Debora.png",
+        "home": "Ciudad Endrino", 
+        "sex": "Femenino",
+        "type": "Dragón",
+        "region": "Johto",
+        "description": "“La gran experta en Pokémon dragón"
       }
     ]
   }

@@ -334,5 +334,117 @@
         "description": "¡Una combinación mística!"
       }
     ]
+  },
+  {
+    "gymCity": "Ciudad Pirita",
+    "leaders": [
+      {
+        "name": "ヒョウタ (Hyouta)",
+        "image": "/gyms/Lideres/Roco.png",
+        "home": "Ciudad Pirita", 
+        "sex": "Masculino",
+        "type": "Roca",
+        "region": "Sinnoh",
+        "description": "¡La roca para mis amigos!"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Vetusta",
+    "leaders": [
+      {
+        "name": "ナタネ (Natane)",
+        "image": "/gyms/Lideres/Gardenia.png",
+        "home": "Ciudad Vetusta", 
+        "sex": "Femenino",
+        "type": "Planta",
+        "region": "Sinnoh",
+        "description": "Maestra de Pokémon de tipo planta"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Rocavelo",
+    "leaders": [
+      {
+        "name": "スモモ (Sumomo)",
+        "image": "/gyms/Lideres/Brega.png",
+        "home": "Ciudad Rocavelo", 
+        "sex": "Femenino",
+        "type": "Lucha",
+        "region": "Sinnoh",
+        "description": "La descalza experta en lucha"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Pradera",
+    "leaders": [
+      {
+        "name": "マキシマム仮面 (Maximum Kamen)",
+        "image": "/gyms/Lideres/Mananti.png",
+        "home": "Ciudad Pradera", 
+        "sex": "Masculino",
+        "type": "Agua",
+        "region": "Sinnoh",
+        "description": "Maestro torrencial enmascarado"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Corazón",
+    "leaders": [
+      {
+        "name": "メリッサ (Melissa)",
+        "image": "/gyms/Lideres/Fantina.png",
+        "home": "Ciudad Corazón", 
+        "sex": "Femenino",
+        "type": "Fantasma",
+        "region": "Sinnoh",
+        "description": "Danzarina encantadora"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Canal",
+    "leaders": [
+      {
+        "name": "トウガン (Tougan)",
+        "image": "/gyms/Lideres/Aceron.png",
+        "home": "Ciudad Canal", 
+        "sex": "Masculino",
+        "type": "Acero",
+        "region": "Sinnoh",
+        "description": "¡El hombre del cuerpo de acero!"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Puntaneva",
+    "leaders": [
+      {
+        "name": "スズナ (Suzuna)",
+        "image": "/gyms/Lideres/Inverna.png",
+        "home": "Ciudad Puntaneva", 
+        "sex": "Femenino",
+        "type": "Hielo",
+        "region": "Sinnoh",
+        "description": "¡La chica diamante!"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Marina",
+    "leaders": [
+      {
+        "name": "デンジ (Denzi)",
+        "image": "/gyms/Lideres/Lectro.png",
+        "home": "Ciudad Marina", 
+        "sex": "Masculino",
+        "type": "Eléctrico",
+        "region": "Sinnoh",
+        "description": "La brillante estrella electrizante"
+      }
+    ]
   }
 ]

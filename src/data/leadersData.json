@@ -446,5 +446,159 @@
         "description": "La brillante estrella electrizante"
       }
     ]
+  },
+  {
+    "gymCity": "Ciudad Gres",
+    "leaders": [
+      {
+        "name": "デント (Dent)",
+        "image": "/gyms/Lideres/Millo.png",
+        "home": "Ciudad Gres", 
+        "sex": "Masculino",
+        "type": "Planta",
+        "region": "Teselia",
+        "description": "El desafío Triangular"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Gres",
+    "leaders": [
+      {
+        "name": "ポッド (Pod)",
+        "image": "/gyms/Lideres/Zeo.png",
+        "home": "Ciudad Gres", 
+        "sex": "Masculino",
+        "type": "Fuego",
+        "region": "Unova/Teselia",
+        "description": "El desafío Triangular"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Gres",
+    "leaders": [
+      {
+        "name": "コーン (Corn)",
+        "image": "/gyms/Lideres/Maiz.png",
+        "home": "Ciudad Gres", 
+        "sex": "Masculino",
+        "type": "Agua",
+        "region": "Teselia",
+        "description": "El desafío Triangular"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Esmalte",
+    "leaders": [
+      {
+        "name": "アロエ (Aloe)",
+        "image": "/gyms/Lideres/Aloe.png",
+        "home": "Ciudad Esmalte", 
+        "sex": "Femenino",
+        "type": "Normal",
+        "region": "Teselia",
+        "description": "Una madraza nata"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Fayenza",
+    "leaders": [
+      {
+        "name": "ヤーコン (Yakon)",
+        "image": "/gyms/Lideres/Yakon.png",
+        "home": "Ciudad Fayenza", 
+        "sex": "Masculino",
+        "type": "Tierra",
+        "region": "Teselia",
+        "description": "Un as de los yacimientos subterráneos"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Mayólica",
+    "leaders": [
+      {
+        "name": "カミツレ (Kamitsure)",
+        "image": "/gyms/Lideres/Camila.png",
+        "home": "Ciudad Mayólica", 
+        "sex": "Femenino",
+        "type": "Eléctrico",
+        "region": "Teselia",
+        "description": "Una belleza deslumbrante"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Loza",
+    "leaders": [
+      {
+        "name": "フウロ (Huuro)",
+        "image": "/gyms/Lideres/Gerania.png",
+        "home": "Ciudad Loza", 
+        "sex": "Femenino",
+        "type": "Volador",
+        "region": "Teselia",
+        "description": "Chica de altos vuelos"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Caolín",
+    "leaders": [
+      {
+        "name": "シャガ (Shaga)",
+        "image": "/gyms/Lideres/Lirio.png",
+        "home": "Ciudad Caolín", 
+        "sex": "Masculino",
+        "type": "Dragón",
+        "region": "Teselia",
+        "description": "El Alcalde Espartano"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Caolín",
+    "leaders": [
+      {
+        "name": "アイリス (Iris)",
+        "image": "/gyms/Lideres/Iris.png",
+        "home": "Ciudad Caolín", 
+        "sex": "Femenino",
+        "type": "Dragón",
+        "region": "Teselia",
+        "description": "La joven que susurra a los dragones"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Marga",
+    "leaders": [
+      {
+        "name": "シズイ (Shizui)",
+        "image": "/gyms/Lideres/Ciprian.png",
+        "home": "Ciudad Marga", 
+        "sex": "Masculino",
+        "type": "Agua",
+        "region": "Teselia",
+        "description": "Se siente como pez en el agua. ¡Más salado que la mar!"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Engobe",
+    "leaders": [
+      {
+        "name": "チェレン (Cheren)",
+        "image": "/gyms/Lideres/Cheren.png",
+        "home": "Pueblo Arcilla y Ciudad Engobe", 
+        "sex": "Masculino",
+        "type": "Normal",
+        "region": "Teselia",
+        "description": "Siempre en pos de la verdad"
+      }
+    ]
   }
 ]

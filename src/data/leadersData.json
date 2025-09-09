@@ -233,7 +233,7 @@
         "sex": "Masculino",
         "type": "Hielo",
         "region": "Johto",
-        "description": "“El maestro del crudo invierno"
+        "description": "El maestro del crudo invierno"
       }
     ]
   },
@@ -247,7 +247,91 @@
         "sex": "Femenino",
         "type": "Dragón",
         "region": "Johto",
-        "description": "“La gran experta en Pokémon dragón"
+        "description": "La gran experta en Pokémon dragón"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Férrica",
+    "leaders": [
+      {
+        "name": "ツツジ (Tsutsuji)",
+        "image": "/gyms/Lideres/Petra.png",
+        "home": "Ciudad Férrica", 
+        "sex": "Femenino",
+        "type": "Roca",
+        "region": "Hoenn",
+        "description": "¡La experta en Pokémon de tipo roca!"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Malvalona",
+    "leaders": [
+      {
+        "name": "テッセン (Tessen)",
+        "image": "/gyms/Lideres/Erico.png",
+        "home": "Ciudad Malvalona", 
+        "sex": "Femenino",
+        "type": "Eléctrico",
+        "region": "Hoenn",
+        "description": "¡Una personalidad Electrificante!"
+      }
+    ]
+  },
+  {
+    "gymCity": "Pueblo Lavacalda",
+    "leaders": [
+      {
+        "name": "アスナ (Asuna)",
+        "image": "/gyms/Lideres/Candela.png",
+        "home": "Pueblo Lavacalda", 
+        "sex": "Femenino",
+        "type": "Fuego",
+        "region": "Hoenn",
+        "description": "¡No te acerques mucho, que quemo!"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Petalia",
+    "leaders": [
+      {
+        "name": "センリ (Senri)",
+        "image": "/gyms/Lideres/Norman.png",
+        "home": "Ciudad Petalia y anteriormente Ciudad Olivo", 
+        "sex": "Masculino",
+        "type": "Normal",
+        "region": "Hoenn",
+        "description": "¡Un hombre con ambición!"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Arborada",
+    "leaders": [
+      {
+        "name": "ナギ (Nagi)",
+        "image": "/gyms/Lideres/Alana.png",
+        "home": "Ciudad Arborada", 
+        "sex": "Femenino",
+        "type": "Volador",
+        "region": "Hoenn",
+        "description": "La amante de los pájaros"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Algaria",
+    "leaders": [
+      {
+        "name": "フウ & ラン (Fū & Lan)",
+        "image": "/gyms/Lideres/VitoLeti.png",
+        "home": "Ciudad Algaria", 
+        "sex": "Masculino (Vito) y femenino (Leti)",
+        "type": "Psíquico",
+        "region": "Hoenn",
+        "description": "¡Una combinación mística!"
       }
     ]
   }

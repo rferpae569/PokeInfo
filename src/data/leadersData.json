@@ -712,5 +712,173 @@
         "description": "Un exterior glacial que esconde un espíritu al rojo vivo."
       }
     ]
+  },
+  {
+    "gymCity": "Pueblo Hoyuelo",
+    "leaders": [
+      {
+        "name": "ヤロー (Yarrow)",
+        "image": "/gyms/Lideres/Percy.png",
+        "home": "Pueblo Hoyuelo", 
+        "sex": "Masculino",
+        "type": "Planta",
+        "region": "Galar",
+        "description": "El granjero Aguerrido."
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Pistón",
+    "leaders": [
+      {
+        "name": "カブ (Kabu)",
+        "image": "/gyms/Lideres/Naboru.png",
+        "home": "Ciudad Pistón", 
+        "sex": "Masculino",
+        "type": "Fuego",
+        "region": "Galar y Hoenn (Anteriormente)",
+        "description": "El veterano fervoroso del tipo fuego."
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Artejo",
+    "leaders": [
+      {
+        "name": "キバナ (Kibana)",
+        "image": "/gyms/Lideres/Roy.png",
+        "home": "Ciudad Artejo", 
+        "sex": "Masculino",
+        "type": "Dragón",
+        "region": "Galar",
+        "description": "La furia de los dragones"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Ladera",
+    "leaders": [
+      {
+        "name": "サイトウ (Saitō)",
+        "image": "/gyms/Lideres/Judith.png",
+        "home": "Pueblo Ladera", 
+        "sex": "Femenino",
+        "type": "Lucha",
+        "region": "Galar",
+        "description": "La Karateka prodigio de Galar"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Ladera",
+    "leaders": [
+      {
+        "name": "オニオン (Onion)",
+        "image": "/gyms/Lideres/Alistair.png",
+        "home": "Pueblo Ladera", 
+        "sex": "Masculino",
+        "type": "Fantasma",
+        "region": "Galar",
+        "description": "Un chico parco en palabras"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Auriga",
+    "leaders": [
+      {
+        "name": "マクワ (Makuwa)",
+        "image": "/gyms/Lideres/Morris.png",
+        "home": "Pueblo Auriga", 
+        "sex": "Masculino",
+        "type": "Roca",
+        "region": "Galar",
+        "description": "El Rompedruscos por antonomasia"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Auriga",
+    "leaders": [
+      {
+        "name": "メロン (Melon)",
+        "image": "/gyms/Lideres/Mel.png",
+        "home": "Pueblo Auriga", 
+        "sex": "Femenino",
+        "type": "Hielo",
+        "region": "Galar",
+        "description": "Una profesional que tiene siempre la sangre fría."
+      }
+    ]
+  },
+  {
+    "gymCity": "Pueblo Crampón",
+    "leaders": [
+      {
+        "name": "ネズ (Nezz)",
+        "image": "/gyms/Lideres/Nerio.png",
+        "home": "Pueblo Crampón", 
+        "sex": "Masculino",
+        "type": "Siniestro",
+        "region": "Galar",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "gymCity": "Pueblo Crampón",
+    "leaders": [
+      {
+        "name": "マリィ (Mary)",
+        "image": "/gyms/Lideres/Roxy.png",
+        "home": "Pueblo Crampón", 
+        "sex": "Femenino",
+        "type": "Siniestro",
+        "region": "Galar",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Amura",
+    "leaders": [
+      {
+        "name": "ルリナ (Rurina)",
+        "image": "/gyms/Lideres/Cathy.png",
+        "home": "Pueblo Amura", 
+        "sex": "Femenino",
+        "type": "Agua",
+        "region": "Galar",
+        "description": "La ola embravecida"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Plie",
+    "leaders": [
+      {
+        "name": "ポプラ (Poplar)",
+        "image": "/gyms/Lideres/Sally.png",
+        "home": "Pueblo Plié", 
+        "sex": "Femenino",
+        "type": "Hada",
+        "region": "Galar",
+        "description": "Un fantástico estilo que pone al público en pie."
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Plie",
+    "leaders": [
+      {
+        "name": "ビート (Beet)",
+        "image": "/gyms/Lideres/Berto.png",
+        "home": "Pueblo Plié", 
+        "sex": "Masculino",
+        "type": "Hada",
+        "region": "Galar",
+        "description": ""
+      }
+    ]
   }
 ]

@@ -103,7 +103,7 @@
       {
         "name": "カツラ (Katsura)",
         "image": "/gyms/Lideres/Blaine.png",
-        "home": "Isla Canela y Isla Espuma", 
+        "home": "Isla Canela y Isla Espuma",
         "sex": "Masculino",
         "type": "Fuego",
         "region": "Kanto",
@@ -117,7 +117,7 @@
       {
         "name": "サカキ (Sakaki)",
         "image": "/gyms/Lideres/Giovanni.png",
-        "home": "Ciudad Verde", 
+        "home": "Ciudad Verde",
         "sex": "Masculino",
         "type": "Tierra",
         "region": "Kanto",
@@ -131,7 +131,7 @@
       {
         "name": "グリーン (Green) o シゲル (Shigeru)",
         "image": "/gyms/Lideres/Azul.png",
-        "home": "Pueblo Paleta", 
+        "home": "Pueblo Paleta",
         "sex": "Masculino",
         "type": "Tierra",
         "region": "Kanto",
@@ -145,7 +145,7 @@
       {
         "name": "ハヤト (Hayato)",
         "image": "/gyms/Lideres/Pegaso.png",
-        "home": "Ciudad Malva", 
+        "home": "Ciudad Malva",
         "sex": "Masculino",
         "type": "Volador",
         "region": "Johto",
@@ -159,7 +159,7 @@
       {
         "name": "ツクシ (Tsukushi)",
         "image": "/gyms/Lideres/Anton.png",
-        "home": "Pueblo Azalea", 
+        "home": "Pueblo Azalea",
         "sex": "Masculino",
         "type": "Bicho",
         "region": "Johto",
@@ -173,7 +173,7 @@
       {
         "name": "アカネ (Akane)",
         "image": "/gyms/Lideres/Blanca.png",
-        "home": "Ciudad Trigal", 
+        "home": "Ciudad Trigal",
         "sex": "Femenino",
         "type": "Normal",
         "region": "Johto",
@@ -187,7 +187,7 @@
       {
         "name": "マツバ (Matsuba)",
         "image": "/gyms/Lideres/Morti.png",
-        "home": "Ciudad Iris", 
+        "home": "Ciudad Iris",
         "sex": "Masculino",
         "type": "Fantasma",
         "region": "Johto",
@@ -201,7 +201,7 @@
       {
         "name": "ミカン (Mikan)",
         "image": "/gyms/Lideres/Yasmina.png",
-        "home": "Ciudad Iris", 
+        "home": "Ciudad Iris",
         "sex": "Femenino",
         "type": "Acero",
         "region": "Johto",
@@ -215,7 +215,7 @@
       {
         "name": "シジマ (Shijima)",
         "image": "/gyms/Lideres/Anibal.png",
-        "home": "Ciudad Orquídea", 
+        "home": "Ciudad Orquídea",
         "sex": "Masculino",
         "type": "Lucha",
         "region": "Johto",
@@ -229,7 +229,7 @@
       {
         "name": "ヤナギ (Yanagi)",
         "image": "/gyms/Lideres/Fredo.png",
-        "home": "Pueblo Caoba", 
+        "home": "Pueblo Caoba",
         "sex": "Masculino",
         "type": "Hielo",
         "region": "Johto",
@@ -243,7 +243,7 @@
       {
         "name": "イブキ (Ibuki)",
         "image": "/gyms/Lideres/Debora.png",
-        "home": "Ciudad Endrino", 
+        "home": "Ciudad Endrino",
         "sex": "Femenino",
         "type": "Dragón",
         "region": "Johto",
@@ -257,7 +257,7 @@
       {
         "name": "ツツジ (Tsutsuji)",
         "image": "/gyms/Lideres/Petra.png",
-        "home": "Ciudad Férrica", 
+        "home": "Ciudad Férrica",
         "sex": "Femenino",
         "type": "Roca",
         "region": "Hoenn",
@@ -271,7 +271,7 @@
       {
         "name": "テッセン (Tessen)",
         "image": "/gyms/Lideres/Erico.png",
-        "home": "Ciudad Malvalona", 
+        "home": "Ciudad Malvalona",
         "sex": "Femenino",
         "type": "Eléctrico",
         "region": "Hoenn",
@@ -285,7 +285,7 @@
       {
         "name": "アスナ (Asuna)",
         "image": "/gyms/Lideres/Candela.png",
-        "home": "Pueblo Lavacalda", 
+        "home": "Pueblo Lavacalda",
         "sex": "Femenino",
         "type": "Fuego",
         "region": "Hoenn",
@@ -299,7 +299,7 @@
       {
         "name": "センリ (Senri)",
         "image": "/gyms/Lideres/Norman.png",
-        "home": "Ciudad Petalia y anteriormente Ciudad Olivo", 
+        "home": "Ciudad Petalia y anteriormente Ciudad Olivo",
         "sex": "Masculino",
         "type": "Normal",
         "region": "Hoenn",
@@ -313,7 +313,7 @@
       {
         "name": "ナギ (Nagi)",
         "image": "/gyms/Lideres/Alana.png",
-        "home": "Ciudad Arborada", 
+        "home": "Ciudad Arborada",
         "sex": "Femenino",
         "type": "Volador",
         "region": "Hoenn",
@@ -327,7 +327,7 @@
       {
         "name": "フウ & ラン (Fū & Lan)",
         "image": "/gyms/Lideres/VitoLeti.png",
-        "home": "Ciudad Algaria", 
+        "home": "Ciudad Algaria",
         "sex": "Masculino (Vito) y femenino (Leti)",
         "type": "Psíquico",
         "region": "Hoenn",
@@ -341,7 +341,7 @@
       {
         "name": "ヒョウタ (Hyouta)",
         "image": "/gyms/Lideres/Roco.png",
-        "home": "Ciudad Pirita", 
+        "home": "Ciudad Pirita",
         "sex": "Masculino",
         "type": "Roca",
         "region": "Sinnoh",
@@ -355,7 +355,7 @@
       {
         "name": "ナタネ (Natane)",
         "image": "/gyms/Lideres/Gardenia.png",
-        "home": "Ciudad Vetusta", 
+        "home": "Ciudad Vetusta",
         "sex": "Femenino",
         "type": "Planta",
         "region": "Sinnoh",
@@ -369,7 +369,7 @@
       {
         "name": "スモモ (Sumomo)",
         "image": "/gyms/Lideres/Brega.png",
-        "home": "Ciudad Rocavelo", 
+        "home": "Ciudad Rocavelo",
         "sex": "Femenino",
         "type": "Lucha",
         "region": "Sinnoh",
@@ -383,7 +383,7 @@
       {
         "name": "マキシマム仮面 (Maximum Kamen)",
         "image": "/gyms/Lideres/Mananti.png",
-        "home": "Ciudad Pradera", 
+        "home": "Ciudad Pradera",
         "sex": "Masculino",
         "type": "Agua",
         "region": "Sinnoh",
@@ -397,7 +397,7 @@
       {
         "name": "メリッサ (Melissa)",
         "image": "/gyms/Lideres/Fantina.png",
-        "home": "Ciudad Corazón", 
+        "home": "Ciudad Corazón",
         "sex": "Femenino",
         "type": "Fantasma",
         "region": "Sinnoh",
@@ -411,7 +411,7 @@
       {
         "name": "トウガン (Tougan)",
         "image": "/gyms/Lideres/Aceron.png",
-        "home": "Ciudad Canal", 
+        "home": "Ciudad Canal",
         "sex": "Masculino",
         "type": "Acero",
         "region": "Sinnoh",
@@ -425,7 +425,7 @@
       {
         "name": "スズナ (Suzuna)",
         "image": "/gyms/Lideres/Inverna.png",
-        "home": "Ciudad Puntaneva", 
+        "home": "Ciudad Puntaneva",
         "sex": "Femenino",
         "type": "Hielo",
         "region": "Sinnoh",
@@ -439,7 +439,7 @@
       {
         "name": "デンジ (Denzi)",
         "image": "/gyms/Lideres/Lectro.png",
-        "home": "Ciudad Marina", 
+        "home": "Ciudad Marina",
         "sex": "Masculino",
         "type": "Eléctrico",
         "region": "Sinnoh",
@@ -453,7 +453,7 @@
       {
         "name": "デント (Dent)",
         "image": "/gyms/Lideres/Millo.png",
-        "home": "Ciudad Gres", 
+        "home": "Ciudad Gres",
         "sex": "Masculino",
         "type": "Planta",
         "region": "Teselia",
@@ -467,7 +467,7 @@
       {
         "name": "ポッド (Pod)",
         "image": "/gyms/Lideres/Zeo.png",
-        "home": "Ciudad Gres", 
+        "home": "Ciudad Gres",
         "sex": "Masculino",
         "type": "Fuego",
         "region": "Unova/Teselia",
@@ -481,7 +481,7 @@
       {
         "name": "コーン (Corn)",
         "image": "/gyms/Lideres/Maiz.png",
-        "home": "Ciudad Gres", 
+        "home": "Ciudad Gres",
         "sex": "Masculino",
         "type": "Agua",
         "region": "Teselia",
@@ -495,7 +495,7 @@
       {
         "name": "アロエ (Aloe)",
         "image": "/gyms/Lideres/Aloe.png",
-        "home": "Ciudad Esmalte", 
+        "home": "Ciudad Esmalte",
         "sex": "Femenino",
         "type": "Normal",
         "region": "Teselia",
@@ -509,7 +509,7 @@
       {
         "name": "ヤーコン (Yakon)",
         "image": "/gyms/Lideres/Yakon.png",
-        "home": "Ciudad Fayenza", 
+        "home": "Ciudad Fayenza",
         "sex": "Masculino",
         "type": "Tierra",
         "region": "Teselia",
@@ -523,7 +523,7 @@
       {
         "name": "カミツレ (Kamitsure)",
         "image": "/gyms/Lideres/Camila.png",
-        "home": "Ciudad Mayólica", 
+        "home": "Ciudad Mayólica",
         "sex": "Femenino",
         "type": "Eléctrico",
         "region": "Teselia",
@@ -537,7 +537,7 @@
       {
         "name": "フウロ (Huuro)",
         "image": "/gyms/Lideres/Gerania.png",
-        "home": "Ciudad Loza", 
+        "home": "Ciudad Loza",
         "sex": "Femenino",
         "type": "Volador",
         "region": "Teselia",
@@ -551,7 +551,7 @@
       {
         "name": "シャガ (Shaga)",
         "image": "/gyms/Lideres/Lirio.png",
-        "home": "Ciudad Caolín", 
+        "home": "Ciudad Caolín",
         "sex": "Masculino",
         "type": "Dragón",
         "region": "Teselia",
@@ -565,7 +565,7 @@
       {
         "name": "アイリス (Iris)",
         "image": "/gyms/Lideres/Iris.png",
-        "home": "Ciudad Caolín", 
+        "home": "Ciudad Caolín",
         "sex": "Femenino",
         "type": "Dragón",
         "region": "Teselia",
@@ -579,7 +579,7 @@
       {
         "name": "シズイ (Shizui)",
         "image": "/gyms/Lideres/Ciprian.png",
-        "home": "Ciudad Marga", 
+        "home": "Ciudad Marga",
         "sex": "Masculino",
         "type": "Agua",
         "region": "Teselia",
@@ -593,7 +593,7 @@
       {
         "name": "チェレン (Cheren)",
         "image": "/gyms/Lideres/Cheren.png",
-        "home": "Pueblo Arcilla y Ciudad Engobe", 
+        "home": "Pueblo Arcilla y Ciudad Engobe",
         "sex": "Masculino",
         "type": "Normal",
         "region": "Teselia",
@@ -607,7 +607,7 @@
       {
         "name": "ビオラ (Viola)",
         "image": "/gyms/Lideres/Violeta.png",
-        "home": "Ciudad Novarte", 
+        "home": "Ciudad Novarte",
         "sex": "Femenino",
         "type": "Bicho",
         "region": "Kalos",
@@ -621,7 +621,7 @@
       {
         "name": "コルニ (Corni)",
         "image": "/gyms/Lideres/Corelia.png",
-        "home": "Ciudad Yantra", 
+        "home": "Ciudad Yantra",
         "sex": "Femenino",
         "type": "Lucha",
         "region": "Kalos",
@@ -635,7 +635,7 @@
       {
         "name": "フクジ (Fukuji)",
         "image": "/gyms/Lideres/Amaro.png",
-        "home": "Ciudad Témpera", 
+        "home": "Ciudad Témpera",
         "sex": "Masculino",
         "type": "Planta",
         "region": "Kalos",
@@ -649,7 +649,7 @@
       {
         "name": "マーシュ (Mache)",
         "image": "/gyms/Lideres/Valeria.png",
-        "home": "Ciudad Romantis", 
+        "home": "Ciudad Romantis",
         "sex": "Femenino",
         "type": "Hada",
         "region": "Kalos y Johto (anteriormente)",
@@ -663,7 +663,7 @@
       {
         "name": "ゴジカ (Gojika)",
         "image": "/gyms/Lideres/Astrid.png",
-        "home": "Ciudad Fluxus", 
+        "home": "Ciudad Fluxus",
         "sex": "Femenino",
         "type": "Psíquico",
         "region": "Kalos",
@@ -677,7 +677,7 @@
       {
         "name": "シトロン (Citron)",
         "image": "/gyms/Lideres/Lem.png",
-        "home": "Ciudad Luminalia", 
+        "home": "Ciudad Luminalia",
         "sex": "Masculino",
         "type": "Eléctrico",
         "region": "Kalos",
@@ -691,7 +691,7 @@
       {
         "name": "ザクロ (Zakuro)",
         "image": "/gyms/Lideres/Lino.png",
-        "home": "Ciudad Relieve", 
+        "home": "Ciudad Relieve",
         "sex": "Masculino",
         "type": "Roca",
         "region": "Kalos",
@@ -705,7 +705,7 @@
       {
         "name": "ウルップ (Urup)",
         "image": "/gyms/Lideres/Edel.png",
-        "home": "Ciudad Fractal", 
+        "home": "Ciudad Fractal",
         "sex": "Masculino",
         "type": "Hielo",
         "region": "Kalos",
@@ -719,7 +719,7 @@
       {
         "name": "ヤロー (Yarrow)",
         "image": "/gyms/Lideres/Percy.png",
-        "home": "Pueblo Hoyuelo", 
+        "home": "Pueblo Hoyuelo",
         "sex": "Masculino",
         "type": "Planta",
         "region": "Galar",
@@ -733,7 +733,7 @@
       {
         "name": "カブ (Kabu)",
         "image": "/gyms/Lideres/Naboru.png",
-        "home": "Ciudad Pistón", 
+        "home": "Ciudad Pistón",
         "sex": "Masculino",
         "type": "Fuego",
         "region": "Galar y Hoenn (Anteriormente)",
@@ -747,7 +747,7 @@
       {
         "name": "キバナ (Kibana)",
         "image": "/gyms/Lideres/Roy.png",
-        "home": "Ciudad Artejo", 
+        "home": "Ciudad Artejo",
         "sex": "Masculino",
         "type": "Dragón",
         "region": "Galar",
@@ -761,7 +761,7 @@
       {
         "name": "サイトウ (Saitō)",
         "image": "/gyms/Lideres/Judith.png",
-        "home": "Pueblo Ladera", 
+        "home": "Pueblo Ladera",
         "sex": "Femenino",
         "type": "Lucha",
         "region": "Galar",
@@ -775,7 +775,7 @@
       {
         "name": "オニオン (Onion)",
         "image": "/gyms/Lideres/Alistair.png",
-        "home": "Pueblo Ladera", 
+        "home": "Pueblo Ladera",
         "sex": "Masculino",
         "type": "Fantasma",
         "region": "Galar",
@@ -789,7 +789,7 @@
       {
         "name": "マクワ (Makuwa)",
         "image": "/gyms/Lideres/Morris.png",
-        "home": "Pueblo Auriga", 
+        "home": "Pueblo Auriga",
         "sex": "Masculino",
         "type": "Roca",
         "region": "Galar",
@@ -803,7 +803,7 @@
       {
         "name": "メロン (Melon)",
         "image": "/gyms/Lideres/Mel.png",
-        "home": "Pueblo Auriga", 
+        "home": "Pueblo Auriga",
         "sex": "Femenino",
         "type": "Hielo",
         "region": "Galar",
@@ -817,7 +817,7 @@
       {
         "name": "ネズ (Nezz)",
         "image": "/gyms/Lideres/Nerio.png",
-        "home": "Pueblo Crampón", 
+        "home": "Pueblo Crampón",
         "sex": "Masculino",
         "type": "Siniestro",
         "region": "Galar",
@@ -831,7 +831,7 @@
       {
         "name": "マリィ (Mary)",
         "image": "/gyms/Lideres/Roxy.png",
-        "home": "Pueblo Crampón", 
+        "home": "Pueblo Crampón",
         "sex": "Femenino",
         "type": "Siniestro",
         "region": "Galar",
@@ -845,7 +845,7 @@
       {
         "name": "ルリナ (Rurina)",
         "image": "/gyms/Lideres/Cathy.png",
-        "home": "Pueblo Amura", 
+        "home": "Pueblo Amura",
         "sex": "Femenino",
         "type": "Agua",
         "region": "Galar",
@@ -859,7 +859,7 @@
       {
         "name": "ポプラ (Poplar)",
         "image": "/gyms/Lideres/Sally.png",
-        "home": "Pueblo Plié", 
+        "home": "Pueblo Plié",
         "sex": "Femenino",
         "type": "Hada",
         "region": "Galar",
@@ -873,11 +873,123 @@
       {
         "name": "ビート (Beet)",
         "image": "/gyms/Lideres/Berto.png",
-        "home": "Pueblo Plié", 
+        "home": "Pueblo Plié",
         "sex": "Masculino",
         "type": "Hada",
         "region": "Galar",
         "description": ""
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Cántara",
+    "leaders": [
+      {
+        "name": "ハイダイ (Haidai)",
+        "image": "/gyms/Lideres/Fuco.png",
+        "home": "Ciudad Cántara",
+        "sex": "Masculino",
+        "type": "Agua",
+        "region": "Paldea",
+        "description": "El Chef Torrencial"
+      }
+    ]
+  },
+  {
+    "gymCity": "Pueblo Pirotin",
+    "leaders": [
+      {
+        "name": "カエデ (Kaede)",
+        "image": "/gyms/Lideres/Araceli.png",
+        "home": "Pueblo Pirotin",
+        "sex": "Femenino",
+        "type": "Bicho",
+        "region": "Paldea",
+        "description": "La Tejedora de Dulces"
+      }
+    ]
+  },
+  {
+    "gymCity": "Pueblo Altamia",
+    "leaders": [
+      {
+        "name": "コルサ (Colza)",
+        "image": "/gyms/Lideres/Brais.png",
+        "home": "Pueblo Altamia",
+        "sex": "Masculino",
+        "type": "Planta",
+        "region": "Paldea",
+        "description": "El Artista Natural"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Sierra Napada",
+    "leaders": [
+      {
+        "name": "グルーシャ (Grusha)",
+        "image": "/gyms/Lideres/Grusha.png",
+        "home": "Sierra Napada",
+        "sex": "Masculino",
+        "type": "Hielo",
+        "region": "Paldea",
+        "description": "El Cero Absoluto"
+      }
+    ]
+  },
+  {
+    "gymCity": "Ciudad Leudal",
+    "leaders": [
+      {
+        "name": "ナンジャモ (Nanjyamo)",
+        "image": "/gyms/Lideres/Enigma.png",
+        "home": "Ciudad Leudal",
+        "sex": "Femenino",
+        "type": "Eléctrico",
+        "region": "Paldea",
+        "description": "La Electrostreamer"
+      }
+    ]
+  },
+  {
+    "gymCity": "Pueblo Mestura",
+    "leaders": [
+      {
+        "name": "アオキ (Aoki)",
+        "image": "/gyms/Lideres/Laureano.png",
+        "home": "Pueblo Mestura",
+        "sex": "Masculino",
+        "type": "Normal",
+        "region": "Paldea",
+        "description": "El Oficinista Extraordinario"
+      }
+    ]
+  },
+  {
+    "gymCity": "Pueblo Hozkailu",
+    "leaders": [
+      {
+        "name": "ライム (Lime)",
+        "image": "/gyms/Lideres/Lima.png",
+        "home": "Pueblo Hozkailu",
+        "sex": "Femenino",
+        "type": "Fantasma",
+        "region": "Paldea",
+        "description": "El Alma del Rap"
+      }
+    ]
+  },
+  {
+    "gymCity": "Pueblo Alforno",
+    "leaders": [
+      {
+        "name": "リップ (Lip)",
+        "image": "/gyms/Lideres/Tuli.png",
+        "home": "Pueblo Alforno",
+        "sex": "Femenino",
+        "type": "Psíquico",
+        "region": "Paldea",
+        "description": "La Maquilladora Mágica"
       }
     ]
   }

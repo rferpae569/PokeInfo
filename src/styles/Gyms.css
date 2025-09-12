@@ -185,6 +185,8 @@
 .leader-details-table em {
   color: #9ca3af;
   font-style: italic;
+  display: block;
+  text-align: center;
 }
 
 

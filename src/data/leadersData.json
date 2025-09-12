@@ -686,6 +686,20 @@
     ]
   },
   {
+    "gymCity": "Ciudad Luminalia",
+    "leaders": [
+      {
+        "name": "シトロイド (Citroid)",
+        "image": "/gyms/Lideres/Cemblot.png",
+        "home": "Ciudad Luminalia",
+        "sex": "Ninguno",
+        "type": "Eléctrico",
+        "region": "Kalos",
+        "description": ""
+      }
+    ]
+  },
+  {
     "gymCity": "Ciudad Relieve",
     "leaders": [
       {

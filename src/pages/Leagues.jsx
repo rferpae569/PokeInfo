@@ -15,10 +15,8 @@ function LeagueDetails({ isOpen, children }) {
         setHeight(ref.current.scrollHeight);
       };
 
-      // Altura inicial
       updateHeight();
 
-      // Recalcular cuando cargan imágenes
       const images = ref.current.querySelectorAll("img");
       images.forEach((img) => {
         if (!img.complete) {
@@ -70,14 +68,36 @@ export default function Leagues() {
 
   return (
     <div className="leagues-container">
-      <h2 className="leagues-title">Ligas</h2>
-      <p className="leagues-description">
+      <motion.h2
+        className="leagues-title"
+        initial={{ opacity: 0, y: -30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+      >
+        Ligas
+      </motion.h2>
+
+      <motion.p
+        className="leagues-description"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+      >
         Aquí mostraremos todas las ligas disponibles en el universo Pokémon.
-      </p>
+      </motion.p>
 
       <div className="leagues-grid">
-        {leagues.map((league) => (
-          <div key={league.id} className="league-card">
+        {leagues.map((league, index) => (
+          <motion.div
+            key={league.id}
+            className="league-card"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.6, delay: index * 0.2 }}
+          >
             <h3 className="league-name">{league.name}</h3>
             <p className="league-region">{league.region}</p>
 
@@ -150,17 +170,16 @@ export default function Leagues() {
               </div>
             </LeagueDetails>
 
-             {/* Botón inscribirse */}
+            {/* Botón inscribirse */}
             <button
               className="league-button"
               onClick={() => toggleCard(league.id)}
             >
               {openCard === league.id ? "Cerrar" : "Inscribirse"}
             </button>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
   );
 }
-

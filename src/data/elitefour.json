@@ -1,42 +1,112 @@
 [
   {
-    "league": "",
+    "league": "Liga Arándano",
     "EliteFour": [
       {
-        "name": "タケシ (Takeshi)",
-        "image": "/gyms/Lideres/Brock.png",
-        "home": "Ciudad Plateada",
+        "name": "アカマツ (Akamatsu)",
+        "image": "/leagues/eliteFour/Denis.png",
+        "home": "Ciudad Hormigón",
         "sex": "Masculino",
-        "type": "Roca",
-        "region": "Kanto",
-        "description": "El hombre más fuerte que la roca"
+        "type": "Fuego",
+        "region": "Teselia"
       },
       {
-        "name": "タケシ (Takeshi)",
-        "image": "/gyms/Lideres/Brock.png",
-        "home": "Ciudad Plateada",
-        "sex": "Masculino",
-        "type": "Roca",
-        "region": "Kanto",
-        "description": "El hombre más fuerte que la roca"
+        "name": "ネリネ (Nerine)",
+        "image": "/leagues/eliteFour/Nerina.png",
+        "home": "Ciudad Porcelana",
+        "sex": "Femenino",
+        "type": "Acero",
+        "region": "Teselia"
       },
       {
-        "name": "タケシ (Takeshi)",
-        "image": "/gyms/Lideres/Brock.png",
-        "home": "Ciudad Plateada",
-        "sex": "Masculino",
-        "type": "Roca",
-        "region": "Kanto",
-        "description": "El hombre más fuerte que la roca"
+        "name": "タロ (Taro)",
+        "image": "/leagues/eliteFour/Aroa.png",
+        "home": "Ciudad Mayólica",
+        "sex": "Femenino",
+        "type": "Hada",
+        "region": "Teselia"
       },
       {
-        "name": "タケシ (Takeshi)",
-        "image": "/gyms/Lideres/Brock.png",
-        "home": "Ciudad Plateada",
+        "name": "カキツバタ (Kakitsubata)",
+        "image": "/leagues/eliteFour/Levi.png",
+        "home": "Ciudad Caolín",
         "sex": "Masculino",
-        "type": "Roca",
-        "region": "Kanto",
-        "description": "El hombre más fuerte que la roca"
+        "type": "Dragón",
+        "region": "Teselia"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Kanto",
+    "EliteFour": [
+      {
+        "name": "カンナ (Kanna)",
+        "image": "/leagues/eliteFour/Lorelei.png",
+        "home": "Isla Quarta",
+        "sex": "Femenino",
+        "type": "Hielo",
+        "region": "Kanto"
+      },
+      {
+        "name": "シバ (Shiba)",
+        "image": "/leagues/eliteFour/Bruno.png",
+        "home": "",
+        "sex": "Masculino",
+        "type": "Lucha",
+        "region": "Kanto"
+      },
+      {
+        "name": "キクコ (Kikuko)",
+        "image": "/leagues/eliteFour/Agatha.png",
+        "home": "",
+        "sex": "Femenino",
+        "type": "Fantasma",
+        "region": "Kanto"
+      },
+      {
+        "name": "ワタル (Wataru)",
+        "image": "/leagues/eliteFour/Lance.png",
+        "home": "Ciudad Endrino",
+        "sex": "Masculino",
+        "type": "Dragón",
+        "region": "Kanto"
+      }
+    ]
+  },
+   {
+    "league": "Liga Pokémon de Johto",
+    "EliteFour": [
+      {
+        "name": "イツキ (Itsuki)",
+        "image": "/leagues/eliteFour/Mento.png",
+        "home": "",
+        "sex": "Masculino",
+        "type": "Psíquico",
+        "region": ""
+      },
+      {
+        "name": "キョウ (Kyou)",
+        "image": "/gyms/Lideres/Koga.png",
+        "home": "Ciudad Fucsia",
+        "sex": "Masculino",
+        "type": "Veneno",
+        "region": "Kanto"
+      },
+      {
+        "name": "シバ (Shiba)",
+        "image": "/leagues/eliteFour/Bruno.png",
+        "home": "",
+        "sex": "Masculino",
+        "type": "Lucha",
+        "region": "Kanto"
+      },
+      {
+        "name": "カリン (Karin)",
+        "image": "/leagues/eliteFour/Karen.png",
+        "home": "Ciudad Endrino",
+        "sex": "Femenino",
+        "type": "Siniestro",
+        "region": ""
       }
     ]
   }

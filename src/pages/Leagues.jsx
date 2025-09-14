@@ -1,7 +1,9 @@
 import { useEffect, useState, useRef } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { getPokemon } from "../services/pokeapi";
 import leagues from "../data/leagues.json";
+import eliteFourData from "../data/elitefour.json";
+import championsData from "../data/champions.json";
 import "../styles/Leagues.css";
 
 // Componente reutilizable para expandir/colapsar con altura dinámica
@@ -11,9 +13,7 @@ function LeagueDetails({ isOpen, children }) {
 
   useEffect(() => {
     if (ref.current) {
-      const updateHeight = () => {
-        setHeight(ref.current.scrollHeight);
-      };
+      const updateHeight = () => setHeight(ref.current.scrollHeight);
 
       updateHeight();
 
@@ -45,6 +45,7 @@ function LeagueDetails({ isOpen, children }) {
 export default function Leagues() {
   const [pokemonSprites, setPokemonSprites] = useState({});
   const [openCard, setOpenCard] = useState(null);
+  const [selectedTrainer, setSelectedTrainer] = useState(null);
 
   useEffect(() => {
     async function fetchSprites() {
@@ -64,6 +65,21 @@ export default function Leagues() {
 
   const toggleCard = (id) => {
     setOpenCard(openCard === id ? null : id);
+  };
+
+  // Función para abrir overlay del Elite Four o Campeón
+  const handleTrainerClick = (leagueName, type, index = 0) => {
+    let trainer = null;
+
+    if (type === "eliteFour") {
+      const league = eliteFourData.find((l) => l.league === leagueName);
+      if (league) trainer = league.EliteFour[index];
+    } else if (type === "champion") {
+      const league = championsData.find((l) => l.league === leagueName);
+      if (league) trainer = league.Champion[index];
+    }
+
+    if (trainer) setSelectedTrainer(trainer);
   };
 
   return (
@@ -101,7 +117,6 @@ export default function Leagues() {
             <h3 className="league-name">{league.name}</h3>
             <p className="league-region">{league.region}</p>
 
-            {/* Contenido colapsable */}
             <LeagueDetails isOpen={openCard === league.id}>
               {/* Acceso */}
               <h4 className="league-subtitle">Acceso</h4>
@@ -125,31 +140,51 @@ export default function Leagues() {
               {/* Elite Four */}
               <h4 className="league-subtitle">Elite Four</h4>
               <div className="trainers-grid">
-                {league.eliteFour.map((member, i) => (
-                  <div key={i} className="trainer-card">
-                    <img
-                      src={member.image}
-                      alt={member.name}
-                      className="trainer-img"
-                    />
-                    <p className="trainer-name">{member.name}</p>
-                  </div>
-                ))}
+                {league.eliteFour.map((member, i) => {
+                  // Busca los datos completos en los datos de EliteFour
+                  const fullData = eliteFourData.find(
+                    (l) => l.league === league.name
+                  )?.EliteFour[i];
+
+                  return (
+                    <div
+                      key={i}
+                      className="trainer-card"
+                      onClick={() =>
+                        handleTrainerClick(league.name, "eliteFour", i)
+                      }
+                    >
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="trainer-img"
+                      />
+                      <p className="trainer-name">{member.name}</p>
+                    </div>
+                  );
+                })}
               </div>
 
-              {/* Campeones */}
+              {/* Campeón */}
               <h4 className="league-subtitle">Campeón</h4>
               <div className="trainers-grid">
-                {(league.champions || [league.champion]).map((champion, i) => (
-                  <div key={i} className="trainer-card">
+                {league.champion ? (
+                  <div
+                    className="trainer-card"
+                    onClick={() =>
+                      handleTrainerClick(league.name, "champion", 0)
+                    }
+                  >
                     <img
-                      src={champion.image}
-                      alt={champion.name}
+                      src={league.champion.image}
+                      alt={league.champion.name}
                       className="trainer-img champion"
                     />
-                    <p className="trainer-name">{champion.name}</p>
+                    <p className="trainer-name">{league.champion.name}</p>
                   </div>
-                ))}
+                ) : (
+                  <p>No hay campeón registrado</p>
+                )}
               </div>
 
               {/* Pokémon destacados */}
@@ -170,7 +205,6 @@ export default function Leagues() {
               </div>
             </LeagueDetails>
 
-            {/* Botón inscribirse */}
             <button
               className="league-button"
               onClick={() => toggleCard(league.id)}
@@ -180,6 +214,56 @@ export default function Leagues() {
           </motion.div>
         ))}
       </div>
+
+      {/* Overlay de entrenador */}
+      <AnimatePresence>
+        {selectedTrainer && (
+          <motion.div
+            className="trainer-overlay"
+            initial={{ x: "100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "100%" }}
+            transition={{ duration: 0.5, ease: "easeInOut" }}
+          >
+            <button
+              className="close-overlay-btn"
+              onClick={() => setSelectedTrainer(null)}
+            >
+              X
+            </button>
+
+            <div className="trainer-overlay-content">
+              <img
+                src={selectedTrainer.image}
+                alt={selectedTrainer.name}
+                className="trainer-overlay-img"
+              />
+              <h2>{selectedTrainer.name}</h2>
+
+              <table className="trainer-overlay-table">
+                <tbody>
+                  <tr>
+                    <td>Sexo:</td>
+                    <td>{selectedTrainer.sex}</td>
+                  </tr>
+                  <tr>
+                    <td>Ciudad:</td>
+                    <td>{selectedTrainer.home}</td>
+                  </tr>
+                  <tr>
+                    <td>Región:</td>
+                    <td>{selectedTrainer.region}</td>
+                  </tr>
+                  <tr>
+                    <td>Tipo:</td>
+                    <td>{selectedTrainer.type}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

@@ -1,1 +1,41 @@
-
+[
+  {
+    "league": "Liga Arándano",
+    "Champion": [
+      {
+        "name": "スグリ (Suguri)",
+        "image": "/leagues/champion/Cass.png",
+        "home": "Villa Versui",
+        "sex": "Masculino",
+        "type": "Fantasma y Siniestro",
+        "region": "Noroteo"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Kanto",
+    "Champion": [
+      {
+        "name": "シン (Shin)",
+        "image": "/leagues/champion/Trace.png",
+        "home": "Pueblo Paleta",
+        "sex": "Masculino",
+        "type": "Todos",
+        "region": "Kanto"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Johto",
+    "Champion": [
+      {
+       "name": "ワタル (Wataru)",
+        "image": "/leagues/eliteFour/Lance.png",
+        "home": "Ciudad Endrino",
+        "sex": "Masculino",
+        "type": "Dragón",
+        "region": "Kanto"
+      }
+    ]
+  }
+]

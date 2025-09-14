@@ -73,7 +73,7 @@
       }
     ]
   },
-   {
+  {
     "league": "Liga Pokémon de Johto",
     "EliteFour": [
       {
@@ -107,6 +107,117 @@
         "sex": "Femenino",
         "type": "Siniestro",
         "region": ""
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Hoenn",
+    "EliteFour": [
+      {
+        "name": "カゲツ (Kagetsu)",
+        "image": "/leagues/eliteFour/Sixto.webp",
+        "home": "",
+        "sex": "Masculino",
+        "type": "Siniestro",
+        "region": "Hoenn"
+      },
+      {
+        "name": "フヨウ (Fuyō)",
+        "image": "/leagues/eliteFour/Fatima.webp",
+        "home": "",
+        "sex": "Femenino",
+        "type": "Fantasma",
+        "region": "Hoenn"
+      },
+      {
+        "name": "プリム (Prim)",
+        "image": "/leagues/eliteFour/Nivea.webp",
+        "home": "",
+        "sex": "Femenino",
+        "type": "Hielo",
+        "region": "Hoenn"
+      },
+      {
+        "name": "ゲンジ (Genji)",
+        "image": "/leagues/eliteFour/Dracon.png",
+        "home": "",
+        "sex": "Masculino",
+        "type": "Dragón",
+        "region": "Hoenn"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Sinnoh",
+    "EliteFour": [
+      {
+        "name": "リョウ (Ryō)",
+        "image": "/leagues/eliteFour/Alecran.png",
+        "home": "",
+        "sex": "Masculino",
+        "type": "Bicho",
+        "region": "Sinnoh"
+      },
+      {
+        "name": "キクノ (Kikuno)",
+        "image": "/leagues/eliteFour/Gaia.png",
+        "home": "",
+        "sex": "Femenino",
+        "type": "Tierra",
+        "region": "Sinnoh"
+      },
+      {
+        "name": "オーバ (Ohba)",
+        "image": "/leagues/eliteFour/Fausto.png",
+        "home": "Ciudad Marina",
+        "sex": "Masculino",
+        "type": "Fuego",
+        "region": "Sinnoh"
+      },
+      {
+        "name": "ゴヨウ (Goyō)",
+        "image": "/leagues/eliteFour/Delos.png",
+        "home": "",
+        "sex": "Masculino",
+        "type": "Psíquico",
+        "region": "Sinnoh"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Teselia",
+    "EliteFour": [
+      {
+        "name": "シキミ (Shikimi)",
+        "image": "/leagues/eliteFour/Anis.png",
+        "home": "Casa encantada",
+        "sex": "Femenino",
+        "type": "Fantasma",
+        "region": "Teselia"
+      },
+      {
+        "name": "ギーマ (Gīma)",
+        "image": "/leagues/eliteFour/Aza.png",
+        "home": "",
+        "sex": "Masculino",
+        "type": "Siniestro",
+        "region": "Teselia"
+      },
+      {
+        "name": "レンブ (Renbu)",
+        "image": "/leagues/eliteFour/Lotto.png",
+        "home": "",
+        "sex": "Masculino",
+        "type": "Lucha",
+        "region": "Teselia"
+      },
+      {
+        "name": "カトレア (Cattleya)",
+        "image": "/leagues/eliteFour/Catleya.png",
+        "home": "",
+        "sex": "Femenino",
+        "type": "Psíquico",
+        "region": "Teselia (Antes Sinnoh y Johto)"
       }
     ]
   }

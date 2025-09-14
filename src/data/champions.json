@@ -29,12 +29,25 @@
     "league": "Liga Pokémon de Johto",
     "Champion": [
       {
-       "name": "ワタル (Wataru)",
+        "name": "ワタル (Wataru)",
         "image": "/leagues/eliteFour/Lance.png",
         "home": "Ciudad Endrino",
         "sex": "Masculino",
         "type": "Dragón",
         "region": "Kanto"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Johto",
+    "Champion": [
+      {
+        "name": "ツワブキ ダイゴ (Daigo Tsuwabuki)",
+        "image": "/leagues/champion/MaximoPeñas.png",
+        "home": "Ciudad Algaria",
+        "sex": "Masculino",
+        "type": "Todos los tipos",
+        "region": "Hoenn"
       }
     ]
   }

@@ -102,5 +102,57 @@
         "region": "Teselia"
       }
     ]
+  },
+  {
+    "league": "Liga Pokémon de Kalos",
+    "Champion": [
+      {
+        "name": "カルネ (Carne)",
+        "image": "/leagues/champion/Dianta.png",
+        "home": "",
+        "sex": "Femenino",
+        "type": "Variado",
+        "region": "Kalos"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Paldea",
+    "Champion": [
+      {
+        "name": "オモダカ (Omodaka)",
+        "image": "/leagues/champion/Sagita.png",
+        "home": "",
+        "sex": "Femenino",
+        "type": "Variado",
+        "region": "Paldea"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Alola",
+    "Champion": [
+      {
+        "name": "ククイ博士 (Kukui-hakase)",
+        "image": "/leagues/champion/Kukui.png",
+        "home": "Afueras de Hauoli",
+        "sex": "Masculino",
+        "type": "Variado",
+        "region": "Alola"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Alola",
+    "Champion": [
+      {
+        "name": "ハウ (Hau)",
+        "image": "/leagues/champion/Tilo.png",
+        "home": "Pueblo Lilii",
+        "sex": "Masculino",
+        "type": "Variado",
+        "region": "Alola"
+      }
+    ]
   }
 ]

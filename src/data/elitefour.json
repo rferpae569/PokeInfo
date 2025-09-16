@@ -220,5 +220,124 @@
         "region": "Teselia (Antes Sinnoh y Johto)"
       }
     ]
+  },
+  {
+    "league": "Liga Pokémon de Kalos",
+    "EliteFour": [
+      {
+        "name": "ガンピ (Gampi)",
+        "image": "/leagues/eliteFour/Tileo.png",
+        "home": "",
+        "sex": "Masculino",
+        "type": "Acero",
+        "region": "Kalos"
+      },
+      {
+        "name": "パキラ (Pachira)",
+        "image": "/leagues/eliteFour/Malva.png",
+        "home": "",
+        "sex": "Femenino",
+        "type": "Fuego",
+        "region": "Kalos"
+      },
+      {
+        "name": "ドラセナ (Dracaena)",
+        "image": "/leagues/eliteFour/Dracena.png",
+        "home": "",
+        "sex": "Femenino",
+        "type": "Dragón",
+        "region": "Kalos"
+      },
+      {
+        "name": "ズミ (Zumi)",
+        "image": "/leagues/eliteFour/Narciso.png",
+        "home": "",
+        "sex": "Masculino",
+        "type": "Agua",
+        "region": "Kalos"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Paldea",
+    "EliteFour": [
+      {
+        "name": "チリ (Chili)",
+        "image": "/leagues/eliteFour/Cayena.png",
+        "home": "",
+        "sex": "Femenino",
+        "type": "Tierra",
+        "region": "Paldea"
+      },
+      {
+        "name": "ポピー (Poppy)",
+        "image": "/leagues/eliteFour/Pola.png",
+        "home": "",
+        "sex": "Femenino",
+        "type": "Acero",
+        "region": "Paldea"
+      },
+      {
+        "name": "アオキ (Aoki)",
+        "image": "/leagues/eliteFour/Laureano.png",
+        "home": "Pueblo Mestura",
+        "sex": "Masculino",
+        "type": "Volador",
+        "region": "Paldea"
+      },
+      {
+        "name": "ハッサク (Hassaku)",
+        "image": "/leagues/eliteFour/Hesperio.png",
+        "home": "",
+        "sex": "Masculino",
+        "type": "Dragón",
+        "region": "Paldea"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Alola",
+    "EliteFour": [
+      {
+        "name": "マーレイン (Mullein)",
+        "image": "/leagues/eliteFour/Lario.png",
+        "home": "",
+        "sex": "Masculino",
+        "type": "Acero",
+        "region": "Alola"
+      },
+      {
+        "name": "ハラ (Hala)",
+        "image": "/leagues/eliteFour/Kaudan.png",
+        "home": "Pueblo Lilii",
+        "sex": "Masculino",
+        "type": "Lucha",
+        "region": "Alola"
+      },
+      {
+        "name": "ライチ (Lychee)",
+        "image": "/leagues/eliteFour/Mayla.png",
+        "home": "Ciudad Konikoni",
+        "sex": "Femenino",
+        "type": "Roca",
+        "region": "Paldea"
+      },
+      {
+        "name": "アセロラ (Acerola)",
+        "image": "/leagues/eliteFour/Zarala.png",
+        "home": "Casa Æther",
+        "sex": "Femenino",
+        "type": "Fantasma",
+        "region": "Alola"
+      },
+      {
+        "name": "カヒリ (Kahili)",
+        "image": "/leagues/eliteFour/Kahili.png",
+        "home": "Resort Hanohano",
+        "sex": "Femenino",
+        "type": "Volador",
+        "region": "Alola"
+      }
+    ]
   }
 ]

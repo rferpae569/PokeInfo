@@ -39,7 +39,7 @@
     ]
   },
   {
-    "league": "Liga Pokémon de Johto",
+    "league": "Liga Pokémon de Hoenn",
     "Champion": [
       {
         "name": "ツワブキ ダイゴ (Daigo Tsuwabuki)",
@@ -48,6 +48,58 @@
         "sex": "Masculino",
         "type": "Todos los tipos",
         "region": "Hoenn"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Hoenn",
+    "Champion": [
+      {
+        "name": "ミクリ (Mikuri)",
+        "image": "/leagues/champion/Plubio.png",
+        "home": "Arrecípolis",
+        "sex": "Masculino",
+        "type": "Agua",
+        "region": "Hoenn"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Sinnoh",
+    "Champion": [
+      {
+        "name": "シロナ (Shirona)",
+        "image": "/leagues/champion/Cintia.png",
+        "home": "Pueblo Caelestis",
+        "sex": "Femenino",
+        "type": "Variado",
+        "region": "Sinnoh"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Teselia",
+    "Champion": [
+      {
+        "name": "アデク (Adeku)",
+        "image": "/leagues/champion/Mirto.png",
+        "home": "Pueblo Ocre",
+        "sex": "Masculino",
+        "type": "Bicho y Lucha",
+        "region": "Teselia"
+      }
+    ]
+  },
+  {
+    "league": "Liga Pokémon de Teselia",
+    "Champion": [
+      {
+        "name": "アイリス (Iris)",
+        "image": "/leagues/champion/Iris.png",
+        "home": "Ciudad Caolín",
+        "sex": "Femenino",
+        "type": "Dragón",
+        "region": "Teselia"
       }
     ]
   }

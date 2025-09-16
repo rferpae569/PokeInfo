@@ -67,20 +67,27 @@ export default function Leagues() {
     setOpenCard(openCard === id ? null : id);
   };
 
-  // Función para abrir overlay del Elite Four o Campeón
-  const handleTrainerClick = (leagueName, type, index = 0) => {
-    let trainer = null;
+// Función para abrir overlay del Elite Four o Campeón
+const handleTrainerClick = (leagueName, type, index = 0) => {
+  let trainer = null;
 
-    if (type === "eliteFour") {
-      const league = eliteFourData.find((l) => l.league === leagueName);
-      if (league) trainer = league.EliteFour[index];
-    } else if (type === "champion") {
-      const league = championsData.find((l) => l.league === leagueName);
-      if (league) trainer = league.Champion[index];
+  if (type === "eliteFour") {
+    const league = eliteFourData.find((l) => l.league === leagueName);
+    if (league) trainer = league.EliteFour[index];
+  } else if (type === "champion") {
+    // Traer todos los campeones de esa liga
+    const leagueChampions = championsData
+      .filter((l) => l.league === leagueName) // varios objetos posibles
+      .flatMap((l) => l.Champion);            // aplanamos en un único array
+
+    if (leagueChampions.length > 0) {
+      trainer = leagueChampions[index];
     }
+  }
 
-    if (trainer) setSelectedTrainer(trainer);
-  };
+  if (trainer) setSelectedTrainer(trainer);
+};
+
 
   return (
     <div className="leagues-container">
@@ -169,6 +176,7 @@ export default function Leagues() {
               <h4 className="league-subtitle">Campeón</h4>
               <div className="trainers-grid">
                 {league.champion ? (
+                  // Con un solo campeón
                   <div
                     className="trainer-card"
                     onClick={() =>
@@ -182,6 +190,24 @@ export default function Leagues() {
                     />
                     <p className="trainer-name">{league.champion.name}</p>
                   </div>
+                ) : league.champions ? (
+                  // Con varios campeones
+                  league.champions.map((champ, i) => (
+                    <div
+                      key={i}
+                      className="trainer-card"
+                      onClick={() =>
+                        handleTrainerClick(league.name, "champion", i)
+                      }
+                    >
+                      <img
+                        src={champ.image}
+                        alt={champ.name}
+                        className="trainer-img champion"
+                      />
+                      <p className="trainer-name">{champ.name}</p>
+                    </div>
+                  ))
                 ) : (
                   <p>No hay campeón registrado</p>
                 )}

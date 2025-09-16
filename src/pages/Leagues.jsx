@@ -67,27 +67,42 @@ export default function Leagues() {
     setOpenCard(openCard === id ? null : id);
   };
 
-// Función para abrir overlay del Elite Four o Campeón
-const handleTrainerClick = (leagueName, type, index = 0) => {
-  let trainer = null;
+  // Función para abrir overlay del Elite Four o Campeón
+  const handleTrainerClick = (leagueName, type, index = 0) => {
+    let trainer = null;
 
-  if (type === "eliteFour") {
-    const league = eliteFourData.find((l) => l.league === leagueName);
-    if (league) trainer = league.EliteFour[index];
-  } else if (type === "champion") {
-    // Traer todos los campeones de esa liga
-    const leagueChampions = championsData
-      .filter((l) => l.league === leagueName) // varios objetos posibles
-      .flatMap((l) => l.Champion);            // aplanamos en un único array
+    if (type === "eliteFour") {
+      const league = eliteFourData.find((l) => l.league === leagueName);
+      if (league) trainer = league.EliteFour[index];
+    } else if (type === "champion") {
+      // Traer todos los campeones de esa liga
+      const leagueChampions = championsData
+        .filter((l) => l.league === leagueName) // varios objetos posibles
+        .flatMap((l) => l.Champion); // aplanamos en un único array
 
-    if (leagueChampions.length > 0) {
-      trainer = leagueChampions[index];
+      if (leagueChampions.length > 0) {
+        trainer = leagueChampions[index];
+      }
     }
-  }
 
-  if (trainer) setSelectedTrainer(trainer);
-};
+    if (trainer) setSelectedTrainer(trainer);
+  };
 
+  // useEffect para bloquear scroll si estas activado el overlay
+  useEffect(() => {
+    if (selectedTrainer) {
+      document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
+    };
+  }, [selectedTrainer]);
 
   return (
     <div className="leagues-container">

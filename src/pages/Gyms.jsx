@@ -70,6 +70,24 @@ export default function Gyms() {
     }
   };
 
+  // useEffect para bloquear scroll si estas activado el overlay
+  useEffect(() => {
+    if (selectedLeader) {
+      // Bloquea scroll global
+      document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
+    } else {
+      // Restaura scroll
+      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
+    };
+  }, [selectedLeader]);
+
   return (
     <div className="gyms-wrapper">
       {/* Region */}

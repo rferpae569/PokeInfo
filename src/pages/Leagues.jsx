@@ -4,6 +4,9 @@ import { getPokemon } from "../services/pokeapi";
 import leagues from "../data/leagues.json";
 import eliteFourData from "../data/elitefour.json";
 import championsData from "../data/champions.json";
+import fase1 from "../data/fase1.json";
+import fase2 from "../data/fase2.json";
+import fase3 from "../data/fase3.json";
 import "../styles/Leagues.css";
 
 // Componente reutilizable para expandir/colapsar con altura dinámica
@@ -256,6 +259,114 @@ export default function Leagues() {
         ))}
       </div>
 
+      {/* Apartado especial: Copa de Campeones de Galar */}
+      <motion.div
+        className="galar-tournament"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+      >
+        <h2 className="tournament-title">Liga Pokémon de Galar</h2>
+        <p className="tournament-description">
+          Este torneo se desarrolla en varias fases donde los entrenadores se
+          enfrentan hasta llegar al campeón.
+        </p>
+
+        {/* Fase 1 */}
+        <motion.div
+          className="tournament-phase"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          <h3>Fase 1: Torneo de Medallistas</h3>
+          <div className="tournament-grid">
+            {fase1.map((trainer, i) => (
+              <motion.div
+                key={i}
+                className="tournament-card"
+                onClick={() => setSelectedTrainer(trainer)}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: i * 0.2 }}
+              >
+                <img
+                  src={trainer.image}
+                  alt={trainer.name}
+                  className="tournament-img"
+                />
+                <p className="tournament-name">{trainer.name}</p>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Fase 2 */}
+        <motion.div
+          className="tournament-phase"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          <h3>Fase 2: Torneo de Finalistas</h3>
+          <div className="tournament-grid">
+            {fase2.map((trainer, i) => (
+              <motion.div
+                key={i}
+                className="tournament-card"
+                onClick={() => setSelectedTrainer(trainer)}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: i * 0.2 }}
+              >
+                <img
+                  src={trainer.image}
+                  alt={trainer.name}
+                  className="tournament-img"
+                />
+                <p className="tournament-name">{trainer.name}</p>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Fase 3 */}
+        <motion.div
+          className="tournament-phase"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+        >
+          <h3>Fase 3: Encuentro de Campeones</h3>
+          <div className="tournament-grid">
+            {fase3.map((trainer, i) => (
+              <motion.div
+                key={i}
+                className="tournament-card"
+                onClick={() => setSelectedTrainer(trainer)}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: i * 0.2 }}
+              >
+                <img
+                  src={trainer.image}
+                  alt={trainer.name}
+                  className="tournament-img"
+                />
+                <p className="tournament-name">{trainer.name}</p>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+      </motion.div>
+
       {/* Overlay de entrenador */}
       <AnimatePresence>
         {selectedTrainer && (
@@ -279,7 +390,7 @@ export default function Leagues() {
                 alt={selectedTrainer.name}
                 className="trainer-overlay-img"
               />
-              <h2>{selectedTrainer.name}</h2>
+              <h2>{selectedTrainer.nameJP}</h2>
 
               <table className="trainer-overlay-table">
                 <tbody>

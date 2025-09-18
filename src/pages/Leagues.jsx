@@ -7,6 +7,7 @@ import championsData from "../data/champions.json";
 import fase1 from "../data/fase1.json";
 import fase2 from "../data/fase2.json";
 import fase3 from "../data/fase3.json";
+import Overlay from "../components/Overlay";
 import "../styles/Leagues.css";
 
 // Componente reutilizable para expandir/colapsar con altura dinámica
@@ -259,7 +260,7 @@ export default function Leagues() {
         ))}
       </div>
 
-      {/* Apartado especial: Copa de Campeones de Galar */}
+      {/* Liga de Galar */}
       <motion.div
         className="galar-tournament"
         initial={{ opacity: 0, y: 50 }}
@@ -368,54 +369,12 @@ export default function Leagues() {
       </motion.div>
 
       {/* Overlay de entrenador */}
-      <AnimatePresence>
-        {selectedTrainer && (
-          <motion.div
-            className="trainer-overlay"
-            initial={{ x: "100%" }}
-            animate={{ x: 0 }}
-            exit={{ x: "100%" }}
-            transition={{ duration: 0.5, ease: "easeInOut" }}
-          >
-            <button
-              className="close-overlay-btn"
-              onClick={() => setSelectedTrainer(null)}
-            >
-              X
-            </button>
-
-            <div className="trainer-overlay-content">
-              <img
-                src={selectedTrainer.image}
-                alt={selectedTrainer.name}
-                className="trainer-overlay-img"
-              />
-              <h2>{selectedTrainer.nameJP}</h2>
-
-              <table className="trainer-overlay-table">
-                <tbody>
-                  <tr>
-                    <td>Sexo:</td>
-                    <td>{selectedTrainer.sex}</td>
-                  </tr>
-                  <tr>
-                    <td>Ciudad:</td>
-                    <td>{selectedTrainer.home}</td>
-                  </tr>
-                  <tr>
-                    <td>Región:</td>
-                    <td>{selectedTrainer.region}</td>
-                  </tr>
-                  <tr>
-                    <td>Tipo:</td>
-                    <td>{selectedTrainer.type}</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <Overlay
+        isOpen={!!selectedTrainer}
+        onClose={() => setSelectedTrainer(null)}
+        data={selectedTrainer}
+        type="trainer"
+      />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import gymsData from "../data/gymsData.json";
 import leadersData from "../data/leadersData.json";
+import Overlay from "../components/Overlay";
 import "../styles/Gyms.css";
 
 // Componente para los detalles de la tarjeta
@@ -216,62 +217,12 @@ export default function Gyms() {
       ))}
 
       {/* Overlay de líder */}
-      <AnimatePresence>
-        {selectedLeader && (
-          <motion.div
-            className="leader-details-overlay"
-            initial={{ x: "100%" }}
-            animate={{ x: 0 }}
-            exit={{ x: "100%" }}
-            transition={{ duration: 0.5, ease: "easeInOut" }}
-          >
-            {/* Boton para cerrar overlay */}
-            <button
-              className="close-leader-btn"
-              onClick={() => setSelectedLeader(null)}
-            >
-              X
-            </button>
-
-            {/* Contenido del líder */}
-            <div className="leader-details-content">
-              <img
-                src={selectedLeader.leader.image}
-                alt={selectedLeader.leader.name}
-                className="leader-details-image"
-              />
-              <h2>{selectedLeader.leader.name}</h2>
-
-              {/* Tabla con los datos del líder */}
-              <table className="leader-details-table">
-                <tbody>
-                  <tr>
-                    <td colSpan={2}>
-                      <em>{selectedLeader.leader.description}</em>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Sexo:</td>
-                    <td>{selectedLeader.leader.sex}</td>
-                  </tr>
-                  <tr>
-                    <td>Ciudad:</td>
-                    <td>{selectedLeader.leader.home}</td>
-                  </tr>
-                  <tr>
-                    <td>Región:</td>
-                    <td>{selectedLeader.leader.region}</td>
-                  </tr>
-                  <tr>
-                    <td>Tipo:</td>
-                    <td>{selectedLeader.leader.type}</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <Overlay
+        isOpen={!!selectedLeader}
+        onClose={() => setSelectedLeader(null)}
+        data={selectedLeader?.leader}
+        type="leader"
+      />
     </div>
   );
 }

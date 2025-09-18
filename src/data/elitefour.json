@@ -233,19 +233,19 @@
         "region": "Kalos"
       },
       {
-        "name": "パキラ (Pachira)",
-        "image": "/leagues/eliteFour/Malva.png",
-        "home": "",
-        "sex": "Femenino",
-        "type": "Fuego",
-        "region": "Kalos"
-      },
-      {
         "name": "ドラセナ (Dracaena)",
         "image": "/leagues/eliteFour/Dracena.png",
         "home": "",
         "sex": "Femenino",
         "type": "Dragón",
+        "region": "Kalos"
+      },
+      {
+        "name": "パキラ (Pachira)",
+        "image": "/leagues/eliteFour/Malva.png",
+        "home": "",
+        "sex": "Femenino",
+        "type": "Fuego",
         "region": "Kalos"
       },
       {

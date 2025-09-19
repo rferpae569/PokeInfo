@@ -91,6 +91,21 @@ export default function Gyms() {
 
   return (
     <div className="gyms-wrapper">
+      {/* Título e introducción */}
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        viewport={{ once: true, amount: 0.2 }}
+      >
+        <h1 className="gyms-title">Gimnasios Pokémon</h1>
+        <p className="gyms-description">
+          Descubre todos los gimnasios de cada región, conoce a sus líderes, sus
+          tipos de especialidad y las medallas que podrás obtener en tu
+          aventura.
+        </p>
+      </motion.div>
+
       {/* Region */}
       {gymsData.map((region) => (
         <motion.div

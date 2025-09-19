@@ -1,32 +1,21 @@
-import { Link } from "react-router-dom";
 import "../styles/Header.css";
 
 export default function Header() {
   return (
     <header className="header">
       <nav>
-        <Link to="/" className="logo">
+        <a href="/" className="logo">
           <img src="/icons/PokeInfoLogo.png" alt="Logo" />
-        </Link>
+        </a>
 
         <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/types">Tipos</Link>
-          </li>
-          <li>
-            <Link to="/gyms">Gimnasios</Link>
-          </li>
-          <li>
-            <Link to="/leagues">Ligas</Link>
-          </li>
-          <li>
-            <Link to="/pokedex">Pokédex</Link>
-          </li>
+          <li><a href="#Pokedex">Pokédex</a></li>
+          <li><a href="#Types">Tipos</a></li>
+          <li><a href="#Gyms">Gimnasios</a></li>
+          <li><a href="#Leagues">Ligas</a></li>
         </ul>
       </nav>
     </header>
   );
 }
+

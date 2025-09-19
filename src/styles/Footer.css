@@ -45,3 +45,11 @@
 .footer-logos-row img.creatures-logo {
   height: 50px;
 }
+
+#Home::before {
+  content: "";
+  display: block;
+  height: 250px;
+  margin-top: -250px;
+  visibility: hidden;
+}

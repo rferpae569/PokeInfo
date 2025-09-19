@@ -5,9 +5,9 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-logo">
-        <Link to="/" className="logo">
+        <a href="#Home" className="logo">
           <img src="/icons/PokeInfoLogo.png" alt="Logo" />
-        </Link>
+        </a>
       </div>
 
       <p>PokeInfo © {new Date().getFullYear()} - Proyecto Fan-Made</p>

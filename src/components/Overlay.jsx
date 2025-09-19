@@ -62,10 +62,3 @@ export default function Overlay({ isOpen, onClose, data, type }) {
     </AnimatePresence>
   );
 }
-
-
-
-
-
-
-

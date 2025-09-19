@@ -6,7 +6,7 @@ import Types from "../pages/Types";
 
 export default function Home() {
   return (
-    <div className="p-6 max-w-6xl mx-auto space-y-12">
+    <div id="Home" className="p-6 max-w-6xl mx-auto space-y-12">
       {/* Bloque de bienvenida con animaciones */}
       <motion.h2
         className="text-3xl font-bold mb-4"

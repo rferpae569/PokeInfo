@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   position: sticky;
   top: 0;
@@ -58,4 +62,20 @@ nav a:first-child {
   color: white;
   text-decoration: none;
   transition: color 0.3s ease;
+}
+
+#Pokedex,
+#Types,
+#Gyms,
+#Leagues {
+  padding-top: 160px;
+  margin-top: -160px;
+}
+
+#Home::before {
+  content: "";
+  display: block;
+  height: 250px;
+  margin-top: -250px;
+  visibility: hidden;
 }

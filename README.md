@@ -1,12 +1,15 @@
-# React + Vite
+# PokeInfo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PokeInfo es un proyecto basado en Pokémon que permite explorar información detallada sobre los Pokémon, sus tipos, gimnasios y ligas. La aplicación proporciona una experiencia interactiva y organizada para fans de Pokémon que quieran consultar datos de manera rápida y visual.
 
-Currently, two official plugins are available:
+## Funcionalidades principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Pokédex:** Descubre qué es una Pokédex, cómo funciona y cuántos tipos existen. Además, tendrás la oportunidad de usar una Pokédex interactiva para conocer algunos de los muchos Pokémon que existen.
 
-## Expanding the ESLint configuration
+- **Tipos de Pokémon:** Explora los distintos tipos de Pokémon y descubre cuál tiene ventaja en un enfrentamiento virtual. Podrás conocer las fortalezas y debilidades de cada tipo.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Gimnasios:** Consulta información sobre los gimnasios disponibles y sus líderes.
+
+- **Ligas:** Accede a información sobre las ligas y competiciones dentro del universo Pokémon.
+
+Este proyecto ha sido desarrollado por **Rubén Fernández**.

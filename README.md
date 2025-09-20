@@ -12,4 +12,4 @@ PokeInfo es un proyecto basado en Pokémon que permite explorar información det
 
 - **Ligas:** Accede a información sobre las ligas y competiciones dentro del universo Pokémon.
 
-Este proyecto ha sido desarrollado por **Rubén Fernández**.
+Este proyecto ha sido desarrollado por **Rubén Fernández** con **React + Vite**.

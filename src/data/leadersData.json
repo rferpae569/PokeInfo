@@ -9,7 +9,8 @@
         "sex": "Masculino",
         "type": "Roca",
         "region": "Kanto",
-        "description": "El hombre más fuerte que la roca"
+        "description": "El hombre más fuerte que la roca",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -23,7 +24,8 @@
         "sex": "Femenino",
         "type": "Agua",
         "region": "Kanto",
-        "description": "La sirena distorsionada"
+        "description": "La sirena distorsionada",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -37,7 +39,8 @@
         "sex": "Masculino",
         "type": "Eléctrico",
         "region": "Kanto",
-        "description": "¡El rayo americano!"
+        "description": "¡El rayo americano!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -51,7 +54,8 @@
         "sex": "Femenino",
         "type": "Planta",
         "region": "Kanto",
-        "description": "¡La princesa amante de la naturaleza!"
+        "description": "¡La princesa amante de la naturaleza!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -65,7 +69,8 @@
         "sex": "Masculino",
         "type": "Veneno",
         "region": "Kanto",
-        "description": "El venenoso maestro ninja"
+        "description": "El venenoso maestro ninja",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -79,7 +84,8 @@
         "sex": "Femenino",
         "type": "Veneno",
         "region": "Kanto",
-        "description": "¡La venenosa maestra ninja!"
+        "description": "¡La venenosa maestra ninja!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -93,7 +99,8 @@
         "sex": "Femenino",
         "type": "Psíquico",
         "region": "Kanto",
-        "description": "La reina de los Pokémon de tipo psíquico"
+        "description": "La reina de los Pokémon de tipo psíquico",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -107,7 +114,8 @@
         "sex": "Masculino",
         "type": "Fuego",
         "region": "Kanto",
-        "description": "¡El maestro de los acertijos!"
+        "description": "¡El maestro de los acertijos!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -121,7 +129,8 @@
         "sex": "Masculino",
         "type": "Tierra",
         "region": "Kanto",
-        "description": ""
+        "description": "",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -135,7 +144,8 @@
         "sex": "Masculino",
         "type": "Tierra",
         "region": "Kanto",
-        "description": ""
+        "description": "",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -149,7 +159,8 @@
         "sex": "Masculino",
         "type": "Volador",
         "region": "Johto",
-        "description": "El gran experto en Pokémon voladores"
+        "description": "El gran experto en Pokémon voladores",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -163,7 +174,8 @@
         "sex": "Masculino",
         "type": "Bicho",
         "region": "Johto",
-        "description": "Sabelotodo de los Pokémon bicho"
+        "description": "Sabelotodo de los Pokémon bicho",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -177,7 +189,8 @@
         "sex": "Femenino",
         "type": "Normal",
         "region": "Johto",
-        "description": "¡La belleza explosiva!"
+        "description": "¡La belleza explosiva!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -191,7 +204,8 @@
         "sex": "Masculino",
         "type": "Fantasma",
         "region": "Johto",
-        "description": "El místico adivino del futuro"
+        "description": "El místico adivino del futuro",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -205,7 +219,8 @@
         "sex": "Femenino",
         "type": "Acero",
         "region": "Johto",
-        "description": "La chica de acero"
+        "description": "La chica de acero",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -219,7 +234,8 @@
         "sex": "Masculino",
         "type": "Lucha",
         "region": "Johto",
-        "description": "Sus puños hablan por él"
+        "description": "Sus puños hablan por él",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -233,7 +249,8 @@
         "sex": "Masculino",
         "type": "Hielo",
         "region": "Johto",
-        "description": "El maestro del crudo invierno"
+        "description": "El maestro del crudo invierno",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -247,7 +264,8 @@
         "sex": "Femenino",
         "type": "Dragón",
         "region": "Johto",
-        "description": "La gran experta en Pokémon dragón"
+        "description": "La gran experta en Pokémon dragón",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -261,7 +279,8 @@
         "sex": "Femenino",
         "type": "Roca",
         "region": "Hoenn",
-        "description": "¡La experta en Pokémon de tipo roca!"
+        "description": "¡La experta en Pokémon de tipo roca!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -275,7 +294,8 @@
         "sex": "Femenino",
         "type": "Eléctrico",
         "region": "Hoenn",
-        "description": "¡Una personalidad Electrificante!"
+        "description": "¡Una personalidad Electrificante!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -289,7 +309,8 @@
         "sex": "Femenino",
         "type": "Fuego",
         "region": "Hoenn",
-        "description": "¡No te acerques mucho, que quemo!"
+        "description": "¡No te acerques mucho, que quemo!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -303,7 +324,8 @@
         "sex": "Masculino",
         "type": "Normal",
         "region": "Hoenn",
-        "description": "¡Un hombre con ambición!"
+        "description": "¡Un hombre con ambición!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -317,7 +339,8 @@
         "sex": "Femenino",
         "type": "Volador",
         "region": "Hoenn",
-        "description": "La amante de los pájaros"
+        "description": "La amante de los pájaros",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -331,7 +354,8 @@
         "sex": "Masculino (Vito) y femenino (Leti)",
         "type": "Psíquico",
         "region": "Hoenn",
-        "description": "¡Una combinación mística!"
+        "description": "¡Una combinación mística!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -345,7 +369,8 @@
         "sex": "Masculino",
         "type": "Roca",
         "region": "Sinnoh",
-        "description": "¡La roca para mis amigos!"
+        "description": "¡La roca para mis amigos!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -359,7 +384,8 @@
         "sex": "Femenino",
         "type": "Planta",
         "region": "Sinnoh",
-        "description": "Maestra de Pokémon de tipo planta"
+        "description": "Maestra de Pokémon de tipo planta",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -373,7 +399,8 @@
         "sex": "Femenino",
         "type": "Lucha",
         "region": "Sinnoh",
-        "description": "La descalza experta en lucha"
+        "description": "La descalza experta en lucha",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -387,7 +414,8 @@
         "sex": "Masculino",
         "type": "Agua",
         "region": "Sinnoh",
-        "description": "Maestro torrencial enmascarado"
+        "description": "Maestro torrencial enmascarado",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -401,7 +429,8 @@
         "sex": "Femenino",
         "type": "Fantasma",
         "region": "Sinnoh",
-        "description": "Danzarina encantadora"
+        "description": "Danzarina encantadora",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -415,7 +444,8 @@
         "sex": "Masculino",
         "type": "Acero",
         "region": "Sinnoh",
-        "description": "¡El hombre del cuerpo de acero!"
+        "description": "¡El hombre del cuerpo de acero!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -429,7 +459,8 @@
         "sex": "Femenino",
         "type": "Hielo",
         "region": "Sinnoh",
-        "description": "¡La chica diamante!"
+        "description": "¡La chica diamante!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -443,7 +474,8 @@
         "sex": "Masculino",
         "type": "Eléctrico",
         "region": "Sinnoh",
-        "description": "La brillante estrella electrizante"
+        "description": "La brillante estrella electrizante",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -457,7 +489,8 @@
         "sex": "Masculino",
         "type": "Planta",
         "region": "Teselia",
-        "description": "El desafío Triangular"
+        "description": "El desafío Triangular",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -471,7 +504,8 @@
         "sex": "Masculino",
         "type": "Fuego",
         "region": "Unova/Teselia",
-        "description": "El desafío Triangular"
+        "description": "El desafío Triangular",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -485,7 +519,8 @@
         "sex": "Masculino",
         "type": "Agua",
         "region": "Teselia",
-        "description": "El desafío Triangular"
+        "description": "El desafío Triangular",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -499,7 +534,8 @@
         "sex": "Femenino",
         "type": "Normal",
         "region": "Teselia",
-        "description": "Una madraza nata"
+        "description": "Una madraza nata",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -513,7 +549,8 @@
         "sex": "Masculino",
         "type": "Tierra",
         "region": "Teselia",
-        "description": "Un as de los yacimientos subterráneos"
+        "description": "Un as de los yacimientos subterráneos",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -527,7 +564,8 @@
         "sex": "Femenino",
         "type": "Eléctrico",
         "region": "Teselia",
-        "description": "Una belleza deslumbrante"
+        "description": "Una belleza deslumbrante",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -541,7 +579,8 @@
         "sex": "Femenino",
         "type": "Volador",
         "region": "Teselia",
-        "description": "Chica de altos vuelos"
+        "description": "Chica de altos vuelos",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -555,7 +594,8 @@
         "sex": "Masculino",
         "type": "Dragón",
         "region": "Teselia",
-        "description": "El Alcalde Espartano"
+        "description": "El Alcalde Espartano",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -569,7 +609,8 @@
         "sex": "Femenino",
         "type": "Dragón",
         "region": "Teselia",
-        "description": "La joven que susurra a los dragones"
+        "description": "La joven que susurra a los dragones",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -583,7 +624,8 @@
         "sex": "Masculino",
         "type": "Agua",
         "region": "Teselia",
-        "description": "Se siente como pez en el agua. ¡Más salado que la mar!"
+        "description": "Se siente como pez en el agua. ¡Más salado que la mar!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -597,7 +639,8 @@
         "sex": "Masculino",
         "type": "Normal",
         "region": "Teselia",
-        "description": "Siempre en pos de la verdad"
+        "description": "Siempre en pos de la verdad",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -611,7 +654,8 @@
         "sex": "Femenino",
         "type": "Bicho",
         "region": "Kalos",
-        "description": "La fotógrafa experta a la cual no se le escapa ni una sonrisa con su cámara."
+        "description": "La fotógrafa experta a la cual no se le escapa ni una sonrisa con su cámara.",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -625,7 +669,8 @@
         "sex": "Femenino",
         "type": "Lucha",
         "region": "Kalos",
-        "description": "¡La Evoluchadora!"
+        "description": "¡La Evoluchadora!",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -639,7 +684,8 @@
         "sex": "Masculino",
         "type": "Planta",
         "region": "Kalos",
-        "description": "Los viejos brotes siguen en flor"
+        "description": "Los viejos brotes siguen en flor",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -653,7 +699,8 @@
         "sex": "Femenino",
         "type": "Hada",
         "region": "Kalos y Johto (anteriormente)",
-        "description": "Una entrenadora con más de un as en la manga."
+        "description": "Una entrenadora con más de un as en la manga.",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -667,7 +714,8 @@
         "sex": "Femenino",
         "type": "Psíquico",
         "region": "Kalos",
-        "description": "La que halla su camino en la luz de las estrellas."
+        "description": "La que halla su camino en la luz de las estrellas.",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -681,7 +729,8 @@
         "sex": "Masculino",
         "type": "Eléctrico",
         "region": "Kalos",
-        "description": "El inventor que arroja luz sobre el mundo."
+        "description": "El inventor que arroja luz sobre el mundo.",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -695,7 +744,8 @@
         "sex": "Ninguno",
         "type": "Eléctrico",
         "region": "Kalos",
-        "description": ""
+        "description": "",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -709,7 +759,8 @@
         "sex": "Masculino",
         "type": "Roca",
         "region": "Kalos",
-        "description": "El escalador indomable pero afable"
+        "description": "El escalador indomable pero afable",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -723,7 +774,8 @@
         "sex": "Masculino",
         "type": "Hielo",
         "region": "Kalos",
-        "description": "Un exterior glacial que esconde un espíritu al rojo vivo."
+        "description": "Un exterior glacial que esconde un espíritu al rojo vivo.",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -737,7 +789,8 @@
         "sex": "Masculino",
         "type": "Planta",
         "region": "Galar",
-        "description": "El granjero Aguerrido."
+        "description": "El granjero Aguerrido.",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -751,7 +804,8 @@
         "sex": "Masculino",
         "type": "Fuego",
         "region": "Galar y Hoenn (Anteriormente)",
-        "description": "El veterano fervoroso del tipo fuego."
+        "description": "El veterano fervoroso del tipo fuego.",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -765,7 +819,8 @@
         "sex": "Masculino",
         "type": "Dragón",
         "region": "Galar",
-        "description": "La furia de los dragones"
+        "description": "La furia de los dragones",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -779,7 +834,8 @@
         "sex": "Femenino",
         "type": "Lucha",
         "region": "Galar",
-        "description": "La Karateka prodigio de Galar"
+        "description": "La Karateka prodigio de Galar",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -793,7 +849,8 @@
         "sex": "Masculino",
         "type": "Fantasma",
         "region": "Galar",
-        "description": "Un chico parco en palabras"
+        "description": "Un chico parco en palabras",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -807,7 +864,8 @@
         "sex": "Masculino",
         "type": "Roca",
         "region": "Galar",
-        "description": "El Rompedruscos por antonomasia"
+        "description": "El Rompedruscos por antonomasia",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -821,7 +879,8 @@
         "sex": "Femenino",
         "type": "Hielo",
         "region": "Galar",
-        "description": "Una profesional que tiene siempre la sangre fría."
+        "description": "Una profesional que tiene siempre la sangre fría.",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -835,7 +894,8 @@
         "sex": "Masculino",
         "type": "Siniestro",
         "region": "Galar",
-        "description": ""
+        "description": "",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -849,7 +909,8 @@
         "sex": "Femenino",
         "type": "Siniestro",
         "region": "Galar",
-        "description": ""
+        "description": "",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -863,7 +924,8 @@
         "sex": "Femenino",
         "type": "Agua",
         "region": "Galar",
-        "description": "La ola embravecida"
+        "description": "La ola embravecida",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -877,7 +939,8 @@
         "sex": "Femenino",
         "type": "Hada",
         "region": "Galar",
-        "description": "Un fantástico estilo que pone al público en pie."
+        "description": "Un fantástico estilo que pone al público en pie.",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -891,7 +954,8 @@
         "sex": "Masculino",
         "type": "Hada",
         "region": "Galar",
-        "description": ""
+        "description": "",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -905,7 +969,8 @@
         "sex": "Masculino",
         "type": "Agua",
         "region": "Paldea",
-        "description": "El Chef Torrencial"
+        "description": "El Chef Torrencial",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -919,7 +984,8 @@
         "sex": "Femenino",
         "type": "Bicho",
         "region": "Paldea",
-        "description": "La Tejedora de Dulces"
+        "description": "La Tejedora de Dulces",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -933,7 +999,8 @@
         "sex": "Masculino",
         "type": "Planta",
         "region": "Paldea",
-        "description": "El Artista Natural"
+        "description": "El Artista Natural",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -947,7 +1014,8 @@
         "sex": "Masculino",
         "type": "Hielo",
         "region": "Paldea",
-        "description": "El Cero Absoluto"
+        "description": "El Cero Absoluto",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -961,7 +1029,8 @@
         "sex": "Femenino",
         "type": "Eléctrico",
         "region": "Paldea",
-        "description": "La Electrostreamer"
+        "description": "La Electrostreamer",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -975,7 +1044,8 @@
         "sex": "Masculino",
         "type": "Normal",
         "region": "Paldea",
-        "description": "El Oficinista Extraordinario"
+        "description": "El Oficinista Extraordinario",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -989,7 +1059,8 @@
         "sex": "Femenino",
         "type": "Fantasma",
         "region": "Paldea",
-        "description": "El Alma del Rap"
+        "description": "El Alma del Rap",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   },
@@ -1003,7 +1074,8 @@
         "sex": "Femenino",
         "type": "Psíquico",
         "region": "Paldea",
-        "description": "La Maquilladora Mágica"
+        "description": "La Maquilladora Mágica",
+        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
       }
     ]
   }

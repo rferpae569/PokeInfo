@@ -1,8 +1,29 @@
 import { AnimatePresence, motion } from "framer-motion";
+import { useEffect, useState } from "react";
+import { getPokemon } from "../services/pokeapi";
 import "../styles/Overlay.css";
 
 export default function Overlay({ isOpen, onClose, data, type }) {
   const title = type === "leader" ? data?.name : data?.nameJP || data?.name;
+
+  // --- Estado para recoger los datos de los pokemon de la API ---
+  const [team, setTeam] = useState([]);
+
+  useEffect(() => {
+    if (!data?.team?.length) {
+      setTeam([]);
+      return;
+    }
+
+    async function fetchTeam() {
+      const results = await Promise.all(
+        data.team.map(async (p) => await getPokemon(p))
+      );
+      setTeam(results.filter(Boolean));
+    }
+
+    fetchTeam();
+  }, [data]);
 
   return (
     <AnimatePresence>
@@ -55,6 +76,25 @@ export default function Overlay({ isOpen, onClose, data, type }) {
                   </tr>
                 </tbody>
               </table>
+
+              {/* Sección de equipo Pokémon */}
+              {team.length > 0 && (
+                <div className="pokemon-team">
+                  <h3>Equipo Pokémon</h3>
+                  <div className="pokemon-team-list">
+                    {team.map((poke) => (
+                      <div key={poke.id} className="pokemon-card">
+                        <img
+                          src={poke.sprites.front_default}
+                          alt={poke.name}
+                          className="pokemon-sprite"
+                        />
+                        <span>{poke.name}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           )}
         </motion.div>
@@ -62,3 +102,5 @@ export default function Overlay({ isOpen, onClose, data, type }) {
     </AnimatePresence>
   );
 }
+
+

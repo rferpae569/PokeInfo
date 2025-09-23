@@ -25,7 +25,7 @@
         "type": "Agua",
         "region": "Kanto",
         "description": "La sirena distorsionada",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["golduck", "quagsire", "lapras", "starmie", "psyduck", "Staryu"]
       }
     ]
   },
@@ -40,7 +40,7 @@
         "type": "Eléctrico",
         "region": "Kanto",
         "description": "¡El rayo americano!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["voltorb", "pikachu", "raichu", "magneton", "electabuzz"]
       }
     ]
   },
@@ -55,7 +55,7 @@
         "type": "Planta",
         "region": "Kanto",
         "description": "¡La princesa amante de la naturaleza!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["tangela", "weepinbell", "vileplume", "jumpluff", "victreebel", "bellossom"]
       }
     ]
   },
@@ -70,7 +70,7 @@
         "type": "Veneno",
         "region": "Kanto",
         "description": "El venenoso maestro ninja",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["koffing", "muk", "weezing", "venonat ", "venomoth"]
       }
     ]
   },
@@ -85,7 +85,7 @@
         "type": "Veneno",
         "region": "Kanto",
         "description": "¡La venenosa maestra ninja!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["crobat", "weezing", "ariados", "venomoth"]
       }
     ]
   },
@@ -100,7 +100,7 @@
         "type": "Psíquico",
         "region": "Kanto",
         "description": "La reina de los Pokémon de tipo psíquico",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["kadabra", "venomoth", "alakazam", "espeon", "slowbro", "jynx", "hypno"]
       }
     ]
   },
@@ -115,7 +115,7 @@
         "type": "Fuego",
         "region": "Kanto",
         "description": "¡El maestro de los acertijos!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["growlithe", "ponyta", "rapidash", "arcanine", "magmar"]
       }
     ]
   },
@@ -130,7 +130,7 @@
         "type": "Tierra",
         "region": "Kanto",
         "description": "",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["rhyhorn", "dugtrio", "nidoking", "nidoqueen"]
       }
     ]
   },
@@ -145,7 +145,7 @@
         "type": "Tierra",
         "region": "Kanto",
         "description": "",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["exeggutor", "arcanine", "rhydon", "gyarados", "machamp", "pidgeot"]
       }
     ]
   },
@@ -160,7 +160,7 @@
         "type": "Volador",
         "region": "Johto",
         "description": "El gran experto en Pokémon voladores",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["pidgey", "pidgeotto"]
       }
     ]
   },
@@ -175,7 +175,7 @@
         "type": "Bicho",
         "region": "Johto",
         "description": "Sabelotodo de los Pokémon bicho",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["Metapod", "Kakuna", "Scyther"]
       }
     ]
   },
@@ -190,7 +190,7 @@
         "type": "Normal",
         "region": "Johto",
         "description": "¡La belleza explosiva!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["clefairy", "miltank"]
       }
     ]
   },
@@ -205,7 +205,7 @@
         "type": "Fantasma",
         "region": "Johto",
         "description": "El místico adivino del futuro",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["gastly", "haunter", "gengar"]
       }
     ]
   },
@@ -220,7 +220,7 @@
         "type": "Acero",
         "region": "Johto",
         "description": "La chica de acero",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["magnemite", "steelix"]
       }
     ]
   },
@@ -235,7 +235,7 @@
         "type": "Lucha",
         "region": "Johto",
         "description": "Sus puños hablan por él",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["primeape", "poliwrath"]
       }
     ]
   },
@@ -250,7 +250,7 @@
         "type": "Hielo",
         "region": "Johto",
         "description": "El maestro del crudo invierno",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["seel", "dewgong", "piloswine"]
       }
     ]
   },
@@ -265,7 +265,7 @@
         "type": "Dragón",
         "region": "Johto",
         "description": "La gran experta en Pokémon dragón",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["dragonair", "kingdra", "gyarados"]
       }
     ]
   },

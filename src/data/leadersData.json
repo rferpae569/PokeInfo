@@ -280,7 +280,7 @@
         "type": "Roca",
         "region": "Hoenn",
         "description": "¡La experta en Pokémon de tipo roca!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["geodude", "nosepass"]
       }
     ]
   },
@@ -295,7 +295,7 @@
         "type": "Eléctrico",
         "region": "Hoenn",
         "description": "¡Una personalidad Electrificante!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["magnemite", "voltorb", "magneton", "electrike", "manectric"]
       }
     ]
   },
@@ -310,7 +310,7 @@
         "type": "Fuego",
         "region": "Hoenn",
         "description": "¡No te acerques mucho, que quemo!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["slugma", "numel", "torkoal"]
       }
     ]
   },
@@ -325,7 +325,7 @@
         "type": "Normal",
         "region": "Hoenn",
         "description": "¡Un hombre con ambición!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["slaking", "vigoroth", "spinda", "linoone"]
       }
     ]
   },
@@ -340,7 +340,7 @@
         "type": "Volador",
         "region": "Hoenn",
         "description": "La amante de los pájaros",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["swellow", "pelipper", "skarmory", "altaria"]
       }
     ]
   },
@@ -355,7 +355,7 @@
         "type": "Psíquico",
         "region": "Hoenn",
         "description": "¡Una combinación mística!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["lunatone", "solrock"]
       }
     ]
   },
@@ -370,7 +370,7 @@
         "type": "Roca",
         "region": "Sinnoh",
         "description": "¡La roca para mis amigos!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["geodude", "onix", "cranidos"]
       }
     ]
   },
@@ -385,7 +385,7 @@
         "type": "Planta",
         "region": "Sinnoh",
         "description": "Maestra de Pokémon de tipo planta",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["cherubi", "turtwig", "roserade"]
       }
     ]
   },
@@ -400,7 +400,7 @@
         "type": "Lucha",
         "region": "Sinnoh",
         "description": "La descalza experta en lucha",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["meditite", "machoke", "lucario"]
       }
     ]
   },
@@ -415,7 +415,7 @@
         "type": "Agua",
         "region": "Sinnoh",
         "description": "Maestro torrencial enmascarado",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["gyarados", "quagsire", "floatzel"]
       }
     ]
   },
@@ -430,7 +430,7 @@
         "type": "Fantasma",
         "region": "Sinnoh",
         "description": "Danzarina encantadora",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["Drifblim", "Gengar", "Mismagius", "Duskull"]
       }
     ]
   },
@@ -445,7 +445,7 @@
         "type": "Acero",
         "region": "Sinnoh",
         "description": "¡El hombre del cuerpo de acero!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["bronzor", "steelix", "bastiodon"]
       }
     ]
   },
@@ -460,7 +460,7 @@
         "type": "Hielo",
         "region": "Sinnoh",
         "description": "¡La chica diamante!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["snover", "sneasel", "medicham", "abomasnow"]
       }
     ]
   },
@@ -475,7 +475,7 @@
         "type": "Eléctrico",
         "region": "Sinnoh",
         "description": "La brillante estrella electrizante",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["raichu", "ambipom", "octillery", "luxray"]
       }
     ]
   },
@@ -490,7 +490,7 @@
         "type": "Planta",
         "region": "Teselia",
         "description": "El desafío Triangular",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["maractus", "ferrothorn", "simisage"]
       }
     ]
   },
@@ -505,7 +505,7 @@
         "type": "Fuego",
         "region": "Unova/Teselia",
         "description": "El desafío Triangular",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["heatmor", "simisear"]
       }
     ]
   },
@@ -520,7 +520,7 @@
         "type": "Agua",
         "region": "Teselia",
         "description": "El desafío Triangular",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["slowking", "simipour"]
       }
     ]
   },
@@ -535,7 +535,7 @@
         "type": "Normal",
         "region": "Teselia",
         "description": "Una madraza nata",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["herdier", "watchog"]
       }
     ]
   },
@@ -550,7 +550,7 @@
         "type": "Tierra",
         "region": "Teselia",
         "description": "Un as de los yacimientos subterráneos",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["krokorok", "sandslash", "excadrill"]
       }
     ]
   },
@@ -565,7 +565,7 @@
         "type": "Eléctrico",
         "region": "Teselia",
         "description": "Una belleza deslumbrante",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["emolga", "flaaffy", "zebstrika"]
       }
     ]
   },
@@ -580,7 +580,7 @@
         "type": "Volador",
         "region": "Teselia",
         "description": "Chica de altos vuelos",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["swoobat", "swanna", "skarmory"]
       }
     ]
   },
@@ -595,7 +595,7 @@
         "type": "Dragón",
         "region": "Teselia",
         "description": "El Alcalde Espartano",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["druddigon", "flygon", "haxorus"]
       }
     ]
   },
@@ -610,7 +610,7 @@
         "type": "Dragón",
         "region": "Teselia",
         "description": "La joven que susurra a los dragones",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["fraxure", "druddigon", "haxorus"]
       }
     ]
   },
@@ -625,7 +625,7 @@
         "type": "Agua",
         "region": "Teselia",
         "description": "Se siente como pez en el agua. ¡Más salado que la mar!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["carracosta", "wailord", "jellicent"]
       }
     ]
   },
@@ -640,7 +640,7 @@
         "type": "Normal",
         "region": "Teselia",
         "description": "Siempre en pos de la verdad",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["patrat", "lillipup"]
       }
     ]
   },
@@ -655,7 +655,7 @@
         "type": "Bicho",
         "region": "Kalos",
         "description": "La fotógrafa experta a la cual no se le escapa ni una sonrisa con su cámara.",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["surskit", "vivillon"]
       }
     ]
   },
@@ -670,7 +670,7 @@
         "type": "Lucha",
         "region": "Kalos",
         "description": "¡La Evoluchadora!",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["mienfoo", "machoke", "hawlucha"]
       }
     ]
   },
@@ -685,7 +685,7 @@
         "type": "Planta",
         "region": "Kalos",
         "description": "Los viejos brotes siguen en flor",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["jumpluff", "weepinbell", "gogoat"]
       }
     ]
   },
@@ -700,7 +700,7 @@
         "type": "Hada",
         "region": "Kalos y Johto (anteriormente)",
         "description": "Una entrenadora con más de un as en la manga.",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["Mawile", "Sylveon"]
       }
     ]
   },
@@ -715,7 +715,7 @@
         "type": "Psíquico",
         "region": "Kalos",
         "description": "La que halla su camino en la luz de las estrellas.",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["sigilyph", "slowking", "meowstic"]
       }
     ]
   },
@@ -730,7 +730,7 @@
         "type": "Eléctrico",
         "region": "Kalos",
         "description": "El inventor que arroja luz sobre el mundo.",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["emolga", "magneton", "heliolisk"]
       }
     ]
   },
@@ -745,7 +745,7 @@
         "type": "Eléctrico",
         "region": "Kalos",
         "description": "",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["emolga", "magneton", "heliolisk"]
       }
     ]
   },
@@ -760,7 +760,7 @@
         "type": "Roca",
         "region": "Kalos",
         "description": "El escalador indomable pero afable",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["amaura", "tyrunt"]
       }
     ]
   },
@@ -775,7 +775,7 @@
         "type": "Hielo",
         "region": "Kalos",
         "description": "Un exterior glacial que esconde un espíritu al rojo vivo.",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["abomasnow", "cryogonal", "avalugg"]
       }
     ]
   },
@@ -790,7 +790,7 @@
         "type": "Planta",
         "region": "Galar",
         "description": "El granjero Aguerrido.",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["gossifleur", "eldegoss"]
       }
     ]
   },
@@ -805,7 +805,7 @@
         "type": "Fuego",
         "region": "Galar y Hoenn (Anteriormente)",
         "description": "El veterano fervoroso del tipo fuego.",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["ninetales", "arcanine"]
       }
     ]
   },
@@ -820,7 +820,7 @@
         "type": "Dragón",
         "region": "Galar",
         "description": "La furia de los dragones",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["gigalith", "flygon", "sandaconda"]
       }
     ]
   },
@@ -835,7 +835,7 @@
         "type": "Lucha",
         "region": "Galar",
         "description": "La Karateka prodigio de Galar",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["Hitmontop", "Pangoro"]
       }
     ]
   },
@@ -850,7 +850,7 @@
         "type": "Fantasma",
         "region": "Galar",
         "description": "Un chico parco en palabras",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["Yamask", "Cursola"]
       }
     ]
   },
@@ -865,7 +865,7 @@
         "type": "Roca",
         "region": "Galar",
         "description": "El Rompedruscos por antonomasia",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["barbaracle", "shuckle", "stonjourner"]
       }
     ]
   },
@@ -880,7 +880,7 @@
         "type": "Hielo",
         "region": "Galar",
         "description": "Una profesional que tiene siempre la sangre fría.",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["frosmoth"]
       }
     ]
   },
@@ -895,7 +895,7 @@
         "type": "Siniestro",
         "region": "Galar",
         "description": "",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["scrafty", "malamar", "skuntank", "obstagoon"]
       }
     ]
   },
@@ -910,7 +910,7 @@
         "type": "Siniestro",
         "region": "Galar",
         "description": "",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["liepard", "toxicroak", "scrafty"]
       }
     ]
   },
@@ -925,7 +925,7 @@
         "type": "Agua",
         "region": "Galar",
         "description": "La ola embravecida",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["goldeen", "arrokuda", "drednaw"]
       }
     ]
   },
@@ -940,7 +940,7 @@
         "type": "Hada",
         "region": "Galar",
         "description": "Un fantástico estilo que pone al público en pie.",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["weezing", "mawile", "togekiss", "alcremie"]
       }
     ]
   },
@@ -955,7 +955,7 @@
         "type": "Hada",
         "region": "Galar",
         "description": "",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["mawile", "gardevoir", "rapidash", "hatterene"]
       }
     ]
   },
@@ -970,7 +970,7 @@
         "type": "Agua",
         "region": "Paldea",
         "description": "El Chef Torrencial",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["veluza", "wugtrio", "crabominable"]
       }
     ]
   },
@@ -985,7 +985,7 @@
         "type": "Bicho",
         "region": "Paldea",
         "description": "La Tejedora de Dulces",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["nymble", "tarountula", "teddiursa"]
       }
     ]
   },
@@ -1000,7 +1000,7 @@
         "type": "Planta",
         "region": "Paldea",
         "description": "El Artista Natural",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["petilil", "smoliv", "sudowoodo"]
       }
     ]
   },
@@ -1015,7 +1015,7 @@
         "type": "Hielo",
         "region": "Paldea",
         "description": "El Cero Absoluto",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["frosmoth", "beartic", "cetitan", "altaria"]
       }
     ]
   },
@@ -1030,7 +1030,7 @@
         "type": "Eléctrico",
         "region": "Paldea",
         "description": "La Electrostreamer",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["wattrel", "bellibolt", "luxio", "mismagius"]
       }
     ]
   },
@@ -1045,7 +1045,7 @@
         "type": "Normal",
         "region": "Paldea",
         "description": "El Oficinista Extraordinario",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["komala", "staraptor"]
       }
     ]
   },
@@ -1060,7 +1060,7 @@
         "type": "Fantasma",
         "region": "Paldea",
         "description": "El Alma del Rap",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["banette", "houndstone"]
       }
     ]
   },
@@ -1075,7 +1075,7 @@
         "type": "Psíquico",
         "region": "Paldea",
         "description": "La Maquilladora Mágica",
-        "team": ["graveler", "omastar", "Rhyhorn", "onix", "Kabutops"]
+        "team": ["farigiraf", "gardevoir", "espathra", "florges"]
       }
     ]
   }

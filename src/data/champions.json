@@ -8,7 +8,8 @@
         "home": "Villa Versui",
         "sex": "Masculino",
         "type": "Fantasma y Siniestro",
-        "region": "Noroteo"
+        "region": "Noroteo",
+        "team": ["Dragonite", "Politoed", "Porygon-Z", "Grimmsnarl", "Incineroar", "Hydrapple"]
       }
     ]
   },
@@ -21,7 +22,8 @@
         "home": "Pueblo Paleta",
         "sex": "Masculino",
         "type": "Todos",
-        "region": "Kanto"
+        "region": "Kanto",
+        "team": ["Mega-Pidgeot", "Vileplume", "Marowak", "Rapidash", "Slowbro", "Jolteon"]
       }
     ]
   },
@@ -34,7 +36,8 @@
         "home": "Ciudad Endrino",
         "sex": "Masculino",
         "type": "Dragón",
-        "region": "Kanto"
+        "region": "Kanto",
+        "team": ["Gyarados", "Dragonite", "Dragonite", "Aerodactyl", "Charizard", "Dragonite"]
       }
     ]
   },
@@ -47,7 +50,8 @@
         "home": "Ciudad Algaria",
         "sex": "Masculino",
         "type": "Todos los tipos",
-        "region": "Hoenn"
+        "region": "Hoenn",
+        "team": ["Skarmory", "Aggron", "Cradily", "Claydol", "Armaldo", "Metagross"]
       }
     ]
   },
@@ -60,7 +64,8 @@
         "home": "Arrecípolis",
         "sex": "Masculino",
         "type": "Agua",
-        "region": "Hoenn"
+        "region": "Hoenn",
+        "team": ["Wailord", "Milotic", "Tentacruel", "Ludicolo", "Gyarados", "Whiscash"]
       }
     ]
   },
@@ -73,7 +78,8 @@
         "home": "Pueblo Caelestis",
         "sex": "Femenino",
         "type": "Variado",
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "team": ["Spiritomb", "Roserade", "Gastrodon", "Lucario", "Milotic", "Garchomp"]
       }
     ]
   },
@@ -86,7 +92,8 @@
         "home": "Pueblo Ocre",
         "sex": "Masculino",
         "type": "Bicho y Lucha",
-        "region": "Teselia"
+        "region": "Teselia",
+        "team": ["Accelgor", "Bouffalant", "Druddigon", "Vanilluxe", "Escavalier", "Volcarona"]
       }
     ]
   },
@@ -99,7 +106,8 @@
         "home": "Ciudad Caolín",
         "sex": "Femenino",
         "type": "Dragón",
-        "region": "Teselia"
+        "region": "Teselia",
+        "team": ["Hydreigon", "Druddigon", "Aggron", "Archeops", "Lapras", "Haxorus"]
       }
     ]
   },
@@ -112,7 +120,8 @@
         "home": "",
         "sex": "Femenino",
         "type": "Variado",
-        "region": "Kalos"
+        "region": "Kalos",
+        "team": ["Hawlucha", "Aurorus", "Tyrantrum", "Goodra", "Gardevoir"]
       }
     ]
   },
@@ -125,7 +134,8 @@
         "home": "",
         "sex": "Femenino",
         "type": "Variado",
-        "region": "Paldea"
+        "region": "Paldea",
+        "team": ["Espathra", "Avalugg", "Kingambit", "Veluza", "Gogoat", "Glimmora"]
       }
     ]
   },
@@ -138,7 +148,8 @@
         "home": "Afueras de Hauoli",
         "sex": "Masculino",
         "type": "Variado",
-        "region": "Alola"
+        "region": "Alola",
+        "team": ["Magnezone", "Braviary", "Snorlax", "Ninetales", "Incineroar"]
       }
     ]
   },
@@ -151,7 +162,8 @@
         "home": "Pueblo Lilii",
         "sex": "Masculino",
         "type": "Variado",
-        "region": "Alola"
+        "region": "Alola",
+        "team": ["Raichu", "Flareon", "Tauros", "Noivern", "Crabominable", "Primarina"]
       }
     ]
   }

@@ -8,7 +8,8 @@
         "home": "Ciudad Hormigón",
         "sex": "Masculino",
         "type": "Fuego",
-        "region": "Teselia"
+        "region": "Teselia",
+        "team": ["Rotom", "Talonflame", "Exeggutor", "Camerupt", "Magmortar", "Blaziken"]
       },
       {
         "name": "ネリネ (Nerine)",
@@ -16,7 +17,8 @@
         "home": "Ciudad Porcelana",
         "sex": "Femenino",
         "type": "Acero",
-        "region": "Teselia"
+        "region": "Teselia",
+        "team": ["Skarmory", "Dugtrio", "Scizor", "Reuniclus", "Empoleon", "Metagross"]
       },
       {
         "name": "タロ (Taro)",
@@ -24,7 +26,8 @@
         "home": "Ciudad Mayólica",
         "sex": "Femenino",
         "type": "Hada",
-        "region": "Teselia"
+        "region": "Teselia",
+        "team": ["Whimsicott ", "Granbull", "Primarina", "Slowbro", "Alcremie", "Excadrill"]
       },
       {
         "name": "カキツバタ (Kakitsubata)",
@@ -32,7 +35,8 @@
         "home": "Ciudad Caolín",
         "sex": "Masculino",
         "type": "Dragón",
-        "region": "Teselia"
+        "region": "Teselia",
+        "team": ["Dragonite", "Flygon", "Haxorus", "Sceptile", "Kingdra", "Archaludon"]
       }
     ]
   },
@@ -45,7 +49,8 @@
         "home": "Isla Quarta",
         "sex": "Femenino",
         "type": "Hielo",
-        "region": "Kanto"
+        "region": "Kanto",
+        "team": ["Dewgong", "Cloyster", "Slowbro", "Jynx", "Lapras"]
       },
       {
         "name": "シバ (Shiba)",
@@ -53,7 +58,8 @@
         "home": "",
         "sex": "Masculino",
         "type": "Lucha",
-        "region": "Kanto"
+        "region": "Kanto",
+        "team": ["Onix", "Hitmonchan", "Hitmonlee", "Poliwrath", "Machamp"]
       },
       {
         "name": "キクコ (Kikuko)",
@@ -61,7 +67,8 @@
         "home": "",
         "sex": "Femenino",
         "type": "Fantasma",
-        "region": "Kanto"
+        "region": "Kanto",
+        "team": ["Arbok", "Gengar", "Golbat", "Weezing", "Gengar"]
       },
       {
         "name": "ワタル (Wataru)",
@@ -69,7 +76,8 @@
         "home": "Ciudad Endrino",
         "sex": "Masculino",
         "type": "Dragón",
-        "region": "Kanto"
+        "region": "Kanto",
+        "team": ["Seadra", "Aerodactyl", "Gyarados", "Charizard", "Dragonite"]
       }
     ]
   },
@@ -82,7 +90,8 @@
         "home": "",
         "sex": "Masculino",
         "type": "Psíquico",
-        "region": ""
+        "region": "",
+        "team": ["Xatu", "Jynx", "Slowbro", "Exeggutor", "Xatu"]
       },
       {
         "name": "キョウ (Kyou)",
@@ -90,7 +99,8 @@
         "home": "Ciudad Fucsia",
         "sex": "Masculino",
         "type": "Veneno",
-        "region": "Kanto"
+        "region": "Kanto",
+        "team": ["Ariados", "Venomoth", "Muk", "Forretress", "Crobat"]
       },
       {
         "name": "シバ (Shiba)",
@@ -98,7 +108,8 @@
         "home": "",
         "sex": "Masculino",
         "type": "Lucha",
-        "region": "Kanto"
+        "region": "Kanto",
+        "team": ["Hitmontop", "Hitmonlee", "Hitmonchan", "Onix", "Machamp"]
       },
       {
         "name": "カリン (Karin)",
@@ -106,7 +117,8 @@
         "home": "Ciudad Endrino",
         "sex": "Femenino",
         "type": "Siniestro",
-        "region": ""
+        "region": "",
+        "team": ["Umbreon", "Vileplume", "Gengar", "Murkrow", "Houndoom"]
       }
     ]
   },
@@ -119,7 +131,8 @@
         "home": "",
         "sex": "Masculino",
         "type": "Siniestro",
-        "region": "Hoenn"
+        "region": "Hoenn",
+        "team": ["Mightyena", "Cacturne", "Shiftry", "Sharpedo", "Absol"]
       },
       {
         "name": "フヨウ (Fuyō)",
@@ -127,7 +140,8 @@
         "home": "",
         "sex": "Femenino",
         "type": "Fantasma",
-        "region": "Hoenn"
+        "region": "Hoenn",
+        "team": ["Dusclops", "Banette", "Sableye", "Banette", "Dusknoir"]
       },
       {
         "name": "プリム (Prim)",
@@ -135,7 +149,8 @@
         "home": "",
         "sex": "Femenino",
         "type": "Hielo",
-        "region": "Hoenn"
+        "region": "Hoenn",
+        "team": ["Glalie", "Froslass", "Glalie", "Froslass", "Walrein"]
       },
       {
         "name": "ゲンジ (Genji)",
@@ -143,7 +158,8 @@
         "home": "",
         "sex": "Masculino",
         "type": "Dragón",
-        "region": "Hoenn"
+        "region": "Hoenn",
+        "team": ["Altaria", "Flygon", "Kingdra", "Flygon", "Salamence"]
       }
     ]
   },
@@ -156,7 +172,8 @@
         "home": "",
         "sex": "Masculino",
         "type": "Bicho",
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "team": ["Dustox", "Beautifly", "Vespiquen", "Heracross", "Drapion"]
       },
       {
         "name": "キクノ (Kikuno)",
@@ -164,7 +181,8 @@
         "home": "",
         "sex": "Femenino",
         "type": "Tierra",
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "team": ["Quagsire", "Sudowoodo", "Golem", "Whiscash", "Hippowdon"]
       },
       {
         "name": "オーバ (Ohba)",
@@ -172,7 +190,8 @@
         "home": "Ciudad Marina",
         "sex": "Masculino",
         "type": "Fuego",
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "team": ["Rapidash", "Steelix", "Drifblim", "Lopunny", "Infernape"]
       },
       {
         "name": "ゴヨウ (Goyō)",
@@ -180,7 +199,8 @@
         "home": "",
         "sex": "Masculino",
         "type": "Psíquico",
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "team": ["Girafarig", "Medicham", "Alakazam", "Bronzong"]
       }
     ]
   },
@@ -193,7 +213,8 @@
         "home": "Casa encantada",
         "sex": "Femenino",
         "type": "Fantasma",
-        "region": "Teselia"
+        "region": "Teselia",
+        "team": ["Cofagrigus", "Jellicent", "Golurk", "Chandelure"]
       },
       {
         "name": "ギーマ (Gīma)",
@@ -201,7 +222,8 @@
         "home": "",
         "sex": "Masculino",
         "type": "Siniestro",
-        "region": "Teselia"
+        "region": "Teselia",
+        "team": ["Scrafty", "Krookodile", "Liepard", "Bisharp"]
       },
       {
         "name": "レンブ (Renbu)",
@@ -209,7 +231,8 @@
         "home": "",
         "sex": "Masculino",
         "type": "Lucha",
-        "region": "Teselia"
+        "region": "Teselia",
+        "team": ["Throh", "Sawk", "Conkeldurr"]
       },
       {
         "name": "カトレア (Cattleya)",
@@ -217,7 +240,8 @@
         "home": "",
         "sex": "Femenino",
         "type": "Psíquico",
-        "region": "Teselia (Antes Sinnoh y Johto)"
+        "region": "Teselia (Antes Sinnoh y Johto)",
+        "team": ["Reuniclus", "Musharna", "Sigilyph", "Gothitelle"]
       }
     ]
   },
@@ -230,7 +254,8 @@
         "home": "",
         "sex": "Masculino",
         "type": "Acero",
-        "region": "Kalos"
+        "region": "Kalos",
+        "team": ["Klefki", "Probopass", "Scizor"]
       },
       {
         "name": "ドラセナ (Dracaena)",
@@ -238,7 +263,8 @@
         "home": "",
         "sex": "Femenino",
         "type": "Dragón",
-        "region": "Kalos"
+        "region": "Kalos",
+        "team": ["Dragalge", "Altaria", "Druddigon", "Noivern"]
       },
       {
         "name": "パキラ (Pachira)",
@@ -246,7 +272,8 @@
         "home": "",
         "sex": "Femenino",
         "type": "Fuego",
-        "region": "Kalos"
+        "region": "Kalos",
+        "team": ["Pyroar", "Torkoal", "Chandelure", "Talonflame"]
       },
       {
         "name": "ズミ (Zumi)",
@@ -254,7 +281,8 @@
         "home": "",
         "sex": "Masculino",
         "type": "Agua",
-        "region": "Kalos"
+        "region": "Kalos",
+        "team": ["Clawitzer", "Gyarados", "Starmie", "Barbaracle"]
       }
     ]
   },
@@ -267,7 +295,8 @@
         "home": "",
         "sex": "Femenino",
         "type": "Tierra",
-        "region": "Paldea"
+        "region": "Paldea",
+        "team": ["Whiscash", "Camerupt", "Donphan", "Dugtrio", "Clodsire"]
       },
       {
         "name": "ポピー (Poppy)",
@@ -275,7 +304,8 @@
         "home": "",
         "sex": "Femenino",
         "type": "Acero",
-        "region": "Paldea"
+        "region": "Paldea",
+        "team": ["Copperajah", "Corviknight", "Bronzong", "Magnezone", "Tinkaton"]
       },
       {
         "name": "アオキ (Aoki)",
@@ -283,7 +313,8 @@
         "home": "Pueblo Mestura",
         "sex": "Masculino",
         "type": "Volador",
-        "region": "Paldea"
+        "region": "Paldea",
+        "team": ["Tropius", "Altaria", "Staraptor", "Flamigo"]
       },
       {
         "name": "ハッサク (Hassaku)",
@@ -291,7 +322,8 @@
         "home": "",
         "sex": "Masculino",
         "type": "Dragón",
-        "region": "Paldea"
+        "region": "Paldea",
+        "team": ["Noivern", "Dragalge", "Flapple", "Haxorus", "Baxcalibur"]
       }
     ]
   },
@@ -304,7 +336,8 @@
         "home": "",
         "sex": "Masculino",
         "type": "Acero",
-        "region": "Alola"
+        "region": "Alola",
+        "team": ["Klefki", "Bisharp", "Magnezone", "Metagross", "Dugtrio"]
       },
       {
         "name": "ハラ (Hala)",
@@ -312,7 +345,8 @@
         "home": "Pueblo Lilii",
         "sex": "Masculino",
         "type": "Lucha",
-        "region": "Alola"
+        "region": "Alola",
+        "team": ["Hariyama", "Primeape", "Bewear", "Poliwrath", "Crabominable"]
       },
       {
         "name": "ライチ (Lychee)",
@@ -320,7 +354,8 @@
         "home": "Ciudad Konikoni",
         "sex": "Femenino",
         "type": "Roca",
-        "region": "Paldea"
+        "region": "Paldea",
+        "team": ["Relicanth", "Carbink", "Golem", "Probopass"]
       },
       {
         "name": "アセロラ (Acerola)",
@@ -328,7 +363,8 @@
         "home": "Casa Æther",
         "sex": "Femenino",
         "type": "Fantasma",
-        "region": "Alola"
+        "region": "Alola",
+        "team": ["Sableye", "Drifblim", "Dhelmise", "Froslass", "Palossand"]
       },
       {
         "name": "カヒリ (Kahili)",
@@ -336,7 +372,8 @@
         "home": "Resort Hanohano",
         "sex": "Femenino",
         "type": "Volador",
-        "region": "Alola"
+        "region": "Alola",
+        "team": ["Skarmory", "Crobat", "Mandibuzz", "Toucannon"]
       }
     ]
   }

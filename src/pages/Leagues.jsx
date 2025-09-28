@@ -1,6 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { getPokemon } from "../services/pokeapi";
+import { motion } from "framer-motion";
 import leagues from "../data/leagues.json";
 import eliteFourData from "../data/elitefour.json";
 import championsData from "../data/champions.json";
@@ -37,7 +36,10 @@ function LeagueDetails({ isOpen, children }) {
   return (
     <motion.div
       initial={{ height: 0, opacity: 0 }}
-      animate={isOpen ? { height, opacity: 1 } : { height: 0, opacity: 0 }}
+      animate={{
+        height: isOpen ? "auto" : 0,
+        opacity: isOpen ? 1 : 0,
+      }}
       transition={{ duration: 0.5, ease: "easeInOut" }}
       style={{ overflow: "hidden" }}
     >
@@ -47,25 +49,9 @@ function LeagueDetails({ isOpen, children }) {
 }
 
 export default function Leagues() {
-  const [pokemonSprites, setPokemonSprites] = useState({});
+  // const [pokemonSprites, setPokemonSprites] = useState({});
   const [openCard, setOpenCard] = useState(null);
   const [selectedTrainer, setSelectedTrainer] = useState(null);
-
-  useEffect(() => {
-    async function fetchSprites() {
-      const sprites = {};
-      for (const league of leagues) {
-        for (const p of league.featuredPokemon) {
-          if (!sprites[p]) {
-            const data = await getPokemon(p);
-            sprites[p] = data?.sprites?.front_default;
-          }
-        }
-      }
-      setPokemonSprites(sprites);
-    }
-    fetchSprites();
-  }, []);
 
   const toggleCard = (id) => {
     setOpenCard(openCard === id ? null : id);
@@ -229,23 +215,6 @@ export default function Leagues() {
                   ))
                 ) : (
                   <p>No hay campeón registrado</p>
-                )}
-              </div>
-
-              {/* Pokémon destacados */}
-              <h4 className="league-subtitle">Pokémon destacados</h4>
-              <div className="featured-pokemon">
-                {league.featuredPokemon.map((p) =>
-                  pokemonSprites[p] ? (
-                    <img
-                      key={p}
-                      src={pokemonSprites[p]}
-                      alt={p}
-                      className="pokemon-sprite"
-                    />
-                  ) : (
-                    <span key={p}>Cargando...</span>
-                  )
                 )}
               </div>
             </LeagueDetails>

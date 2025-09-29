@@ -6,7 +6,9 @@
     "sex": "Femenino",
     "home": "Pueblo Crampón",
     "region": "Galar",
-    "type": "Siniestro"
+    "type": "Siniestro",
+    "team": ["Liepard", "Toxicroak", "Scrafty"]
+
   },
   {
     "name": "Paul",
@@ -15,6 +17,8 @@
     "sex": "Masculino",
     "home": "Pueblo Yarda",
     "region": "Galar",
-    "type": "Variado"
+    "type": "Variado",
+    "team": ["Dubwool", "Corviknight", "Pincurchin", "Snorlax", "Inteleon"]
+
   }
 ]

@@ -6,7 +6,8 @@
     "sex": "Femenino",
     "home": "Pueblo Amura",
     "region": "Galar",
-    "type": "Agua"
+    "type": "Agua",
+    "team": ["Golisopod", "Pelipper", "Barraskewda", "Seaking"]
   },
   {
     "name": "Judith",
@@ -15,7 +16,8 @@
     "sex": "Femenino",
     "home": "Pueblo Ladera",
     "region": "Galar",
-    "type": "Lucha"
+    "type": "Lucha",
+    "team": ["Hawlucha", "Grapploct", "Falinks"]
   },
   {
     "name": "Roy",
@@ -24,6 +26,7 @@
     "sex": "Masculino",
     "home": "Ciudad Artejo",
     "region": "Galar",
-    "type": "Drágon"
+    "type": "Drágon",
+    "team": ["Torkoal", "Goodra", "Turtonator", "Flygon"]
   }
 ]

@@ -5,7 +5,7 @@ export default function Header() {
     <header className="header">
       <nav>
         <a href="#Home" className="logo">
-          <img src="/icons/PokeInfoLogo.png" alt="Logo" />
+          <img src="icons/PokeInfoLogo.png" alt="Logo" />
         </a>
 
         <ul>

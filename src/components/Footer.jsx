@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-logo">
         <a href="#Home" className="logo">
-          <img src="/icons/PokeInfoLogo.png" alt="Logo" />
+          <img src="icons/PokeInfoLogo.png" alt="Logo" />
         </a>
       </div>
 
@@ -14,14 +14,14 @@ export default function Footer() {
       <p>Pokémon es propiedad de:</p>
 
       <div className="footer-logos-row">
-        <img src="/icons/NintendoLogo.png" alt="Nintendo" className="invert" />
+        <img src="icons/NintendoLogo.png" alt="Nintendo" className="invert" />
         <img
-          src="/icons/GameFreakLogo.png"
+          src="icons/GameFreakLogo.png"
           alt="Game Freak"
           className="invert"
         />
         <img
-          src="/icons/CreaturesInc.png"
+          src="icons/CreaturesInc.png"
           alt="Creatures Inc"
           className="invert creatures-logo"
         />

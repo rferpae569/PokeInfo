@@ -2,7 +2,7 @@
   {
     "name": "Cathy",
     "nameJP": "ルリナ (Rurina)",
-    "image": "/gyms/Lideres/Cathy.png",
+    "image": "gyms/Lideres/Cathy.png",
     "sex": "Femenino",
     "home": "Pueblo Amura",
     "region": "Galar",
@@ -12,7 +12,7 @@
   {
     "name": "Judith",
     "nameJP": "サイトウ (Saitō)",
-    "image": "/gyms/Lideres/Judith.png",
+    "image": "gyms/Lideres/Judith.png",
     "sex": "Femenino",
     "home": "Pueblo Ladera",
     "region": "Galar",
@@ -22,7 +22,7 @@
   {
     "name": "Roy",
     "nameJP": "キバナ (Kibana)",
-    "image": "/gyms/Lideres/Roy.png",
+    "image": "gyms/Lideres/Roy.png",
     "sex": "Masculino",
     "home": "Ciudad Artejo",
     "region": "Galar",

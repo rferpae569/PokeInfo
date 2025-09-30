@@ -5,66 +5,66 @@
       {
         "city": "Ciudad Plateada",
         "leader": "Brock",
-        "leaderImage": "/gyms/Lideres/Brock.png",
+        "leaderImage": "gyms/Lideres/Brock.png",
         "type": "Roca",
-        "gymImage": "/gyms/Kanto/GymPlateada.webp",
-        "badgeImage": "/Insignias/Kanto/MedallaRoca.webp"
+        "gymImage": "gyms/Kanto/GymPlateada.webp",
+        "badgeImage": "Insignias/Kanto/MedallaRoca.webp"
       },
       {
         "city": "Ciudad Celeste",
         "leader": "Misty",
-        "leaderImage": "/gyms/Lideres/Misty.png",
+        "leaderImage": "gyms/Lideres/Misty.png",
         "type": "Agua",
-        "gymImage": "/gyms/Kanto/GymCeleste.webp",
-        "badgeImage": "/Insignias/Kanto/MedallaCascada.webp"
+        "gymImage": "gyms/Kanto/GymCeleste.webp",
+        "badgeImage": "Insignias/Kanto/MedallaCascada.webp"
       },
       {
         "city": "Ciudad Carmín",
         "leader": "Lt. Surge",
-        "leaderImage": "/gyms/Lideres/TenienteSurge.png",
+        "leaderImage": "gyms/Lideres/TenienteSurge.png",
         "type": "Electrico",
-        "gymImage": "/gyms/Kanto/GymCarmin.webp",
-        "badgeImage": "/Insignias/Kanto/MedallaTrueno.webp"
+        "gymImage": "gyms/Kanto/GymCarmin.webp",
+        "badgeImage": "Insignias/Kanto/MedallaTrueno.webp"
       },
       {
         "city": "Ciudad Azulona",
         "leader": "Erika",
-        "leaderImage": "/gyms/Lideres/Erika.png",
+        "leaderImage": "gyms/Lideres/Erika.png",
         "type": "Planta",
-        "gymImage": "/gyms/Kanto/GymAzulona.webp",
-        "badgeImage": "/Insignias/Kanto/MedallaArcoiris.webp"
+        "gymImage": "gyms/Kanto/GymAzulona.webp",
+        "badgeImage": "Insignias/Kanto/MedallaArcoiris.webp"
       },
       {
         "city": "Ciudad Fucsia",
         "leader": ["Koga", "Sachiko"],
-        "leaderImage": ["/gyms/Lideres/Koga.png", "/gyms/Lideres/Sachiko.png"],
+        "leaderImage": ["gyms/Lideres/Koga.png", "gyms/Lideres/Sachiko.png"],
         "type": "Veneno",
-        "gymImage": "/gyms/Kanto/GymFucsia.webp",
-        "badgeImage": "/Insignias/Kanto/MedallaAlma.webp"
+        "gymImage": "gyms/Kanto/GymFucsia.webp",
+        "badgeImage": "Insignias/Kanto/MedallaAlma.webp"
       },
       {
         "city": "Ciudad Azafrán",
         "leader": "Sabrina",
-        "leaderImage": "/gyms/Lideres/Sabrina.png",
+        "leaderImage": "gyms/Lideres/Sabrina.png",
         "type": "Psiquico",
-        "gymImage": "/gyms/Kanto/GymAzafran.webp",
-        "badgeImage": "/Insignias/Kanto/MedallaPantano.webp"
+        "gymImage": "gyms/Kanto/GymAzafran.webp",
+        "badgeImage": "Insignias/Kanto/MedallaPantano.webp"
       },
       {
         "city": "Isla Canela",
         "leader": "Blaine",
-        "leaderImage": "/gyms/Lideres/Blaine.png",
+        "leaderImage": "gyms/Lideres/Blaine.png",
         "type": "Fuego",
-        "gymImage": "/gyms/Kanto/GymCanela.webp",
-        "badgeImage": "/Insignias/Kanto/MedallaVolcan.webp"
+        "gymImage": "gyms/Kanto/GymCanela.webp",
+        "badgeImage": "Insignias/Kanto/MedallaVolcan.webp"
       },
       {
         "city": "Ciudad Verde",
         "leader": ["Giovanni", "Azul"],
-        "leaderImage": ["/gyms/Lideres/Giovanni.png", "/gyms/Lideres/Azul.png"],
+        "leaderImage": ["gyms/Lideres/Giovanni.png", "gyms/Lideres/Azul.png"],
         "type": "Tierra",
-        "gymImage": "/gyms/Kanto/GymVerde.webp",
-        "badgeImage": "/Insignias/Kanto/MedallaTierra.webp"
+        "gymImage": "gyms/Kanto/GymVerde.webp",
+        "badgeImage": "Insignias/Kanto/MedallaTierra.webp"
       }
     ]
   },
@@ -74,66 +74,66 @@
       {
         "city": "Ciudad Malva",
         "leader": "Pegaso",
-        "leaderImage": "/gyms/Lideres/Pegaso.png",
+        "leaderImage": "gyms/Lideres/Pegaso.png",
         "type": "Volador",
-        "gymImage": "/gyms/Johto/GymMalva.webp",
-        "badgeImage": "/Insignias/Johto/MedallaCefiro.webp"
+        "gymImage": "gyms/Johto/GymMalva.webp",
+        "badgeImage": "Insignias/Johto/MedallaCefiro.webp"
       },
       {
         "city": "Ciudad Azalea",
         "leader": "Antón",
-        "leaderImage": "/gyms/Lideres/Anton.png",
+        "leaderImage": "gyms/Lideres/Anton.png",
         "type": "Bicho",
-        "gymImage": "/gyms/Johto/GymAzalea.webp",
-        "badgeImage": "/Insignias/Johto/MedallaColmena.webp"
+        "gymImage": "gyms/Johto/GymAzalea.webp",
+        "badgeImage": "Insignias/Johto/MedallaColmena.webp"
       },
       {
         "city": "Ciudad Trigal",
         "leader": "Blanca",
-        "leaderImage": "/gyms/Lideres/Blanca.png",
+        "leaderImage": "gyms/Lideres/Blanca.png",
         "type": "Normal",
-        "gymImage": "/gyms/Johto/GymTrigal.webp",
-        "badgeImage": "/Insignias/Johto/MedallaPlanicie.webp"
+        "gymImage": "gyms/Johto/GymTrigal.webp",
+        "badgeImage": "Insignias/Johto/MedallaPlanicie.webp"
       },
       {
         "city": "Ciudad Iris",
         "leader": "Morty",
-        "leaderImage": "/gyms/Lideres/Morti.png",
+        "leaderImage": "gyms/Lideres/Morti.png",
         "type": "Fantasma",
-        "gymImage": "/gyms/Johto/GymIris.webp",
-        "badgeImage": "/Insignias/Johto/MedallaNiebla.webp"
+        "gymImage": "gyms/Johto/GymIris.webp",
+        "badgeImage": "Insignias/Johto/MedallaNiebla.webp"
       },
       {
         "city": "Ciudad Olivo",
         "leader": "Yasmina",
-        "leaderImage": "/gyms/Lideres/Yasmina.png",
+        "leaderImage": "gyms/Lideres/Yasmina.png",
         "type": "Acero",
-        "gymImage": "/gyms/Johto/GymOlivo.webp",
-        "badgeImage": "/Insignias/Johto/MedallaMineral.webp"
+        "gymImage": "gyms/Johto/GymOlivo.webp",
+        "badgeImage": "Insignias/Johto/MedallaMineral.webp"
       },
       {
         "city": "Ciudad Orquídea",
         "leader": "Anibal",
-        "leaderImage": "/gyms/Lideres/Anibal.png",
+        "leaderImage": "gyms/Lideres/Anibal.png",
         "type": "Lucha",
-        "gymImage": "/gyms/Johto/GymOrquidea.webp",
-        "badgeImage": "/Insignias/Johto/MedallaTormenta.webp"
+        "gymImage": "gyms/Johto/GymOrquidea.webp",
+        "badgeImage": "Insignias/Johto/MedallaTormenta.webp"
       },
       {
         "city": "Ciudad Caoba",
         "leader": "Fredo",
-        "leaderImage": "/gyms/Lideres/Fredo.png",
+        "leaderImage": "gyms/Lideres/Fredo.png",
         "type": "Hielo",
-        "gymImage": "/gyms/Johto/GymCaoba.png",
-        "badgeImage": "/Insignias/Johto/MedallaGlaciar.png"
+        "gymImage": "gyms/Johto/GymCaoba.png",
+        "badgeImage": "Insignias/Johto/MedallaGlaciar.png"
       },
       {
         "city": "Ciudad Endrino",
         "leader": "Debora",
-        "leaderImage": "/gyms/Lideres/Debora.png",
+        "leaderImage": "gyms/Lideres/Debora.png",
         "type": "Dragon",
-        "gymImage": "/gyms/Johto/GymEndrino.webp",
-        "badgeImage": "/Insignias/Johto/MedallaDragon.webp"
+        "gymImage": "gyms/Johto/GymEndrino.webp",
+        "badgeImage": "Insignias/Johto/MedallaDragon.webp"
       }
     ]
   },
@@ -143,50 +143,50 @@
       {
         "city": "Ciudad Férrica",
         "leader": "Petra",
-        "leaderImage": "/gyms/Lideres/Petra.png",
+        "leaderImage": "gyms/Lideres/Petra.png",
         "type": "Roca",
-        "gymImage": "/gyms/Hoenn/GymFerrica.webp",
-        "badgeImage": "/Insignias/Hoenn/MedallaPiedra.webp"
+        "gymImage": "gyms/Hoenn/GymFerrica.webp",
+        "badgeImage": "Insignias/Hoenn/MedallaPiedra.webp"
       },
       {
         "city": "Ciudad Malvalona",
         "leader": "Erico",
-        "leaderImage": "/gyms/Lideres/Erico.png",
+        "leaderImage": "gyms/Lideres/Erico.png",
         "type": "Electrico",
-        "gymImage": "/gyms/Hoenn/GymMalvalona.webp",
-        "badgeImage": "/Insignias/Hoenn/MedallaDinamo.webp"
+        "gymImage": "gyms/Hoenn/GymMalvalona.webp",
+        "badgeImage": "Insignias/Hoenn/MedallaDinamo.webp"
       },
       {
         "city": "Pueblo Lavacalda",
         "leader": "Candela",
-        "leaderImage": "/gyms/Lideres/Candela.png",
+        "leaderImage": "gyms/Lideres/Candela.png",
         "type": "Fuego",
-        "gymImage": "/gyms/Hoenn/GymLavacalda.webp",
-        "badgeImage": "/Insignias/Hoenn/MedallaCalor.webp"
+        "gymImage": "gyms/Hoenn/GymLavacalda.webp",
+        "badgeImage": "Insignias/Hoenn/MedallaCalor.webp"
       },
       {
         "city": "Ciudad Petalia",
         "leader": "Norman",
-        "leaderImage": "/gyms/Lideres/Norman.png",
+        "leaderImage": "gyms/Lideres/Norman.png",
         "type": "Normal",
-        "gymImage": "/gyms/Hoenn/GymPetalia.webp",
-        "badgeImage": "/Insignias/Hoenn/MedallaEquilibrio.webp"
+        "gymImage": "gyms/Hoenn/GymPetalia.webp",
+        "badgeImage": "Insignias/Hoenn/MedallaEquilibrio.webp"
       },
       {
         "city": "Ciudad Arborada",
         "leader": "Alana",
-        "leaderImage": "/gyms/Lideres/Alana.png",
+        "leaderImage": "gyms/Lideres/Alana.png",
         "type": "Volador",
-        "gymImage": "/gyms/Hoenn/GymArborada.webp",
-        "badgeImage": "/Insignias/Hoenn/MedallaPluma.webp"
+        "gymImage": "gyms/Hoenn/GymArborada.webp",
+        "badgeImage": "Insignias/Hoenn/MedallaPluma.webp"
       },
       {
         "city": "Ciudad Algaria",
         "leader": "Vito y Leti",
-        "leaderImage": "/gyms/Lideres/VitoLeti.png",
+        "leaderImage": "gyms/Lideres/VitoLeti.png",
         "type": "Psiquico",
-        "gymImage": "/gyms/Hoenn/GymAlgaria.jpg",
-        "badgeImage": "/Insignias/Hoenn/MedallaMente.webp"
+        "gymImage": "gyms/Hoenn/GymAlgaria.jpg",
+        "badgeImage": "Insignias/Hoenn/MedallaMente.webp"
       }
     ]
   },
@@ -196,66 +196,66 @@
       {
         "city": "Ciudad Pirita",
         "leader": "Roco",
-        "leaderImage": "/gyms/Lideres/Roco.png",
+        "leaderImage": "gyms/Lideres/Roco.png",
         "type": "Roca",
-        "gymImage": "/gyms/Sinnoh/GymPirita.webp",
-        "badgeImage": "/Insignias/Sinnoh/MedallaLignito.webp"
+        "gymImage": "gyms/Sinnoh/GymPirita.webp",
+        "badgeImage": "Insignias/Sinnoh/MedallaLignito.webp"
       },
       {
         "city": "Ciudad Vetusta",
         "leader": "Gardenia",
-        "leaderImage": "/gyms/Lideres/Gardenia.png",
+        "leaderImage": "gyms/Lideres/Gardenia.png",
         "type": "Planta",
-        "gymImage": "/gyms/Sinnoh/GymVetusta.webp",
-        "badgeImage": "/Insignias/Sinnoh/MedallaBosque.webp"
+        "gymImage": "gyms/Sinnoh/GymVetusta.webp",
+        "badgeImage": "Insignias/Sinnoh/MedallaBosque.webp"
       },
       {
         "city": "Ciudad Rocavelo",
         "leader": "Brega",
-        "leaderImage": "/gyms/Lideres/Brega.png",
+        "leaderImage": "gyms/Lideres/Brega.png",
         "type": "Lucha",
-        "gymImage": "/gyms/Sinnoh/GymRocavelo.webp",
-        "badgeImage": "/Insignias/Sinnoh/MedallaAdoquin.webp"
+        "gymImage": "gyms/Sinnoh/GymRocavelo.webp",
+        "badgeImage": "Insignias/Sinnoh/MedallaAdoquin.webp"
       },
       {
         "city": "Ciudad Pradera",
         "leader": "Mananti",
-        "leaderImage": "/gyms/Lideres/Mananti.png",
+        "leaderImage": "gyms/Lideres/Mananti.png",
         "type": "Agua",
-        "gymImage": "/gyms/Sinnoh/GymPradera.webp",
-        "badgeImage": "/Insignias/Sinnoh/MedallaCienaga.webp"
+        "gymImage": "gyms/Sinnoh/GymPradera.webp",
+        "badgeImage": "Insignias/Sinnoh/MedallaCienaga.webp"
       },
       {
         "city": "Ciudad Corazón",
         "leader": "Fantina",
-        "leaderImage": "/gyms/Lideres/Fantina.png",
+        "leaderImage": "gyms/Lideres/Fantina.png",
         "type": "Fantasma",
-        "gymImage": "/gyms/Sinnoh/GymCorazon.webp",
-        "badgeImage": "/Insignias/Sinnoh/MedallaReliquia.webp"
+        "gymImage": "gyms/Sinnoh/GymCorazon.webp",
+        "badgeImage": "Insignias/Sinnoh/MedallaReliquia.webp"
       },
       {
         "city": "Ciudad Canal",
         "leader": "Acerón",
-        "leaderImage": "/gyms/Lideres/Aceron.png",
+        "leaderImage": "gyms/Lideres/Aceron.png",
         "type": "Acero",
-        "gymImage": "/gyms/Sinnoh/GymCanal.webp",
-        "badgeImage": "/Insignias/Sinnoh/MedallaMina.webp"
+        "gymImage": "gyms/Sinnoh/GymCanal.webp",
+        "badgeImage": "Insignias/Sinnoh/MedallaMina.webp"
       },
       {
         "city": "Ciudad Puntaneva",
         "leader": "Inverna",
-        "leaderImage": "/gyms/Lideres/Inverna.png",
+        "leaderImage": "gyms/Lideres/Inverna.png",
         "type": "Hielo",
-        "gymImage": "/gyms/Sinnoh/GymPuntaneva.webp",
-        "badgeImage": "/Insignias/Sinnoh/MedallaCarambano.png"
+        "gymImage": "gyms/Sinnoh/GymPuntaneva.webp",
+        "badgeImage": "Insignias/Sinnoh/MedallaCarambano.png"
       },
       {
         "city": "Ciudad Marina",
         "leader": "Lectro",
-        "leaderImage": "/gyms/Lideres/Lectro.png",
+        "leaderImage": "gyms/Lideres/Lectro.png",
         "type": "Electrico",
-        "gymImage": "/gyms/Sinnoh/GymMarina.webp",
-        "badgeImage": "/Insignias/Sinnoh/MedallaFaro.png"
+        "gymImage": "gyms/Sinnoh/GymMarina.webp",
+        "badgeImage": "Insignias/Sinnoh/MedallaFaro.png"
       }
     ]
   },
@@ -266,69 +266,69 @@
         "city": "Ciudad Gres",
         "leader": ["Millo", "Zeo", "Maíz"],
         "leaderImage": [
-          "/gyms/Lideres/Millo.png",
-          "/gyms/Lideres/Zeo.png",
-          "/gyms/Lideres/Maiz.png"
+          "gyms/Lideres/Millo.png",
+          "gyms/Lideres/Zeo.png",
+          "gyms/Lideres/Maiz.png"
         ],
         "type": "Planta / Fuego / Agua",
-        "gymImage": "/gyms/Teselia/GymGres.webp",
-        "badgeImage": "/Insignias/Teselia/MedallaTrio.webp"
+        "gymImage": "gyms/Teselia/GymGres.webp",
+        "badgeImage": "Insignias/Teselia/MedallaTrio.webp"
       },
       {
         "city": "Ciudad Esmalte",
         "leader": "Aloe",
-        "leaderImage": "/gyms/Lideres/Aloe.png",
+        "leaderImage": "gyms/Lideres/Aloe.png",
         "type": "Normal",
-        "gymImage": "/gyms/Teselia/GymEsmalte.webp",
-        "badgeImage": "/Insignias/Teselia/MedallaBase.webp"
+        "gymImage": "gyms/Teselia/GymEsmalte.webp",
+        "badgeImage": "Insignias/Teselia/MedallaBase.webp"
       },
       {
         "city": "Ciudad Fayenza",
         "leader": "Yakón",
-        "leaderImage": "/gyms/Lideres/Yakon.png",
+        "leaderImage": "gyms/Lideres/Yakon.png",
         "type": "Tierra",
-        "gymImage": "/gyms/Teselia/GymFayenza.webp",
-        "badgeImage": "/Insignias/Teselia/MedallaTemblor.webp"
+        "gymImage": "gyms/Teselia/GymFayenza.webp",
+        "badgeImage": "Insignias/Teselia/MedallaTemblor.webp"
       },
       {
         "city": "Ciudad Mayólica",
         "leader": "Camila",
-        "leaderImage": "/gyms/Lideres/Camila.png",
+        "leaderImage": "gyms/Lideres/Camila.png",
         "type": "Electrico",
-        "gymImage": "/gyms/Teselia/GymMayolica.webp",
-        "badgeImage": "/Insignias/Teselia/MedallaVoltio.webp"
+        "gymImage": "gyms/Teselia/GymMayolica.webp",
+        "badgeImage": "Insignias/Teselia/MedallaVoltio.webp"
       },
       {
         "city": "Ciudad Loza",
         "leader": "Gerania",
-        "leaderImage": "/gyms/Lideres/Gerania.png",
+        "leaderImage": "gyms/Lideres/Gerania.png",
         "type": "Volador",
-        "gymImage": "/gyms/Teselia/GymLoza.webp",
-        "badgeImage": "/Insignias/Teselia/MedallaJet.webp"
+        "gymImage": "gyms/Teselia/GymLoza.webp",
+        "badgeImage": "Insignias/Teselia/MedallaJet.webp"
       },
       {
         "city": "Ciudad Caolín",
         "leader": ["Lirio", "Iris"],
-        "leaderImage": ["/gyms/Lideres/Lirio.png", "/gyms/Lideres/Iris.png"],
+        "leaderImage": ["gyms/Lideres/Lirio.png", "gyms/Lideres/Iris.png"],
         "type": "Dragon",
-        "gymImage": "/gyms/Teselia/GymCaolin.webp",
-        "badgeImage": "/Insignias/Teselia/MedallaLeyenda.webp"
+        "gymImage": "gyms/Teselia/GymCaolin.webp",
+        "badgeImage": "Insignias/Teselia/MedallaLeyenda.webp"
       },
       {
         "city": "Ciudad Marga",
         "leader": "Ciprián",
-        "leaderImage": "/gyms/Lideres/Ciprian.png",
+        "leaderImage": "gyms/Lideres/Ciprian.png",
         "type": "Agua",
-        "gymImage": "/gyms/Teselia/GymMarga.webp",
-        "badgeImage": "/Insignias/Teselia/MedallaOla.webp"
+        "gymImage": "gyms/Teselia/GymMarga.webp",
+        "badgeImage": "Insignias/Teselia/MedallaOla.webp"
       },
       {
         "city": "Ciudad Engobe",
         "leader": "Cheren",
-        "leaderImage": "/gyms/Lideres/Cheren.png",
+        "leaderImage": "gyms/Lideres/Cheren.png",
         "type": "Normal",
-        "gymImage": "/gyms/Teselia/GymEngobe.webp",
-        "badgeImage": "/Insignias/Teselia/MedallaBase.webp"
+        "gymImage": "gyms/Teselia/GymEngobe.webp",
+        "badgeImage": "Insignias/Teselia/MedallaBase.webp"
       }
     ]
   },
@@ -338,66 +338,66 @@
       {
         "city": "Ciudad Novarte",
         "leader": "Violeta",
-        "leaderImage": "/gyms/Lideres/Violeta.png",
+        "leaderImage": "gyms/Lideres/Violeta.png",
         "type": "Bicho",
-        "gymImage": "/gyms/Kalos/GymNovarte.webp",
-        "badgeImage": "/Insignias/Kalos/MedallaInsecto.webp"
+        "gymImage": "gyms/Kalos/GymNovarte.webp",
+        "badgeImage": "Insignias/Kalos/MedallaInsecto.webp"
       },
       {
         "city": "Ciudad Yantra",
         "leader": "Corelia",
-        "leaderImage": "/gyms/Lideres/Corelia.png",
+        "leaderImage": "gyms/Lideres/Corelia.png",
         "type": "Lucha",
-        "gymImage": "/gyms/Kalos/GymYantra.webp",
-        "badgeImage": "/Insignias/Kalos/MedallaLid.webp"
+        "gymImage": "gyms/Kalos/GymYantra.webp",
+        "badgeImage": "Insignias/Kalos/MedallaLid.webp"
       },
       {
         "city": "Ciudad Témpera",
         "leader": "Amaro",
-        "leaderImage": "/gyms/Lideres/Amaro.png",
+        "leaderImage": "gyms/Lideres/Amaro.png",
         "type": "Planta",
-        "gymImage": "/gyms/Kalos/GymTempera.webp",
-        "badgeImage": "/Insignias/Kalos/MedallaHoja.png"
+        "gymImage": "gyms/Kalos/GymTempera.webp",
+        "badgeImage": "Insignias/Kalos/MedallaHoja.png"
       },
       {
         "city": "Ciudad Romantis",
         "leader": "Valeria",
-        "leaderImage": "/gyms/Lideres/Valeria.png",
+        "leaderImage": "gyms/Lideres/Valeria.png",
         "type": "Hada",
-        "gymImage": "/gyms/Kalos/GymRomantis.webp",
-        "badgeImage": "/Insignias/Kalos/MedallaHada.webp"
+        "gymImage": "gyms/Kalos/GymRomantis.webp",
+        "badgeImage": "Insignias/Kalos/MedallaHada.webp"
       },
       {
         "city": "Ciudad Fluxus",
         "leader": "Ástrid",
-        "leaderImage": "/gyms/Lideres/Astrid.png",
+        "leaderImage": "gyms/Lideres/Astrid.png",
         "type": "Psiquico",
-        "gymImage": "/gyms/Kalos/GymFluxus.webp",
-        "badgeImage": "/Insignias/Kalos/MedallaPsique.webp"
+        "gymImage": "gyms/Kalos/GymFluxus.webp",
+        "badgeImage": "Insignias/Kalos/MedallaPsique.webp"
       },
       {
         "city": "Ciudad Luminalia",
         "leader": ["Lem", "Cemblot"],
-        "leaderImage": ["/gyms/Lideres/Lem.png", "/gyms/Lideres/Cemblot.png"],
+        "leaderImage": ["gyms/Lideres/Lem.png", "gyms/Lideres/Cemblot.png"],
         "type": "Electrico",
-        "gymImage": "/gyms/Kalos/GymLuminalia.webp",
-        "badgeImage": "/Insignias/Kalos/MedallaVoltaje.webp"
+        "gymImage": "gyms/Kalos/GymLuminalia.webp",
+        "badgeImage": "Insignias/Kalos/MedallaVoltaje.webp"
       },
       {
         "city": "Ciudad Relieve",
         "leader": "Lino",
-        "leaderImage": "/gyms/Lideres/Lino.png",
+        "leaderImage": "gyms/Lideres/Lino.png",
         "type": "Roca",
-        "gymImage": "/gyms/Kalos/GymRelieve.webp",
-        "badgeImage": "/Insignias/Kalos/MedallaMuro.webp"
+        "gymImage": "gyms/Kalos/GymRelieve.webp",
+        "badgeImage": "Insignias/Kalos/MedallaMuro.webp"
       },
       {
         "city": "Ciudad Fractal",
         "leader": "Édel",
-        "leaderImage": "/gyms/Lideres/Edel.png",
+        "leaderImage": "gyms/Lideres/Edel.png",
         "type": "Hielo",
-        "gymImage": "/gyms/Kalos/GymFractal.webp",
-        "badgeImage": "/Insignias/Kalos/MedallaIceberg.webp"
+        "gymImage": "gyms/Kalos/GymFractal.webp",
+        "badgeImage": "Insignias/Kalos/MedallaIceberg.webp"
       }
     ]
   },
@@ -407,75 +407,75 @@
       {
         "city": "Pueblo Hoyuelo",
         "leader": "Percy",
-        "leaderImage": "/gyms/Lideres/Percy.png",
+        "leaderImage": "gyms/Lideres/Percy.png",
         "type": "Planta",
-        "gymImage": "/gyms/Galar/GymHoyuelo.png",
-        "badgeImage": "/Insignias/Galar/MedallaPlanta.png"
+        "gymImage": "gyms/Galar/GymHoyuelo.png",
+        "badgeImage": "Insignias/Galar/MedallaPlanta.png"
       },
       {
         "city": "Ciudad Pistón",
         "leader": "Naboru",
-        "leaderImage": "/gyms/Lideres/Naboru.png",
+        "leaderImage": "gyms/Lideres/Naboru.png",
         "type": "Fuego",
-        "gymImage": "/gyms/Galar/GymPiston.png",
-        "badgeImage": "/Insignias/Galar/MedallaFuego.png"
+        "gymImage": "gyms/Galar/GymPiston.png",
+        "badgeImage": "Insignias/Galar/MedallaFuego.png"
       },
       {
         "city": "Ciudad Artejo",
         "leader": "Roy",
-        "leaderImage": "/gyms/Lideres/Roy.png",
+        "leaderImage": "gyms/Lideres/Roy.png",
         "type": "Dragon",
-        "gymImage": "/gyms/Galar/GymArtejo.png",
-        "badgeImage": "/Insignias/Galar/MedallaDragon.png"
+        "gymImage": "gyms/Galar/GymArtejo.png",
+        "badgeImage": "Insignias/Galar/MedallaDragon.png"
       },
       {
         "city": "Ciudad Ladera",
         "leader": ["Judith", "Alistair"],
         "leaderImage": [
-          "/gyms/Lideres/Judith.png",
-          "/gyms/Lideres/Alistair.png"
+          "gyms/Lideres/Judith.png",
+          "gyms/Lideres/Alistair.png"
         ],
         "type": "Lucha / Fantasma",
-        "gymImage": "/gyms/Galar/GymLadera.png",
+        "gymImage": "gyms/Galar/GymLadera.png",
         "badgeImage": [
-          "/Insignias/Galar/MedallaLucha.png",
-          "/Insignias/Galar/MedallaFantasma.png"
+          "Insignias/Galar/MedallaLucha.png",
+          "Insignias/Galar/MedallaFantasma.png"
         ]
       },
       {
         "city": "Ciudad Auriga",
         "leader": ["Morris", "Mel"],
-        "leaderImage": ["/gyms/Lideres/Morris.png", "/gyms/Lideres/Mel.png"],
+        "leaderImage": ["gyms/Lideres/Morris.png", "gyms/Lideres/Mel.png"],
         "type": "Roca / Hielo",
-        "gymImage": "/gyms/Galar/GymAuriga.png",
+        "gymImage": "gyms/Galar/GymAuriga.png",
         "badgeImage": [
-          "/Insignias/Galar/MedallaRoca.png",
-          "/Insignias/Galar/MedallaHielo.png"
+          "Insignias/Galar/MedallaRoca.png",
+          "Insignias/Galar/MedallaHielo.png"
         ]
       },
       {
         "city": "Pueblo Crampón",
         "leader": ["Nerio", "Roxy"],
-        "leaderImage": ["/gyms/Lideres/Nerio.png", "/gyms/Lideres/Roxy.png"],
+        "leaderImage": ["gyms/Lideres/Nerio.png", "gyms/Lideres/Roxy.png"],
         "type": "Siniestro",
-        "gymImage": "/gyms/Galar/GymCrampon.png",
-        "badgeImage": "/Insignias/Galar/MedallaSiniestro.png"
+        "gymImage": "gyms/Galar/GymCrampon.png",
+        "badgeImage": "Insignias/Galar/MedallaSiniestro.png"
       },
       {
         "city": "Ciudad Amura",
         "leader": "Cathy",
-        "leaderImage": "/gyms/Lideres/Cathy.png",
+        "leaderImage": "gyms/Lideres/Cathy.png",
         "type": "Agua",
-        "gymImage": "/gyms/Galar/GymAmura.png",
-        "badgeImage": "/Insignias/Galar/MedallaAgua.png"
+        "gymImage": "gyms/Galar/GymAmura.png",
+        "badgeImage": "Insignias/Galar/MedallaAgua.png"
       },
       {
         "city": "Ciudad Plie",
         "leader": ["Sally", "Berto"],
-        "leaderImage": ["/gyms/Lideres/Sally.png", "/gyms/Lideres/Berto.png"],
+        "leaderImage": ["gyms/Lideres/Sally.png", "gyms/Lideres/Berto.png"],
         "type": "Hada",
-        "gymImage": "/gyms/Galar/GymPlie.png",
-        "badgeImage": "/Insignias/Galar/MedallaHada.png"
+        "gymImage": "gyms/Galar/GymPlie.png",
+        "badgeImage": "Insignias/Galar/MedallaHada.png"
       }
     ]
   },
@@ -485,66 +485,66 @@
       {
         "city": "Ciudad Cántara",
         "leader": "Fuco",
-        "leaderImage": "/gyms/Lideres/Fuco.png",
+        "leaderImage": "gyms/Lideres/Fuco.png",
         "type": "Agua",
-        "gymImage": "/gyms/Paldea/GymCantara.jpg",
-        "badgeImage": "/Insignias/Paldea/MedallaAgua2.png"
+        "gymImage": "gyms/Paldea/GymCantara.jpg",
+        "badgeImage": "Insignias/Paldea/MedallaAgua2.png"
       },
       {
         "city": "Pueblo Pirotin",
         "leader": "Araceli",
-        "leaderImage": "/gyms/Lideres/Araceli.png",
+        "leaderImage": "gyms/Lideres/Araceli.png",
         "type": "Bicho",
-        "gymImage": "/gyms/Paldea/GymPirotin.png",
-        "badgeImage": "/Insignias/Paldea/MedallaBicho.png"
+        "gymImage": "gyms/Paldea/GymPirotin.png",
+        "badgeImage": "Insignias/Paldea/MedallaBicho.png"
       },
       {
         "city": "Pueblo Altamia",
         "leader": "Brais",
-        "leaderImage": "/gyms/Lideres/Brais.png",
+        "leaderImage": "gyms/Lideres/Brais.png",
         "type": "Planta",
-        "gymImage": "/gyms/Paldea/GymAltamia.png",
-        "badgeImage": "/Insignias/Paldea/MedallaPlanta2.png"
+        "gymImage": "gyms/Paldea/GymAltamia.png",
+        "badgeImage": "Insignias/Paldea/MedallaPlanta2.png"
       },
       {
         "city": "Ciudad Sierra Napada",
         "leader": "Grusha",
-        "leaderImage": "/gyms/Lideres/Grusha.png",
+        "leaderImage": "gyms/Lideres/Grusha.png",
         "type": "Hielo",
-        "gymImage": "/gyms/Paldea/GymNapada.png",
-        "badgeImage": "/Insignias/Paldea/MedallaHielo2.png"
+        "gymImage": "gyms/Paldea/GymNapada.png",
+        "badgeImage": "Insignias/Paldea/MedallaHielo2.png"
       },
       {
         "city": "Ciudad Leudal",
         "leader": "e-Nigma",
-        "leaderImage": "/gyms/Lideres/Enigma.png",
+        "leaderImage": "gyms/Lideres/Enigma.png",
         "type": "Electrico",
-        "gymImage": "/gyms/Paldea/GymLeudal.png",
-        "badgeImage": "/Insignias/Paldea/MedallaElectrico.png"
+        "gymImage": "gyms/Paldea/GymLeudal.png",
+        "badgeImage": "Insignias/Paldea/MedallaElectrico.png"
       },
       {
         "city": "Pueblo Mestura",
         "leader": "Laureano",
-        "leaderImage": "/gyms/Lideres/Laureano.png",
+        "leaderImage": "gyms/Lideres/Laureano.png",
         "type": "Normal",
-        "gymImage": "/gyms/Paldea/GymMestura.png",
-        "badgeImage": "/Insignias/Paldea/MedallaNormal.png"
+        "gymImage": "gyms/Paldea/GymMestura.png",
+        "badgeImage": "Insignias/Paldea/MedallaNormal.png"
       },
       {
         "city": "Pueblo Hozkailu",
         "leader": "Lima",
-        "leaderImage": "/gyms/Lideres/Lima.png",
+        "leaderImage": "gyms/Lideres/Lima.png",
         "type": "Fantasma",
-        "gymImage": "/gyms/Paldea/GymHozkailu.png",
-        "badgeImage": "/Insignias/Paldea/MedallaFantasma2.png"
+        "gymImage": "gyms/Paldea/GymHozkailu.png",
+        "badgeImage": "Insignias/Paldea/MedallaFantasma2.png"
       },
       {
         "city": "Pueblo Alforno",
         "leader": "Tuli",
-        "leaderImage": "/gyms/Lideres/Tuli.png",
+        "leaderImage": "gyms/Lideres/Tuli.png",
         "type": "Psiquico",
-        "gymImage": "/gyms/Paldea/GymAlforno.jpg",
-        "badgeImage": "/Insignias/Paldea/MedallaPsiquico.png"
+        "gymImage": "gyms/Paldea/GymAlforno.jpg",
+        "badgeImage": "Insignias/Paldea/MedallaPsiquico.png"
       }
     ]
   }

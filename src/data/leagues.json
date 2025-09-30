@@ -4,14 +4,14 @@
     "name": "Liga Arándano",
     "region": " Academia Arándano",
     "eliteFour": [
-      { "name": "Denis", "image": "/leagues/eliteFour/Denis.png" },
-      { "name": "Nerina", "image": "/leagues/eliteFour/Nerina.png" },
-      { "name": "Aroa", "image": "/leagues/eliteFour/Aroa.png" },
-      { "name": "Levi", "image": "/leagues/eliteFour/Levi.png" }
+      { "name": "Denis", "image": "leagues/eliteFour/Denis.png" },
+      { "name": "Nerina", "image": "leagues/eliteFour/Nerina.png" },
+      { "name": "Aroa", "image": "leagues/eliteFour/Aroa.png" },
+      { "name": "Levi", "image": "leagues/eliteFour/Levi.png" }
     ],
     "champion": {
       "name": "Cass",
-      "image": "/leagues/champion/Cass.png"
+      "image": "leagues/champion/Cass.png"
     },
     "featuredPokemon": ["exeggutor", "empoleon", "grimmsnarl"],
     "accessText": "Liga académica: basta con inscribirse"
@@ -21,24 +21,24 @@
     "name": "Liga Pokémon de Kanto",
     "region": "Kanto",
     "badges": [
-      "/Insignias/Kanto/MedallaRoca.webp",
-      "/Insignias/Kanto/MedallaCascada.webp",
-      "/Insignias/Kanto/MedallaTrueno.webp",
-      "/Insignias/Kanto/MedallaArcoiris.webp",
-      "/Insignias/Kanto/MedallaAlma.webp",
-      "/Insignias/Kanto/MedallaPantano.webp",
-      "/Insignias/Kanto/MedallaVolcan.webp",
-      "/Insignias/Kanto/MedallaTierra.webp"
+      "Insignias/Kanto/MedallaRoca.webp",
+      "Insignias/Kanto/MedallaCascada.webp",
+      "Insignias/Kanto/MedallaTrueno.webp",
+      "Insignias/Kanto/MedallaArcoiris.webp",
+      "Insignias/Kanto/MedallaAlma.webp",
+      "Insignias/Kanto/MedallaPantano.webp",
+      "Insignias/Kanto/MedallaVolcan.webp",
+      "Insignias/Kanto/MedallaTierra.webp"
     ],
     "eliteFour": [
-      { "name": "Lorelei", "image": "/leagues/eliteFour/Lorelei.png" },
-      { "name": "Bruno", "image": "/leagues/eliteFour/Bruno.png" },
-      { "name": "Agatha", "image": "/leagues/eliteFour/Agatha.png" },
-      { "name": "Lance", "image": "/leagues/eliteFour/Lance.png" }
+      { "name": "Lorelei", "image": "leagues/eliteFour/Lorelei.png" },
+      { "name": "Bruno", "image": "leagues/eliteFour/Bruno.png" },
+      { "name": "Agatha", "image": "leagues/eliteFour/Agatha.png" },
+      { "name": "Lance", "image": "leagues/eliteFour/Lance.png" }
     ],
     "champion": {
       "name": "Trace",
-      "image": "/leagues/champion/Trace.png"
+      "image": "leagues/champion/Trace.png"
     },
     "featuredPokemon": ["lapras", "onix", "machamp", "gyarados", "charizard"]
   },
@@ -47,24 +47,24 @@
     "name": "Liga Pokémon de Johto",
     "region": "Johto",
     "badges": [
-      "/Insignias/Johto/MedallaCefiro.webp",
-      "/Insignias/Johto/MedallaColmena.webp",
-      "/Insignias/Johto/MedallaDragon.webp",
-      "/Insignias/Johto/MedallaGlaciar.png",
-      "/Insignias/Johto/MedallaMineral.webp",
-      "/Insignias/Johto/MedallaNiebla.webp",
-      "/Insignias/Johto/MedallaPlanicie.webp",
-      "/Insignias/Johto/MedallaTormenta.webp"
+      "Insignias/Johto/MedallaCefiro.webp",
+      "Insignias/Johto/MedallaColmena.webp",
+      "Insignias/Johto/MedallaDragon.webp",
+      "Insignias/Johto/MedallaGlaciar.png",
+      "Insignias/Johto/MedallaMineral.webp",
+      "Insignias/Johto/MedallaNiebla.webp",
+      "Insignias/Johto/MedallaPlanicie.webp",
+      "Insignias/Johto/MedallaTormenta.webp"
     ],
     "eliteFour": [
-      { "name": "Mento", "image": "/leagues/eliteFour/Mento.png" },
-      { "name": "Koga", "image": "/gyms/Lideres/Koga.png" },
-      { "name": "Bruno", "image": "/leagues/eliteFour/Bruno.png" },
-      { "name": "Karen", "image": "/leagues/eliteFour/Karen.png" }
+      { "name": "Mento", "image": "leagues/eliteFour/Mento.png" },
+      { "name": "Koga", "image": "gyms/Lideres/Koga.png" },
+      { "name": "Bruno", "image": "leagues/eliteFour/Bruno.png" },
+      { "name": "Karen", "image": "leagues/eliteFour/Karen.png" }
     ],
     "champion": {
       "name": "Lance",
-      "image": "/leagues/eliteFour/Lance.png"
+      "image": "leagues/eliteFour/Lance.png"
     },
     "featuredPokemon": ["exeggutor", "onix", "machamp", "garchomp", "charizard"]
   },
@@ -73,27 +73,27 @@
     "name": "Liga Pokémon de Hoenn",
     "region": "Hoenn",
     "badges": [
-      "/Insignias/Hoenn/MedallaCalor.webp",
-      "/Insignias/Hoenn/MedallaDinamo.webp",
-      "/Insignias/Hoenn/MedallaEquilibrio.webp",
-      "/Insignias/Hoenn/MedallaMente.webp",
-      "/Insignias/Hoenn/MedallaPiedra.webp",
-      "/Insignias/Hoenn/MedallaPluma.webp"
+      "Insignias/Hoenn/MedallaCalor.webp",
+      "Insignias/Hoenn/MedallaDinamo.webp",
+      "Insignias/Hoenn/MedallaEquilibrio.webp",
+      "Insignias/Hoenn/MedallaMente.webp",
+      "Insignias/Hoenn/MedallaPiedra.webp",
+      "Insignias/Hoenn/MedallaPluma.webp"
     ],
     "eliteFour": [
-      { "name": "Sixto", "image": "/leagues/eliteFour/Sixto.webp" },
-      { "name": "Fátima", "image": "/leagues/eliteFour/Fatima.webp" },
-      { "name": "Nívea", "image": "/leagues/eliteFour/Nivea.webp" },
-      { "name": "Drácon", "image": "/leagues/eliteFour/Dracon.png" }
+      { "name": "Sixto", "image": "leagues/eliteFour/Sixto.webp" },
+      { "name": "Fátima", "image": "leagues/eliteFour/Fatima.webp" },
+      { "name": "Nívea", "image": "leagues/eliteFour/Nivea.webp" },
+      { "name": "Drácon", "image": "leagues/eliteFour/Dracon.png" }
     ],
     "champions": [
       {
         "name": "Máximo Peñas",
-        "image": "/leagues/champion/MaximoPeñas.png"
+        "image": "leagues/champion/MaximoPeñas.png"
       },
       {
         "name": "Plubio",
-        "image": "/leagues/champion/Plubio.png"
+        "image": "leagues/champion/Plubio.png"
       }
     ],
     "featuredPokemon": ["zoroark", "salamence", "haxorus", "metagross"]
@@ -103,25 +103,25 @@
     "name": "Liga Pokémon de Sinnoh",
     "region": "Sinnoh",
     "badges": [
-      "/Insignias/Sinnoh/MedallaAdoquin.webp",
-      "/Insignias/Sinnoh/MedallaBosque.webp",
-      "/Insignias/Sinnoh/MedallaCarambano.png",
-      "/Insignias/Sinnoh/MedallaCienaga.webp",
-      "/Insignias/Sinnoh/MedallaFaro.png",
-      "/Insignias/Sinnoh/MedallaLignito.webp",
-      "/Insignias/Sinnoh/MedallaMina.webp",
-      "/Insignias/Sinnoh/MedallaReliquia.webp"
+      "Insignias/Sinnoh/MedallaAdoquin.webp",
+      "Insignias/Sinnoh/MedallaBosque.webp",
+      "Insignias/Sinnoh/MedallaCarambano.png",
+      "Insignias/Sinnoh/MedallaCienaga.webp",
+      "Insignias/Sinnoh/MedallaFaro.png",
+      "Insignias/Sinnoh/MedallaLignito.webp",
+      "Insignias/Sinnoh/MedallaMina.webp",
+      "Insignias/Sinnoh/MedallaReliquia.webp"
     ],
     "eliteFour": [
-      { "name": "Alecrán", "image": "/leagues/eliteFour/Alecran.png" },
-      { "name": "Gaia", "image": "/leagues/eliteFour/Gaia.png" },
-      { "name": "Fausto", "image": "/leagues/eliteFour/Fausto.png" },
-      { "name": "Delos", "image": "/leagues/eliteFour/Delos.png" }
+      { "name": "Alecrán", "image": "leagues/eliteFour/Alecran.png" },
+      { "name": "Gaia", "image": "leagues/eliteFour/Gaia.png" },
+      { "name": "Fausto", "image": "leagues/eliteFour/Fausto.png" },
+      { "name": "Delos", "image": "leagues/eliteFour/Delos.png" }
     ],
     "champions": [
       {
         "name": "Cintia",
-        "image": "/leagues/champion/Cintia.png"
+        "image": "leagues/champion/Cintia.png"
       }
     ],
     "featuredPokemon": ["snorlax", "infernape", "rapidash", "lucario"]
@@ -131,28 +131,28 @@
     "name": "Liga Pokémon de Teselia",
     "region": "Teselia",
     "badges": [
-      "/Insignias/Teselia/MedallaBase.webp",
-      "/Insignias/Teselia/MedallaJet.webp",
-      "/Insignias/Teselia/MedallaLeyenda.webp",
-      "/Insignias/Teselia/MedallaOla.webp",
-      "/Insignias/Teselia/MedallaTemblor.webp",
-      "/Insignias/Teselia/MedallaTrio.webp",
-      "/Insignias/Teselia/MedallaVoltio.webp"
+      "Insignias/Teselia/MedallaBase.webp",
+      "Insignias/Teselia/MedallaJet.webp",
+      "Insignias/Teselia/MedallaLeyenda.webp",
+      "Insignias/Teselia/MedallaOla.webp",
+      "Insignias/Teselia/MedallaTemblor.webp",
+      "Insignias/Teselia/MedallaTrio.webp",
+      "Insignias/Teselia/MedallaVoltio.webp"
     ],
     "eliteFour": [
-      { "name": "Aníz", "image": "/leagues/eliteFour/Anis.png" },
-      { "name": "Aza", "image": "/leagues/eliteFour/Aza.png" },
-      { "name": "Lotto", "image": "/leagues/eliteFour/Lotto.png" },
-      { "name": "Catleya", "image": "/leagues/eliteFour/Catleya.png" }
+      { "name": "Aníz", "image": "leagues/eliteFour/Anis.png" },
+      { "name": "Aza", "image": "leagues/eliteFour/Aza.png" },
+      { "name": "Lotto", "image": "leagues/eliteFour/Lotto.png" },
+      { "name": "Catleya", "image": "leagues/eliteFour/Catleya.png" }
     ],
     "champions": [
       {
         "name": "Mirto",
-        "image": "/leagues/champion/Mirto.png"
+        "image": "leagues/champion/Mirto.png"
       },
       {
         "name": "Iris",
-        "image": "/leagues/champion/Iris.png"
+        "image": "leagues/champion/Iris.png"
       }
     ],
     "featuredPokemon": ["golurk", "krookodile", "bouffalant", "haxorus"]
@@ -162,25 +162,25 @@
     "name": "Liga Pokémon de Kalos",
     "region": "Kalos",
     "badges": [
-      "/Insignias/Kalos/MedallaHada.webp",
-      "/Insignias/Kalos/MedallaHoja.png",
-      "/Insignias/Kalos/MedallaIceberg.webp",
-      "/Insignias/Kalos/MedallaInsecto.webp",
-      "/Insignias/Kalos/MedallaLid.webp",
-      "/Insignias/Kalos/MedallaMuro.webp",
-      "/Insignias/Kalos/MedallaPsique.webp",
-      "/Insignias/Kalos/MedallaVoltaje.webp"
+      "Insignias/Kalos/MedallaHada.webp",
+      "Insignias/Kalos/MedallaHoja.png",
+      "Insignias/Kalos/MedallaIceberg.webp",
+      "Insignias/Kalos/MedallaInsecto.webp",
+      "Insignias/Kalos/MedallaLid.webp",
+      "Insignias/Kalos/MedallaMuro.webp",
+      "Insignias/Kalos/MedallaPsique.webp",
+      "Insignias/Kalos/MedallaVoltaje.webp"
     ],
     "eliteFour": [
-      { "name": "Tileo", "image": "/leagues/eliteFour/Tileo.png" },
-      { "name": "Drácena", "image": "/leagues/eliteFour/Dracena.png" },
-      { "name": "Malva", "image": "/leagues/eliteFour/Malva.png" },
-      { "name": "Narciso", "image": "/leagues/eliteFour/Narciso.png" }
+      { "name": "Tileo", "image": "leagues/eliteFour/Tileo.png" },
+      { "name": "Drácena", "image": "leagues/eliteFour/Dracena.png" },
+      { "name": "Malva", "image": "leagues/eliteFour/Malva.png" },
+      { "name": "Narciso", "image": "leagues/eliteFour/Narciso.png" }
     ],
     "champions": [
       {
         "name": "Dianta",
-        "image": "/leagues/champion/Dianta.png"
+        "image": "leagues/champion/Dianta.png"
       }
     ],
     "featuredPokemon": ["druddigon", "gyarados", "tyrantrum"]
@@ -190,25 +190,25 @@
     "name": "Liga Pokémon de Paldea",
     "region": "Paldea",
     "badges": [
-      "/Insignias/Paldea/MedallaAgua2.png",
-      "/Insignias/Paldea/MedallaBicho.png",
-      "/Insignias/Paldea/MedallaElectrico.png",
-      "/Insignias/Paldea/MedallaFantasma2.png",
-      "/Insignias/Paldea/MedallaHielo2.png",
-      "/Insignias/Paldea/MedallaNormal.png",
-      "/Insignias/Paldea/MedallaPlanta2.png",
-      "/Insignias/Paldea/MedallaPsiquico.png"
+      "Insignias/Paldea/MedallaAgua2.png",
+      "Insignias/Paldea/MedallaBicho.png",
+      "Insignias/Paldea/MedallaElectrico.png",
+      "Insignias/Paldea/MedallaFantasma2.png",
+      "Insignias/Paldea/MedallaHielo2.png",
+      "Insignias/Paldea/MedallaNormal.png",
+      "Insignias/Paldea/MedallaPlanta2.png",
+      "Insignias/Paldea/MedallaPsiquico.png"
     ],
     "eliteFour": [
-      { "name": "Cayena", "image": "/leagues/eliteFour/Cayena.png" },
-      { "name": "Pola", "image": "/leagues/eliteFour/Pola.png" },
-      { "name": "Laureano", "image": "/leagues/eliteFour/Laureano.png" },
-      { "name": "Hesperio", "image": "/leagues/eliteFour/Hesperio.png" }
+      { "name": "Cayena", "image": "leagues/eliteFour/Cayena.png" },
+      { "name": "Pola", "image": "leagues/eliteFour/Pola.png" },
+      { "name": "Laureano", "image": "leagues/eliteFour/Laureano.png" },
+      { "name": "Hesperio", "image": "leagues/eliteFour/Hesperio.png" }
     ],
     "champions": [
       {
         "name": "Ságita",
-        "image": "/leagues/champion/Sagita.png"
+        "image": "leagues/champion/Sagita.png"
       }
     ],
     "featuredPokemon": ["staraptor", "haxorus", "baxcalibur", "kingambit"]
@@ -218,20 +218,20 @@
     "name": "Liga Pokémon de Alola",
     "region": "Alola",
     "eliteFour": [
-      { "name": "Lario", "image": "/leagues/eliteFour/Lario.png" },
-      { "name": "Kaudan", "image": "/leagues/eliteFour/Kaudan.png" },
-      { "name": "Mayla", "image": "/leagues/eliteFour/Mayla.png" },
-      { "name": "Zarala", "image": "/leagues/eliteFour/Zarala.png" },
-      { "name": "Kahili", "image": "/leagues/eliteFour/Kahili.png" }
+      { "name": "Lario", "image": "leagues/eliteFour/Lario.png" },
+      { "name": "Kaudan", "image": "leagues/eliteFour/Kaudan.png" },
+      { "name": "Mayla", "image": "leagues/eliteFour/Mayla.png" },
+      { "name": "Zarala", "image": "leagues/eliteFour/Zarala.png" },
+      { "name": "Kahili", "image": "leagues/eliteFour/Kahili.png" }
     ],
     "champions": [
       {
         "name": "Kukui",
-        "image": "/leagues/champion/Kukui.png"
+        "image": "leagues/champion/Kukui.png"
       },
       {
         "name": "Tilo",
-        "image": "/leagues/champion/Tilo.png"
+        "image": "leagues/champion/Tilo.png"
       }
     ],
     "featuredPokemon": ["snorlax", "raichu", "tauros"],

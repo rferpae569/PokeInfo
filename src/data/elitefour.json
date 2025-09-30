@@ -4,7 +4,7 @@
     "EliteFour": [
       {
         "name": "アカマツ (Akamatsu)",
-        "image": "/leagues/eliteFour/Denis.png",
+        "image": "leagues/eliteFour/Denis.png",
         "home": "Ciudad Hormigón",
         "sex": "Masculino",
         "type": "Fuego",
@@ -13,7 +13,7 @@
       },
       {
         "name": "ネリネ (Nerine)",
-        "image": "/leagues/eliteFour/Nerina.png",
+        "image": "leagues/eliteFour/Nerina.png",
         "home": "Ciudad Porcelana",
         "sex": "Femenino",
         "type": "Acero",
@@ -22,7 +22,7 @@
       },
       {
         "name": "タロ (Taro)",
-        "image": "/leagues/eliteFour/Aroa.png",
+        "image": "leagues/eliteFour/Aroa.png",
         "home": "Ciudad Mayólica",
         "sex": "Femenino",
         "type": "Hada",
@@ -31,7 +31,7 @@
       },
       {
         "name": "カキツバタ (Kakitsubata)",
-        "image": "/leagues/eliteFour/Levi.png",
+        "image": "leagues/eliteFour/Levi.png",
         "home": "Ciudad Caolín",
         "sex": "Masculino",
         "type": "Dragón",
@@ -45,7 +45,7 @@
     "EliteFour": [
       {
         "name": "カンナ (Kanna)",
-        "image": "/leagues/eliteFour/Lorelei.png",
+        "image": "leagues/eliteFour/Lorelei.png",
         "home": "Isla Quarta",
         "sex": "Femenino",
         "type": "Hielo",
@@ -54,7 +54,7 @@
       },
       {
         "name": "シバ (Shiba)",
-        "image": "/leagues/eliteFour/Bruno.png",
+        "image": "leagues/eliteFour/Bruno.png",
         "home": "",
         "sex": "Masculino",
         "type": "Lucha",
@@ -63,7 +63,7 @@
       },
       {
         "name": "キクコ (Kikuko)",
-        "image": "/leagues/eliteFour/Agatha.png",
+        "image": "leagues/eliteFour/Agatha.png",
         "home": "",
         "sex": "Femenino",
         "type": "Fantasma",
@@ -72,7 +72,7 @@
       },
       {
         "name": "ワタル (Wataru)",
-        "image": "/leagues/eliteFour/Lance.png",
+        "image": "leagues/eliteFour/Lance.png",
         "home": "Ciudad Endrino",
         "sex": "Masculino",
         "type": "Dragón",
@@ -86,7 +86,7 @@
     "EliteFour": [
       {
         "name": "イツキ (Itsuki)",
-        "image": "/leagues/eliteFour/Mento.png",
+        "image": "leagues/eliteFour/Mento.png",
         "home": "",
         "sex": "Masculino",
         "type": "Psíquico",
@@ -95,7 +95,7 @@
       },
       {
         "name": "キョウ (Kyou)",
-        "image": "/gyms/Lideres/Koga.png",
+        "image": "gyms/Lideres/Koga.png",
         "home": "Ciudad Fucsia",
         "sex": "Masculino",
         "type": "Veneno",
@@ -104,7 +104,7 @@
       },
       {
         "name": "シバ (Shiba)",
-        "image": "/leagues/eliteFour/Bruno.png",
+        "image": "leagues/eliteFour/Bruno.png",
         "home": "",
         "sex": "Masculino",
         "type": "Lucha",
@@ -113,7 +113,7 @@
       },
       {
         "name": "カリン (Karin)",
-        "image": "/leagues/eliteFour/Karen.png",
+        "image": "leagues/eliteFour/Karen.png",
         "home": "Ciudad Endrino",
         "sex": "Femenino",
         "type": "Siniestro",
@@ -127,7 +127,7 @@
     "EliteFour": [
       {
         "name": "カゲツ (Kagetsu)",
-        "image": "/leagues/eliteFour/Sixto.webp",
+        "image": "leagues/eliteFour/Sixto.webp",
         "home": "",
         "sex": "Masculino",
         "type": "Siniestro",
@@ -136,7 +136,7 @@
       },
       {
         "name": "フヨウ (Fuyō)",
-        "image": "/leagues/eliteFour/Fatima.webp",
+        "image": "leagues/eliteFour/Fatima.webp",
         "home": "",
         "sex": "Femenino",
         "type": "Fantasma",
@@ -145,7 +145,7 @@
       },
       {
         "name": "プリム (Prim)",
-        "image": "/leagues/eliteFour/Nivea.webp",
+        "image": "leagues/eliteFour/Nivea.webp",
         "home": "",
         "sex": "Femenino",
         "type": "Hielo",
@@ -154,7 +154,7 @@
       },
       {
         "name": "ゲンジ (Genji)",
-        "image": "/leagues/eliteFour/Dracon.png",
+        "image": "leagues/eliteFour/Dracon.png",
         "home": "",
         "sex": "Masculino",
         "type": "Dragón",
@@ -168,7 +168,7 @@
     "EliteFour": [
       {
         "name": "リョウ (Ryō)",
-        "image": "/leagues/eliteFour/Alecran.png",
+        "image": "leagues/eliteFour/Alecran.png",
         "home": "",
         "sex": "Masculino",
         "type": "Bicho",
@@ -177,7 +177,7 @@
       },
       {
         "name": "キクノ (Kikuno)",
-        "image": "/leagues/eliteFour/Gaia.png",
+        "image": "leagues/eliteFour/Gaia.png",
         "home": "",
         "sex": "Femenino",
         "type": "Tierra",
@@ -186,7 +186,7 @@
       },
       {
         "name": "オーバ (Ohba)",
-        "image": "/leagues/eliteFour/Fausto.png",
+        "image": "leagues/eliteFour/Fausto.png",
         "home": "Ciudad Marina",
         "sex": "Masculino",
         "type": "Fuego",
@@ -195,7 +195,7 @@
       },
       {
         "name": "ゴヨウ (Goyō)",
-        "image": "/leagues/eliteFour/Delos.png",
+        "image": "leagues/eliteFour/Delos.png",
         "home": "",
         "sex": "Masculino",
         "type": "Psíquico",
@@ -209,7 +209,7 @@
     "EliteFour": [
       {
         "name": "シキミ (Shikimi)",
-        "image": "/leagues/eliteFour/Anis.png",
+        "image": "leagues/eliteFour/Anis.png",
         "home": "Casa encantada",
         "sex": "Femenino",
         "type": "Fantasma",
@@ -218,7 +218,7 @@
       },
       {
         "name": "ギーマ (Gīma)",
-        "image": "/leagues/eliteFour/Aza.png",
+        "image": "leagues/eliteFour/Aza.png",
         "home": "",
         "sex": "Masculino",
         "type": "Siniestro",
@@ -227,7 +227,7 @@
       },
       {
         "name": "レンブ (Renbu)",
-        "image": "/leagues/eliteFour/Lotto.png",
+        "image": "leagues/eliteFour/Lotto.png",
         "home": "",
         "sex": "Masculino",
         "type": "Lucha",
@@ -236,7 +236,7 @@
       },
       {
         "name": "カトレア (Cattleya)",
-        "image": "/leagues/eliteFour/Catleya.png",
+        "image": "leagues/eliteFour/Catleya.png",
         "home": "",
         "sex": "Femenino",
         "type": "Psíquico",
@@ -250,7 +250,7 @@
     "EliteFour": [
       {
         "name": "ガンピ (Gampi)",
-        "image": "/leagues/eliteFour/Tileo.png",
+        "image": "leagues/eliteFour/Tileo.png",
         "home": "",
         "sex": "Masculino",
         "type": "Acero",
@@ -259,7 +259,7 @@
       },
       {
         "name": "ドラセナ (Dracaena)",
-        "image": "/leagues/eliteFour/Dracena.png",
+        "image": "leagues/eliteFour/Dracena.png",
         "home": "",
         "sex": "Femenino",
         "type": "Dragón",
@@ -268,7 +268,7 @@
       },
       {
         "name": "パキラ (Pachira)",
-        "image": "/leagues/eliteFour/Malva.png",
+        "image": "leagues/eliteFour/Malva.png",
         "home": "",
         "sex": "Femenino",
         "type": "Fuego",
@@ -277,7 +277,7 @@
       },
       {
         "name": "ズミ (Zumi)",
-        "image": "/leagues/eliteFour/Narciso.png",
+        "image": "leagues/eliteFour/Narciso.png",
         "home": "",
         "sex": "Masculino",
         "type": "Agua",
@@ -291,7 +291,7 @@
     "EliteFour": [
       {
         "name": "チリ (Chili)",
-        "image": "/leagues/eliteFour/Cayena.png",
+        "image": "leagues/eliteFour/Cayena.png",
         "home": "",
         "sex": "Femenino",
         "type": "Tierra",
@@ -300,7 +300,7 @@
       },
       {
         "name": "ポピー (Poppy)",
-        "image": "/leagues/eliteFour/Pola.png",
+        "image": "leagues/eliteFour/Pola.png",
         "home": "",
         "sex": "Femenino",
         "type": "Acero",
@@ -309,7 +309,7 @@
       },
       {
         "name": "アオキ (Aoki)",
-        "image": "/leagues/eliteFour/Laureano.png",
+        "image": "leagues/eliteFour/Laureano.png",
         "home": "Pueblo Mestura",
         "sex": "Masculino",
         "type": "Volador",
@@ -318,7 +318,7 @@
       },
       {
         "name": "ハッサク (Hassaku)",
-        "image": "/leagues/eliteFour/Hesperio.png",
+        "image": "leagues/eliteFour/Hesperio.png",
         "home": "",
         "sex": "Masculino",
         "type": "Dragón",
@@ -332,7 +332,7 @@
     "EliteFour": [
       {
         "name": "マーレイン (Mullein)",
-        "image": "/leagues/eliteFour/Lario.png",
+        "image": "leagues/eliteFour/Lario.png",
         "home": "",
         "sex": "Masculino",
         "type": "Acero",
@@ -341,7 +341,7 @@
       },
       {
         "name": "ハラ (Hala)",
-        "image": "/leagues/eliteFour/Kaudan.png",
+        "image": "leagues/eliteFour/Kaudan.png",
         "home": "Pueblo Lilii",
         "sex": "Masculino",
         "type": "Lucha",
@@ -350,7 +350,7 @@
       },
       {
         "name": "ライチ (Lychee)",
-        "image": "/leagues/eliteFour/Mayla.png",
+        "image": "leagues/eliteFour/Mayla.png",
         "home": "Ciudad Konikoni",
         "sex": "Femenino",
         "type": "Roca",
@@ -359,7 +359,7 @@
       },
       {
         "name": "アセロラ (Acerola)",
-        "image": "/leagues/eliteFour/Zarala.png",
+        "image": "leagues/eliteFour/Zarala.png",
         "home": "Casa Æther",
         "sex": "Femenino",
         "type": "Fantasma",
@@ -368,7 +368,7 @@
       },
       {
         "name": "カヒリ (Kahili)",
-        "image": "/leagues/eliteFour/Kahili.png",
+        "image": "leagues/eliteFour/Kahili.png",
         "home": "Resort Hanohano",
         "sex": "Femenino",
         "type": "Volador",

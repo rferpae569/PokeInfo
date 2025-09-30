@@ -180,14 +180,14 @@ export default function Gyms() {
                         .map((tipo) => (
                           <img
                             key={tipo}
-                            src={`/icons/tipos/${tipo.trim()}.png`}
+                            src={`icons/tipos/${tipo.trim()}.png`}
                             alt={`Tipo ${tipo.trim()}`}
                             className="type-icon"
                           />
                         ))
                     ) : (
                       <img
-                        src={`/icons/tipos/${gym.type.trim()}.png`}
+                        src={`icons/tipos/${gym.type.trim()}.png`}
                         alt={`Tipo ${gym.type.trim()}`}
                         className="type-icon"
                       />

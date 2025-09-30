@@ -2,7 +2,7 @@
   {
     "name": "Roxy",
     "nameJP": "マリィ (Mary)",
-    "image": "/gyms/Lideres/Roxy.png",
+    "image": "gyms/Lideres/Roxy.png",
     "sex": "Femenino",
     "home": "Pueblo Crampón",
     "region": "Galar",
@@ -13,7 +13,7 @@
   {
     "name": "Paul",
     "nameJP": "ホップ (Hop)",
-    "image": "/gyms/Lideres/Paul.png",
+    "image": "gyms/Lideres/Paul.png",
     "sex": "Masculino",
     "home": "Pueblo Yarda",
     "region": "Galar",

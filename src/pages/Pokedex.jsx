@@ -26,7 +26,7 @@ export default function PokedexPage() {
           </div>
           <div className="intro-image">
             <img
-              src="/pokedex/ProfesorOak.webp"
+              src="pokedex/ProfesorOak.webp"
               alt="Profesor Oak"
               className="profesor"
             />
@@ -61,22 +61,22 @@ export default function PokedexPage() {
               comprender a cada criatura.
             </p>
             <div className="funcionamiento-image">
-              <img src="/pokedex/FuncPokedex.webp" alt="FuncPokedex" />
+              <img src="pokedex/FuncPokedex.webp" alt="FuncPokedex" />
               <p className="leyenda">
                 Imagen de la Pokédex por fuera. Se puede apreciar como la
                 Pokédex diferencia entre Pokémon avistados y capturados.
               </p>
 
-              <img src="/pokedex/FuncPokedex2.webp" alt="FuncPokedex" />
+              <img src="pokedex/FuncPokedex2.webp" alt="FuncPokedex" />
               <p className="leyenda">Entrada de un Pokémon desconocido.</p>
 
-              <img src="/pokedex/FuncPokedex3.webp" alt="FuncPokedex" />
+              <img src="pokedex/FuncPokedex3.webp" alt="FuncPokedex" />
               <p className="leyenda">
                 Entrada de un Pokémon avistado; al número se suma el nombre y la
                 imagen del Pokémon.
               </p>
 
-              <img src="/pokedex/FuncPokedex4.webp" alt="FuncPokedex" />
+              <img src="pokedex/FuncPokedex4.webp" alt="FuncPokedex" />
               <p className="leyenda">
                 Entrada de un Pokémon capturado con todos sus datos disponibles.
               </p>

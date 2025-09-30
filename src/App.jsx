@@ -9,7 +9,7 @@ import Pokedex from "./pages/Pokedex";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/pokeinfo">
       <Header />
       <main className="min-h-screen">
         <Routes>
